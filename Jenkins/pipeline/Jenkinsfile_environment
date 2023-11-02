@@ -18,11 +18,22 @@ pipeline {
     }  
     stage('STAGE 2'){
         agent any
+        environment {
+            STAGE2_ENV = 'this stage2 env variable'
+        }  
         steps {  
-          echo "${TEST}"
+          echo "${STAGE2_ENV}"
           sh "echo $TEST1"
         }  
     }  
+
+    stage('STAGE 3'){
+        agent any
+        steps {  
+          echo "${STAGE2_ENV}"
+        }  
+    }  
+
   }  
 }
   
