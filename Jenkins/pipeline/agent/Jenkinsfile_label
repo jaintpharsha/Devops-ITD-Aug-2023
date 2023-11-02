@@ -1,12 +1,10 @@
 pipeline {
-    agent any
+    agent { label 'slave1' }
+    
     stages {
         stage('BUILD') {
             steps {
                 sh '''
-                    #!/bin/bash
-                    pwd
-                    ls -lrt
                     sleep 5
                 '''
             }
@@ -15,9 +13,6 @@ pipeline {
         stage('TEST-WINDOWS') {
             steps {
                 sh """
-                    #!/bin/bash
-                    pwd
-                    ls -lrt
                     sleep 5
                 """
             }

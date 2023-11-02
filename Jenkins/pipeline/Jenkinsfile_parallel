@@ -1,0 +1,37 @@
+pipeline {
+    agent any
+    
+    stages {
+        stage('BUILD') {
+            steps {
+                sh '''
+                    sleep 5
+                '''
+            }
+        }   
+
+        stage('TEST ALL') {
+          parallel {
+              stage('TEST-WINDOWS') {
+                  steps {
+                      sh """
+                          sleep 5
+                      """
+                  }
+              }   
+      
+              stage('TEST-LINUX') {
+                  steps {
+                      sh 'sleep 5'
+                  }
+              }
+          }
+        }
+
+        stage('DEPLOY') {
+            steps {
+                sh 'sleep 5'
+            }
+        }   
+    }
+}

@@ -1,0 +1,28 @@
+pipeline {
+  agent none
+  environment {
+      TEST = 'this test env'
+      TEST1 = 'this test1 env'
+  }  
+  stages {
+    stage('STAGE 1'){
+        agent { label 'master' }
+        steps {
+          sh """
+                pwd
+                cd ./Jenkins/scripts
+                ls -lrt
+                python3 test.py 
+          """
+        }  
+    }  
+    stage('STAGE 2'){
+        agent any
+        steps {  
+          echo "${TEST}"
+          sh "echo $TEST1"
+        }  
+    }  
+  }  
+}
+  
