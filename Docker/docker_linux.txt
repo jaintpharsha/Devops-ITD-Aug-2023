@@ -1,0 +1,166 @@
+Docker 
+	Docker is one of the tools that used the idea of the isolated resources to 
+	create a container that allows applications to be packaged with all the 
+	dependencies installed and ran wherever we wanted.
+	
+	Docker can only run on Linux machines this means I cant install Docker directly on Windows or any other OS.
+	If I want install Docker on windows then I need to run a Linux VM in windows on top that I need to run Docker.
+
+host machine 
+	This is the machine in which docker is running 
+
+Docker images 
+	List images 
+		docker images 
+		docker image ls 
+
+	Delete images 
+		docker rmi <image_name>:<tag>	
+		docker rmi <image_id>
+
+	Download an image 	
+		docker pull <image_id>
+
+
+	Create upload a image to docker registry 
+		1. Connect to the regisrty account 
+				docker login 
+
+		2. Have a image with the private registry syntax 
+				docker tag <old_image> <username>/<repo_name>:<tag>
+				ex: docker tag ubuntu:latest harshajain/test_repo:v1
+
+		3. Push the image to your regisrty 
+				docker push <username>/<repo_name>:<tag>	
+
+	Get only images ids 
+		docker images -q 
+
+	Delete all the images 
+		docker rmi $(docker images -q)
+		docker images -q | xargs -I{} docker rmi {}
+
+	To force delete images 
+		docker rmi -f <image_id>	
+		docker rmi --force <image_id>
+
+	To delete all dangling images 
+		docker image prune		
+
+
+Docker container 
+	- A container is a set of isolated processes and its resources in a host machine which is isolated from all the other process. 
+	- Docker uses Linux features to achieve isolation by using namespaces, which allows processes to access only resources in that particular namespace, which allows having a process tree means set 
+	of processes that is completely independent of the rest of the systems processes and other processes.
+	
+	Docker definition: A container is a standard unit of software that packages 
+	up code and all its dependencies so the application runs quickly and reliably 
+	from one computing environment to another.
+
+	List running containers 
+		docker ps
+		docker container ls	
+
+	List all the containers 
+		docker ps -a
+	
+	List only stopped 
+		docker ps --filter "status=exited"
+
+	To stop, start, restart, pause containers 	
+
+		docker stop <container_id1> <container_id2> .... <container_idn>
+		docker start <container_id1> <container_id2> .... <container_idn>
+		docker restart <container_id1> <container_id2> .... <container_idn>
+		docker pause <container_id1> <container_id2> .... <container_idn>
+
+	Delete stopped container 
+		docker rm <container_id>
+
+	To stop and delete all the running containers 
+		docker rm $(docker stop $(docker ps -q))
+
+	Delete all stopped container 
+		docker rm $(docker ps --filter "status=exited" -q)
+		docker container prune
+
+	Delete a running container 
+		1. Stop the container first 
+			docker stop <container_id>
+		2. Then delete the container 
+			docker rm <container_id>		
+			
+		smater way:  docker rm $(docker stop <container_id>)
+				
+	
+	Create container from image (Run a container from image)
+		docker run -it -d --name <container_name> <image>
+			-i - Interactive mode 
+			-t - enable tty in the terminal 
+			-d - To create container in detached mode (in background)
+			--name - To assign a custom name to the container 
+			--rm - Using this will automatically deletes the container when it stop/exited 
+
+	To check the resource utilized by all the container 
+		docker stats 		
+			
+	To list all the process running inside a container
+		docker top <container_id>
+
+	How to login to a container 
+		1. To attach to a container 
+			docker attach <container_id>
+			(To safely exit: hold ctrl + (QP))
+
+		2. To use exec to create a new shell 
+			docker exec -it <container_id> /bin/bash	
+
+
+	To check the log of all the output process of container 
+		docker logs <container_id>	
+
+Docker custom image / Dockerfile / Docker instructions 
+	
+	Dockerfile
+		Dockerfile is used to create custom images by using any stock image or other image as base image.
+		In Dockerfile we can write some set of instructions to update any image.
+	
+		To create image from Dockerfile
+			docker build -t my_ubuntu .
+	
+	FROM ubuntu
+		FROM is the first instruction in the every Dockerfile
+		FROM is used to specify the base image on top which all the other 
+			instruction will run in the same Dockerfile.
+			
+		FROM <image_name>:<tag>
+		
+	RUN 
+		Normal shell command or the commands supported by the base image are executed using this instruction.
+		we can have n number of RUN in a single Dockerfile.
+		
+		Normal command format 
+			RUN <command>
+			
+		exec format 
+			RUN ['<command>','<param1>','<param2>']	
+			RUN ['apt','update']	
+			RUN ['apt','install','-y','git']	
+			RUN ['ls','-lrt']	
+
+	COPY and ADD 
+		Both copy and add instruction is used to copy files and directories from 
+		host machine build location to the image and the container created from it.
+	
+		ADD supports extra source formats 
+	  	  - If the source is a compressed file then ADD will automatically uncompress it 
+	    		in the destination.
+	      - If the source is a downloadable link then ADD will automatically download the 
+	        file in the destination.
+
+		COPY <source_path_from_build_context> <destination_inside_image>	  
+		ADD <source_path_from_build_context> <destination_inside_image>	 			
+
+	
+
+
