@@ -1,33 +1,34 @@
 pipeline {
-    agent { label 'slave1' }
-    
-    stages {
-        stage('BUILD') {
-            steps {
-                sh '''
-                    sleep 5
-                '''
-            }
-        }   
-        
-        stage('TEST-WINDOWS') {
-            steps {
-                sh """
-                    sleep 5
-                """
-            }
-        }   
-
-        stage('TEST-LINUX') {
-            steps {
-                sh 'sleep 5'
-            }
-        }
-        
-        stage('DEPLOY') {
-            steps {
-                sh 'sleep 5'
-            }
-        }   
-    }
+	agent { label 'master' }
+	stages {
+		stage('BUILD') {
+			steps {
+				sh '''
+					pwd
+					sleep 5
+					echo This is the fist stage: BUILD
+				'''
+			}	
+		}
+		
+		stage('TEST') {
+			steps {
+				sh '''
+					pwd
+					sleep 5
+					echo This is the fist stage: TEST
+				'''
+			}	
+		}
+		
+		stage('DEPLOY') {
+			steps {
+				sh '''
+					pwd
+					sleep 5
+					echo This is the fist stage: DEPLOY
+				'''
+			}	
+		}
+	}
 }

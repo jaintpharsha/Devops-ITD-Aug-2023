@@ -1,0 +1,27 @@
+FROM node:10
+
+# set the work directory
+WORKDIR /usr/src/app
+
+# copy package.json
+COPY package*.json ./
+
+# copy webapp folder
+COPY WebApp/package*.json ./WebApp/
+
+# RUN npm install for node js dependencies
+RUN npm install \
+   && cd WebApp \
+   && npm install @angular/cli \
+   && npm install
+
+# Bundle app source
+COPY . .
+
+# builing Angular UI
+RUN cd WebApp && npm run build
+
+EXPOSE 3070
+
+ENTRYPOINT ["node"]
+CMD ["index.js"]

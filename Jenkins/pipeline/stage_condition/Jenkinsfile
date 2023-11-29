@@ -1,0 +1,54 @@
+boolean testPassed = true
+
+pipeline {
+	agent any 
+	stages {
+		stage('Build') {
+			steps {
+					echo "Build stage ............"
+					sh 'sleep 5'
+			}	
+		}
+		
+		stage('Test') {
+			steps {
+				script { 
+					try{
+						echo "Running test cases .........."
+						sh 'sleep 5'
+						sh 'exit 1'
+					}catch (Exception e){
+						echo "Test case failed ........"
+						testPassed = false
+					}
+				}	
+			}	
+		}
+
+		stage('DEPLOY') {
+			steps { 
+				script { 
+					if(testPassed){
+						echo "Deploying to test environment ...."
+						sh 'sleep 5'
+						sh 'exit 1'
+					} else {
+						echo "Skipping deployment ........"
+					}
+				}	
+			}	
+		}
+		
+		stage('MAIL') {
+			steps { 
+				script { 
+					if(!testPassed){
+						echo "Sending mail on test fail"
+					} else { 
+						echo "Sending mail on deplyment success"
+					}
+				}
+			}	
+		}
+	}	
+}

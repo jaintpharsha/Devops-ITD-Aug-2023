@@ -1,0 +1,32 @@
+pipeline {
+	agent any  
+
+    parameters {
+        choice(name: 'DEPLOY', choices: ['test','qa','prod'], description: 'Enter the environment to Deploy ....')
+    }
+
+    triggers {
+        pollSCM('H */4 * * 1-5')
+    }
+
+    options {
+        timeout(time: 1, unit: 'HOURS') 
+        retry(3) 
+    }
+
+	stages {
+		stage('BUILD') {
+            options { retry(3) }
+			steps {
+				script {
+                    def ENVIRONMENT = "${params.DEPLOY}"
+                    if(ENVIRONMENT == 'test') {
+                        echo "Deploying to TEST ....."
+                    } else if(ENVIRONMENT == 'qa') {
+                        echo "Deploying to QA ....."
+                    }
+                }
+			}	
+		}
+	}
+}

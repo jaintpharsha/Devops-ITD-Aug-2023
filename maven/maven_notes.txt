@@ -1,0 +1,110 @@
+Building software has several life cycles, such as compile, test, package. 
+Different build tools handle the life cycles differently.
+
+Building a software project typically includes the following activities:
+	- Compile source code
+	- Run test cases
+	- Create documentation from the source code
+	- Package compiled code into JAR files or ZIP files
+	- Install the library JAR file to classpath
+	- Deploy the packaged code to a server
+
+Maven is a project management tool which can manage the complete building life cycle.
+
+Maven simplifies and standardizes the project build process. by handling compilation, testing, library dependency, distribution, documentation and team collaboration.
+
+
+Maven build lifecycle 
+
+1. validate	   - validate the project is correct and all necessary information is available
+2. compile	   - compile the source code
+3. test	       - test the compiled source code using a unit testing
+4. package	   - take the compiled code and package it in its distributable format, such as a JAR
+5. integration - test deploy the package into an environment where integration tests can be run
+6. verify	   - verify the package is valid and meets quality criteria
+7. install	   - install the package into the local repository
+8. deploy	   - publish build to integration or release environment 
+
+
+
+POM.xml
+	- POM stands for Project Object Model. 
+	- A POM file is using XML format to declare the project resources like project details, dependencies and plugins .	
+	- The pom.xml located in the root directory of the project contains references to all of these resources.
+
+
+	Minimum project maven pom.xml
+
+	<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	    <modelVersion>4.0.0</modelVersion>
+
+	    <groupId>groupID</groupId>
+	    <artifactId>artifactId</artifactId>
+	    <version>1.0.0</version>
+	</project>
+
+	 we should decide the project group (groupId), the project name(artifactId) and its version(version).
+
+	 modelVersion - The modelVersion element sets what version of the POM model. It has to match the Maven version you are using.
+	 groupId - The groupId element is a unique ID for an organization, or a project.
+	 			ex: com.yourCompany
+	 artifactId - The artifactId element contains the name of the project.
+	 versionId - The versionId element contains the version number of the project.
+
+
+Maven standard directory structure.
+
+	- src
+	  - main
+	    - java
+	    - resources
+	    - webapp
+	  - test
+	    - java
+	    - resources
+
+	- target
+
+	src - The src directory is the root directory of source code and test code.
+	main - The main directory is the root directory for source code related to the application itself, not test code.
+		 java - Contains the Java source code for the application.
+		 resources - The resources directory contains the resources needed by your project (dependency libraries).
+		 webapp - The webapp directory contains Java web application, if the project is a web application.
+	test - The test directory contains the test source code.
+		   java - The Java unit test code for the tests to test the source code (usually JUnit test).
+		   resources - The resources directory contains the resources needed by your project.
+	target - The target directory is created by Maven. It contains all the compiled classes, JAR files etc.			 (output builds) 	
+	   
+
+Maven Repository
+	- A Maven repository is a directory to store all the project jars, library jar, plugins or any other artifacts.
+	- There are three types of Maven repository.
+
+		1. Local Repository
+			- Maven local repository is a local folder on your machine.
+			- Maven local repository is created when you run any maven command for the first time.
+			- Maven local repository stores all dependency library jars, plugin jars, etc on your development machine.
+		
+		2. Central Repository
+			- Maven central repository is repository managed by Maven community.
+			- Maven central repository contains a large number of commonly used libraries. And we can publish our own libraries to Maven central repository as well.
+			- When Maven cannot find any dependency jar file in your local repository, it starts searching 	  in Maven central repository using following URL: http://repo1.maven.org/maven2/.
+
+		3. Remote Repository
+			- Sometime we need to set up a Maven repository inside a company or a project development team to host our own libraries.
+			- The company mantained repository is outside developer's machine and is called Maven remove repository.
+
+		Maven Dependency Search Sequence
+			Maven searches for dependency libraries in the following sequence:
+			  1. Search local dependency repository.
+			  2. Search central dependency repository
+			  3. Search the remote dependency repository
+			Maven stops the searching once it finds the jar file.
+
+
+
+
+

@@ -1,0 +1,27 @@
+{
+  "name": "docker-multibuild-example",
+  "version": "1.0.0",
+  "description": "demonstration for docker multistage builds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbachi/docker-multibuild-example.git"
+  },
+  "keywords": [
+    "Angular",
+    "Docker"
+  ],
+  "author": "Bhargav Bachina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bbachi/docker-multibuild-example/issues"
+  },
+  "homepage": "https://github.com/bbachi/docker-multibuild-example#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

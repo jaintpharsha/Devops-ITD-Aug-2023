@@ -1,37 +1,52 @@
 pipeline {
-    agent any
-    
-    stages {
-        stage('BUILD') {
-            steps {
-                sh '''
-                    sleep 5
-                '''
-            }
-        }   
+	agent any  
+	stages {
+		stage('BUILD') {
+			steps {
+				sh '''
+					pwd
+					sleep 5
+					echo This is the fist stage: BUILD
+				'''
+			}	
+		}
+		
+		stage('TEST MULTIPLE') {
+			parallel {
+				stage('TEST1') {
+					steps {
+						sh 'sleep 5; echo This is the fist stage: TEST1'
+					}	
+				}
 
-        stage('TEST ALL') {
-          parallel {
-              stage('TEST-WINDOWS') {
-                  steps {
-                      sh """
-                          sleep 5
-                      """
-                  }
-              }   
-      
-              stage('TEST-LINUX') {
-                  steps {
-                      sh 'sleep 5'
-                  }
-              }
-          }
-        }
+				stage('TEST2') {
+					steps {
+						sh 'sleep 5; echo This is the fist stage: TEST1'
+					}	
+				}
 
-        stage('DEPLOY') {
-            steps {
-                sh 'sleep 5'
-            }
-        }   
-    }
+				stage('TEST3') {
+					steps {
+						sh 'sleep 5; echo This is the fist stage: TEST1'
+					}	
+				}
+
+				stage('TEST4') {
+					steps {
+						sh 'sleep 5; echo This is the fist stage: TEST1'
+					}	
+				}
+			}
+		}
+		
+		stage('DEPLOY') {
+			steps {
+				sh '''
+					pwd
+					sleep 5
+					echo This is the fist stage: DEPLOY
+				'''
+			}	
+		}
+	}
 }

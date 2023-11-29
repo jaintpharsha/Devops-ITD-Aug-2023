@@ -1,0 +1,30 @@
+pipeline {
+    agent any
+    environment { 
+        DEPLOY_TO = 'production'
+    }
+    stages {
+        stage('All conditions should be satisfied') {
+            when { 
+                allOf { 
+                    branch 'master'; 
+                    environment name: 'DEPLOY_TO', value: 'production'
+                } 
+            }
+            steps { 
+                echo 'When condition is true'
+            }
+        }
+		stage('Any one condition should be satisfied') {
+            when { 
+                anyOf { 
+                    branch 'master';
+                    branch 'staging' 
+                } 
+            }
+            steps { 
+                echo 'Welcome to LambdaTest'
+            }
+        }
+    }
+}

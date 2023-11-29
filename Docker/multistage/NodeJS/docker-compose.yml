@@ -1,0 +1,39 @@
+version: "3.8"
+services: 
+   singlestage:
+      build: 
+         context: .
+         dockerfile: Dockerfile_single
+      ports:
+         - "8090:3070"
+      networks:
+         - custom_bridge
+   multistage:
+      build: .
+      ports:
+         - "8091:3070"
+      networks:
+         - custom_bridge   
+   redis:
+      image: redis:latest
+      volumes: 
+        - redis-data:/var/lib/redis
+      networks:
+         - custom_bridge  
+   jenkins:
+      image: jenkins/jenkins:lts
+      ports:
+         - "8080:8080"
+         - "50000:50000"  
+      volumes:
+         - jenkins_home:/var/jenkins_home
+      networks:
+         - custom_bridge
+volumes:
+    jenkins_home:
+       driver: local
+    redis-data:
+       driver: local
+networks:
+    custom_bridge:
+       driver: bridge 

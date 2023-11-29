@@ -1,0 +1,34 @@
+pipeline {
+	agent any  
+	stages {
+	
+		stage('BUILD') {
+			steps {
+				catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
+					sh 'sleep 5'
+					sh 'exit 1'
+				}	
+			}	
+		}
+
+		stage('TEST') {
+			steps {
+				sh '''
+					pwd
+					sleep 5
+					echo This is the fist stage: TEST
+				'''
+			}	
+		}
+		
+		stage('DEPLOY') {
+			steps {
+				sh '''
+					pwd
+					sleep 5
+					echo This is the fist stage: DEPLOY
+				'''
+			}	
+		}
+	}
+}
