@@ -6,7 +6,7 @@ pipeline {
     }
 
     stages {
-        stage ('Build-Maven') {
+        stage ('Build') {
             steps {
                 sh '''
                     cd ./maven/simple-war/
