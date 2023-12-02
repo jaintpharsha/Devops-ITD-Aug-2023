@@ -1,0 +1,5 @@
+FROM maven
+WORKDIR /app
+COPY . /app
+RUN mvn --version 
+RUN mvn clean test

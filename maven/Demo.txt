@@ -20,6 +20,7 @@
           tools {
               maven 'maven-3.9.2'
           }
+       Install plugin: Deploy to Container
 
    d. Configure the github webhook 
         Github 

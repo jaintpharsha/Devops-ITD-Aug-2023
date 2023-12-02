@@ -1,0 +1,25 @@
+    To build the war file
+		docker run -it --rm -v $(pwd)/libraries:/root/.m2 -w /app -v "$(pwd)":/app maven mvn clean package
+	
+	To build the war file with test phase skipped
+		docker run -it --rm -v $(pwd)/libraries:/root/.m2 -w /app -v "$(pwd)":/app maven mvn clean package -Dmaven.test.skip=true
+	
+	To create a custom network of type bridge 
+		docker network create --driver bridge maven
+
+	To run a test sever for Integration test 
+		docker run -it -d --rm -v maven_repo:/root/.m2 \
+    			-v "$(pwd)":/app -w /app \
+   		 	-p 9999:9999 \
+    			--network maven \
+    			--name jetty_container maven:3.8.6-openjdk-18-slim mvn jetty:run
+
+	To run Junit test 
+		docker run -it --rm -v maven_repo:/root/.m2 \
+   			-v "$(pwd)":/app -w /app \
+    			--network maven maven:3.8.6-openjdk-18-slim mvn clean test		
+
+	To run Integration test 
+		docker run -it --rm -v maven_repo:/root/.m2 \
+    			-v "$(pwd)":/app -w /app \
+    			--network maven maven:3.8.6-openjdk-18-slim mvn clean integration-test  
