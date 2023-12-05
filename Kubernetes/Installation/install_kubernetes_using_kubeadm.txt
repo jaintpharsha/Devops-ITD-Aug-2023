@@ -1,0 +1,64 @@
+Kubernetes Installation 
+	Minimum requirement for K8S master node is (2-core CPU and 2GB Ram)
+	
+	1. sudo apt update 
+	2. sudo apt-get install -y apt-transport-https
+	3. sudo su -
+	4. curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add
+	5. echo 'deb http://apt.kubernetes.io/ kubernetes-xenial main' > /etc/apt/sources.list.d/kubernetes.list
+	6. exit from sudo 
+	7. sudo apt update 
+	8. sudo apt install -y docker.io
+	
+	9. sudo systemctl start docker 
+	10. sudo systemctl enable docker.service 
+	
+	11. sudo apt-get install -y kubelet=1.25.5-00 kubeadm kubectl kubernetes-cni
+	
+	12. Login back to master node,  make sure below steps are executed before running kubeadm init 
+		1. sudo su - 
+		2. docker cgroup driver configuration need to be updated 
+			1. add the below content to the file /etc/docker/daemon.json
+				{
+				  "exec-opts": ["native.cgroupdriver=systemd"]
+				}
+			2. systemctl daemon-reload
+			   systemctl restart docker 
+
+			   systemctl restart kubectl (optional for first time)	
+	
+	Take ami from the above ec2 instances to create worker nodes 
+		
+	    Open all the ports in security groups of master node 
+	
+	    sudo su - 	
+	13. kubeadm init 
+			if this command executes successfully then we get kubeadm join command with token
+			save this command in seperate file for worker nodes to add to this master.
+			
+			(If join command lost: kubeadm token create --print-join-command)
+
+	14. k8s configurations for kubectl command 
+		1. exit from root 
+		2. copy the default k8s conf file to home 
+			a. mkdir -p $HOME/.kube
+			b. sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+			c. sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
+	15. For now open all ports in master 
+		
+	16. Now Install k8s CNI driver
+			1. sudo sysctl net.bridge.bridge-nf-call-iptables=1
+			2. kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
+						
+	17. Login to worker nodes 
+		a. sudo su -
+		
+		b. systemctl daemon-reload 
+		   systemctl restart docker 
+	           systemctl restart kubectl 	
+			
+		c. Run the kubeadm join <TOKEN> command which we get from kubeadm init from master 
+		
+	18. In master node check for the worker nodes.
+		kubectl get nodes 
