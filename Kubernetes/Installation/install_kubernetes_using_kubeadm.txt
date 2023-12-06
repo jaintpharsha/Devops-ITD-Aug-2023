@@ -13,7 +13,7 @@ Kubernetes Installation
 	9. sudo systemctl start docker 
 	10. sudo systemctl enable docker.service 
 	
-	11. sudo apt-get install -y kubelet=1.25.5-00 kubeadm kubectl kubernetes-cni
+	11. sudo apt-get install -y kubeadm kubelet kubectl kubernetes-cni
 	
 	12. Login back to master node,  make sure below steps are executed before running kubeadm init 
 		1. sudo su - 
