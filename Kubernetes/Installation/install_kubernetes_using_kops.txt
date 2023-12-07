@@ -1,0 +1,27 @@
+Kubernetes Installation using kops
+	1. Install and cofigure AWS CLI 
+	
+	2. Install kops 
+		https://kops.sigs.k8s.io/getting_started/install/
+	
+	3. create a s3 bucket to save all the cluster-info (etcd like)
+		aws s3api create-bucket --bucket <bucket_name> --create-bucket-configuration LocationConstraint=<aws_region>
+	
+	4. Create cluster using kops 
+		kops create cluster --yes --state=s3://<bucket_name> --zones=ap-south-1a --node-count=2 --node-size=t2.micro --control-plane-size=t2.medium --name=mycluster.k8s.local	
+
+		Note to increase number of master node Add
+			--control-plane-count 3
+
+	5. Setup kubectl 
+		5a. set the store env variable 
+			export KOPS_STATE_STORE='s3://<bucket_name>'
+		5b. use kubectl context to cluster	
+			kubectl config use-context <cluster_name>
+			kubectl config use-context mycluster.k8s.local
+
+To delete cluster in kops 
+	1. List clusters 
+	   kops get clusters
+	2. Delete the required cluster 
+	   kops delete cluster <cluster_name> --yes
