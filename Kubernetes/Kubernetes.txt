@@ -1,0 +1,207 @@
+The architecture of k8s differs from the master and worker node
+
+    Master node components 
+        1. Api Server / kube-api-server
+            - It is the main management point of the cluster and is also called 
+              as brain of the cluster.
+            - All the components are directly connected to the API server, they 
+              communicate through the API server only and no other component will 
+              communicate directly with each other.
+            - This is the only component that connects and got access to etcd.
+            - All the cluster requests are authenticated and authorized by the API server.
+            - The API server has a watch mechanism for watching the changes in the cluster.
+            
+        2. etcd 
+            - ectd is a distributed, consistent key-value store used for 
+              storing the complete cluster information/data.
+            - ectd contains data such as configuration management of cluster,
+             distributed work and basically complete cluster information.            
+            
+        3. scheduler / kube-scheduler
+            - The scheduler always watches for a new pod request and 
+              decides which worker node this pod should be created.
+            - Based on the worker node load, affinity, and anti-affinity, taint configuration 
+              pod will be scheduled to a particular node.
+              
+        4. Controller manager /control manager / kube-controller 
+            - It is a daemon that always runs and embeds core control loops known as controllers. 
+            - K8s has some inbuild controllers such as Deployment, DaemonSet, ReplicaSet, Replication controller,
+              node controller, jobs, cronjob, endpoint controller, namespace controller, etc.    
+            
+        5. Cloud controller manager 
+            - These controllers help us to connect with the public cloud provider service and this component is maintained by cloud providers only.
+
+Worker node components 
+        kubelet 
+            - It is an agent that runs on each and every worker node and it always watches the API 
+              server for pod-related changes running in its worker node.
+            - kubelet always makes sure that the assigned pods to its worker nodes are running.
+            - kubelet is the one that communicates with the containerization tool (docker daemon)
+                       through docker API (CRI).     
+            - work of kubelet is to create and run the pods. Always report the status of the worker node 
+              and each pod to the API server. (uses a tool called cAdvisor)
+            - Kubelet is the one that runs probes.    
+        
+        kube service proxy 
+            (in k8s service means networking)
+            - Service proxy runs on each and every worker node and is responsible for watching the API 
+              server for any changes in service configuration (any network-related configuration).    
+            - Based on the configuration service proxy manages the entire network of worker nodes.
+
+        Container runtime interface (CRI)
+            - This component initially identifies the container technology and connects it to kubelet.
+            
+        pod
+            - pods are the smallest deployable object in Kubernetes.
+            - pod should contain at least one container and can have n number of containers.
+            - If the pod contains more than one container all the containers share the same memory assigned to that pod.
+
+Kubeadm setup
+STEP1:  Create a master 
+
+Create an ec2 with t2.medium type and run the below command 
+curl -s https://raw.githubusercontent.com/jaintpharsha/Devops-ITD-May-2023/main/Kubernetes/Installation/cluster_setup_using_kubeadm.sh | bash -s master 
+if the above command executes successfully then we get kubeadm join command with the token save this command in a separate file, and run this join command in worker nodes to add to this master. 
+STEP2: Add worker nodes 
+
+Create 2 ec2 with t2.micro type and run the below command 
+curl -s https://raw.githubusercontent.com/jaintpharsha/Devops-ITD-May-2023/main/Kubernetes/Installation/cluster_setup_using_kubeadm.sh | bash -s worker 
+Run the kubeadm join command which we got from a master node in worker nodes to add to that master. 
+(If the join command lost run this in the master node: kubeadm token create --print-join-command)
+Kubernetes Installation using kops
+
+    1. Install and cofigure AWS CLI 
+    
+    2. Install kops 
+        https://kops.sigs.k8s.io/getting_started/install/
+    
+    3. create a s3 bucket to save all the cluster-info (etcd like)
+        aws s3api create-bucket --bucket <bucket_name> --create-bucket-configuration LocationConstraint=<aws_region>
+    
+    4. Create a cluster using kops 
+        kops create cluster --yes --state=s3://kops-etcd-98765212245asd324 --zones=ap-south-1a --node-count=2 --node-size=t2.micro --master-size=t2.medium --name=mycluster.k8s.local    
+
+    5. Setup kubectl 
+        5a. set the store env variable 
+            export KOPS_STATE_STORE='s3://kops-etcd-98765212245asd324'
+        5b. Set kubectl context to cluster    
+            kubectl config set-context <cluster_name>
+            kubectl config set-context mycluster.k8s.local
+
+
+To delete cluster in kops 
+    1. List clusters 
+        kops get clusters
+    2. Delete the required cluster 
+         kops delete cluster <cluster_name> --yes
+
+YAML syntax 
+- filetype .yaml or .yml
+- YAML consists of key-value pairs 
+- Key is always defined by the tool - k8s and is defined in camel case.
+- Values will be defined by the user.
+        Types of values we can provide 
+            - Integer (Numeric)
+            - Sting (Alphanumeric)
+            - Array 
+            - List 
+            - Boolean
+
+    List 
+        name: Harsha
+        hobbies: ["Reading", "Coding", "Driving"]
+
+                     (OR)
+
+        name: Harsha
+        hobbies: 
+            - Driving 
+            - Reading 
+            - Coding  
+
+    apiVersion: v1
+        - This is the version of API used to create a k8s object.
+        - The fields are case-sensitive and YAML uses camelcase.
+        - The type of APIs are alpha, beta, and stable.
+        
+    kind: Pod
+        - here we specify which object we need to create. 
+        - Always object name's first letter is capital.
+        
+    metadata:
+        - This field is used to provide information on the object which we are creating.
+        - Information such as name, labels, and annotations.     
+    
+    spec:
+        - This is used to do the actual configuration of the object.
+
+Sample pod yaml configuration/spec file 
+
+apiVersion: v1
+kind: Pod
+metadata:
+      name: nginx
+spec:
+      containers:
+       - name: nginx
+          image: nginx:1.14.2
+          ports:
+               - containerPort: 80
+               
+To create/apply a configuration 
+    kubectl apply -f <file>.yml    
+    
+To list objects 
+    kubectl get <object_type>
+        ex: List pods - kubectl get pods 
+            List deployment - kubectl get deployments
+            
+To delete objects 
+    kubectl delete <object_type>
+
+Deployment controller / Deployment / Deployment k8s
+
+- Deployment is used to create replicas of similar kind of pods and It makes sure that at a given point of time that number of replicas of pods is always running by using ReplicaSet controller.
+- If we update the configuration of deployment, it will automatically updates in all the pod replicas.
+- Rollout and Rollback of pod update is possible. 
+- We can use different deployment strategy for update,  by default it uses RollingUpdate. Other strategies: canary, Recreate, Ramped and Blue-Green 
+we can pause the deployment whenever we need.
+- Deployment internally got its own autoscaler which is of type horizontal smaller (hap).
+
+K8S Deployment controller with Labels - Selector 
+To scale up and scale down 
+
+We can update the replicas count in spec/configuration/yaml file.
+We can use kubectl cli 
+kubectl scale deployment.v1.apps/nginx-deployment --replicas=10
+
+To autoscale 
+
+kubectl autoscale deployment.v1.apps/nginx-deployment --min=5 --max=10 --cpu-percent=80
+K8S labels are provided as metadata key value to identify the object.
+            deployment = pod + ReplicaSet + autoscalling + RollingUpdate + scale 
+
+Labels, selectors, and annotations
+
+Labels (Identifiable metadata):
+
+We can provide labels to any object in K8S
+We can have the same label on multiple objects/resources in K8S.   
+The label key must consist of alphanumeric characters, dashes (-), or periods (.), and it must not start or end with a dash or period.
+Labels are commonly used for organizing and categorizing resources. They help in grouping related resources for querying, filtering, and organizing purposes.  
+K8S uses kubernetes.io/ prefix for built-in labels, as it is reserved for Kubernetes we should not use it.
+Key Rules:
+
+Label keys are case-sensitive, and uppercase characters are not allowed
+The maximum length for a label key is 63 characters.
+Labels are used to identify and group resources in K8S based on specific characteristics or attributes.
+Value Rules:
+
+The label value can be an empty string ("").
+The label value can consist of any characters, including alphanumeric characters, dashes, periods, underscores, and colons.
+The maximum length for a label value is 63 characters.
+        To list labels of any object 
+
+            kubectl get <object_type> <object_name> --show-labels    
+
+ 
