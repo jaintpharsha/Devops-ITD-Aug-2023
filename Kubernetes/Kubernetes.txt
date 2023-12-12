@@ -161,47 +161,55 @@ To delete objects
 
 Deployment controller / Deployment / Deployment k8s
 
-- Deployment is used to create replicas of similar kind of pods and It makes sure that at a given point of time that number of replicas of pods is always running by using ReplicaSet controller.
-- If we update the configuration of deployment, it will automatically updates in all the pod replicas.
-- Rollout and Rollback of pod update is possible. 
-- We can use different deployment strategy for update,  by default it uses RollingUpdate. Other strategies: canary, Recreate, Ramped and Blue-Green 
-we can pause the deployment whenever we need.
-- Deployment internally got its own autoscaler which is of type horizontal smaller (hap).
-
+Deployment is used to create replicas of similar kind of pods and It makes sure that at a given point in time, that number of replicas of pods is always running by using the ReplicaSet controller.
+If we update the configuration of deployment, it will automatically update in all the pod replicas.
+Rollout and Rollback of pod update is possible. 
+We can use different deployment strategies for update,  by default it uses RollingUpdate. Other strategies: canary, Recreate, Ramped and Blue-Green 
+we can pause the deployment whenever we need
+Deployment internally got its autoscaler which is of type horizontal smaller (hap).
 K8S Deployment controller with Labels - Selector 
-To scale up and scale down 
+To scale up and scale down
 
 We can update the replicas count in spec/configuration/yaml file.
 We can use kubectl cli 
-kubectl scale deployment.v1.apps/nginx-deployment --replicas=10
+      kubectl scale deployment <deployment_name> --replicas=10
+To autoscale: kubectl autoscale deployment.v1.apps/nginx-deployment --min=5 --max=10 --cpu-percent=80
+K8S labels are provided as metadata key values to identify the object.
+           deployment = pod + ReplicaSet + autoscalling + RollingUpdate + scale 
 
-To autoscale 
+Selectors: Selectors are used to select, filter and identify the labeled objects.
 
-kubectl autoscale deployment.v1.apps/nginx-deployment --min=5 --max=10 --cpu-percent=80
-K8S labels are provided as metadata key value to identify the object.
-            deployment = pod + ReplicaSet + autoscalling + RollingUpdate + scale 
+Types of selectors
+1. equality-based
 
-Labels, selectors, and annotations
+In this selector, we can use only one operator which is equal_to (=, ==) or (!=) not_equal
+It looks for an exact match for the label 
+   app = nginx  or app: nginx
+   app != nginx
+2. set-based
 
-Labels (Identifiable metadata):
+Set-based selectors allow the selecting of resources based on multiple values for a label key.
+It uses set operators such as in, notin, exists, and does not exist to perform the selection.
+Select pods with the label environment having values development or testing:
+Note: Avoid using characters like comma (,), semicolon (;), or equals (=) in label keys or values used for selectors, as these characters have specific meanings in set-based selectors.
+Annotations:
 
-We can provide labels to any object in K8S
-We can have the same label on multiple objects/resources in K8S.   
-The label key must consist of alphanumeric characters, dashes (-), or periods (.), and it must not start or end with a dash or period.
-Labels are commonly used for organizing and categorizing resources. They help in grouping related resources for querying, filtering, and organizing purposes.  
-K8S uses kubernetes.io/ prefix for built-in labels, as it is reserved for Kubernetes we should not use it.
+These are non-identifying metadata so we can't use Selectors on annotations.
+This for record purpose only, like we can provide some user information to objects.
 Key Rules:
-
-Label keys are case-sensitive, and uppercase characters are not allowed
-The maximum length for a label key is 63 characters.
-Labels are used to identify and group resources in K8S based on specific characteristics or attributes.
+The annotation key must consist of alphanumeric characters, dashes (-), or periods (.), and it must not start or end with a dash or period.
+The maximum length for an annotation key is 253 characters.
 Value Rules:
+The annotation value can be an empty string ("").
+The annotation value can consist of any characters, including alphanumeric characters, dashes, periods, underscores, and colons.
+The maximum length for an annotation value is 63,840 characters.
+   ex: personal_info, phone_number, imageregistry, author   
+ReplicaSet vs Replication controller
 
-The label value can be an empty string ("").
-The label value can consist of any characters, including alphanumeric characters, dashes, periods, underscores, and colons.
-The maximum length for a label value is 63 characters.
-        To list labels of any object 
+Both ensure that at a given point in time, the specified number of replicas are always running.
+The replication controller is a very old controller now it is replaced by ReplicaSet.
+The only difference between them is Replication controller supports only equality-based selectors but ReplicaSet support both set-based and equality-based selector.
+DaemonSet 
 
-            kubectl get <object_type> <object_name> --show-labels    
-
- 
+DaemonSet creates exactly one pod on every worker node in the cluster and ensures that all that is always running.
+If a new worker node is added or deleted, DaemonSet will also add or delete the pod from the respective worker node.
