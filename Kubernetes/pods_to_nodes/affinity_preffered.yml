@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: with-node-affinity-test-preferred
+spec:
+  affinity:
+    nodeAffinity:
+      preferredDuringSchedulingIgnoredDuringExecution:
+      - weight: 1
+        preference:
+          matchExpressions:
+          - key: environment
+            operator: In
+            values:
+            - qa
+            - stagging
+  containers:
+  - name: nginx
+    image: nginx
+    ports:
+    - containerPort: 80
