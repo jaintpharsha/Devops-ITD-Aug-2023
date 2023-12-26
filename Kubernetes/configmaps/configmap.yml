@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: my-cm
+data:
+  db_url: 192.160.44.54
+  db_user: databaseadmin
