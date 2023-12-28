@@ -11,7 +11,7 @@ spec:
     path: Kubernetes/argocd/kube_configs
   destination:
     server: https://13.233.251.111:6443
-    namespace: practice-app
+    namespace: default
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
