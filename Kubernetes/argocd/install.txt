@@ -19,7 +19,7 @@ rm argocd-linux-amd64t
         argocd admin initial-password -n argocd
 
 5. Register A Cluster To Deploy Apps
-   a. Login to argocd from cli
+   a. Login to argocd from cli in local
         argocd login <server_ip>:<service_port>
    b. add kube-config to argocd cluster
         - Get the kube-context to add to argocd
