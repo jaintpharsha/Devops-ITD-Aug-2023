@@ -4,7 +4,7 @@ metadata:
   name: go-app-argo-config
   namespace: argocd
 spec:
-  project: practice-application
+  project: my-application
   source:
     repoURL: https://github.com/sushmajain1012/Devops-ITD-Aug-2023.git
     targetRevision: main
