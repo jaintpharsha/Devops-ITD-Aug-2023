@@ -6,11 +6,11 @@ metadata:
 spec:
   project: itd-k8s
   source:
-    repoURL: https://github.com/jaintpharsha/Devops-ITD-Aug-2023.git
+    repoURL: https://github.com/sushmajain1012/Devops-ITD-Aug-2023.git
     targetRevision: main
     path: Kubernetes/argocd/kube_configs
   destination:
-    server: https://13.201.8.19:6443
+    server: https://13.233.251.111:6443
     namespace: default
   syncPolicy:
     syncOptions:
