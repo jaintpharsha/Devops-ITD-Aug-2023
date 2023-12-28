@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/sushmajain1012/Devops-ITD-Aug-2023.git
     targetRevision: main
-    path: Kubernetes/argocd
+    path: Kubernetes/argocd/kube_configs
   destination:
     server: https://13.233.251.111:6443
     namespace: practice-app
