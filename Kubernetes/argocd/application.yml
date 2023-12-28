@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: go-app-argo-config
+  namespace: argocd
+spec:
+  project: itd-k8s
+  source:
+    repoURL: https://github.com/jaintpharsha/Devops-ITD-Aug-2023.git
+    targetRevision: main
+    path: Kubernetes/argocd/kube_configs
+  destination:
+    server: https://13.201.8.19:6443
+    namespace: default
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+    automated:
+      selfHeal: true
+      prune: true
