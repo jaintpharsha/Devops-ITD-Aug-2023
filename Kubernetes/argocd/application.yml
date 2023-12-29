@@ -2,15 +2,15 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: go-app-argo-config
-  namespace: argocd
+  namespace: argocd1
 spec:
-  project: my-application
+  project: practice-application
   source:
     repoURL: https://github.com/sushmajain1012/Devops-ITD-Aug-2023.git
     targetRevision: main
     path: Kubernetes/argocd/kube_configs
   destination:
-    server: https://13.233.251.111:6443
+    server: https://13.233.147.55:6443
     namespace: default
   syncPolicy:
     syncOptions:
