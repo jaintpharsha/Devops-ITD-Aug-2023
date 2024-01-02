@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-secrets-configmap-as-volume
+spec:
+  containers:
+  - name: ip-app
+    image: harshajain/ip_app
+    ports:
+    - containerPort: 80
+    volumeMounts:
+    - name: secrect-vol
+      mountPath: '/app/volume/secret'
+    - name: configmap-vol
+      mountPath: '/app/volume/configmap'
+  volumes:
+  - name: secrect-vol
+    secret:
+      secretName: my-secret-vol
+  - name: configmap-vol
+    configMap:
+      name: my-cm-vol
