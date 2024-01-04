@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: init-container
+spec:
+  initContainers:
+  - name: busybox
+    image: busybox
+    command: ["/bin/sh"]
+    args: ["-c", "echo 'This is busybox init container'; sleep 20"]
+  containers:
+  - name: ip-app
+    image: harshajain/ip_app
+    ports:
+    - containerPort: 80

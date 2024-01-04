@@ -1,0 +1,13 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: my-sc-dynamic-ebs
+provisioner: kubernetes.io/aws-ebs
+parameters:
+  type: gp2
+  iopsPerGB: "10"
+  fstype: ext4
+allowVolumeExpansion: true
+reclaimPolicy: Retain
+mountOptions:
+- debug
