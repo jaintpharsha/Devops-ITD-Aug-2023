@@ -1,0 +1,14 @@
+Trainz
+
+
+1) tell me about yourself
+2) daily activity
+3) how ll u create vpc using terraform
+4) what are the block you can define for vpc creation using terraform
+5) how ll u create 10 instance using terraform
+6) suppose you have created 10 instance using terraform but now i want only 2 instance. What is your approach to make 2 instance and what affect will happen at clien side
+7) multi stage docker
+8) how ll execute 5jobs parallely in jenkins.
+9)que seestion on sonarqube
+10) how ll u integrate terraform with jenkins
+11) how ll run 2 docker file at a time. Wether they depends on each other

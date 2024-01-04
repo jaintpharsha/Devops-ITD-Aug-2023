@@ -1,0 +1,85 @@
+EY interview Questions
+
+jenkins file for kubernrtes deployment
+what do you mean by null resorces in terraform
+tent resorces in terraform?
+what is use of the cli command terraform refresh?
+what is significant of statefile?
+there are 10 to 15 resources and there i need to selectivaly destrol, write cli comamnd?
+what are diff kind of provisinor resource tf?
+signiicant of validate command?
+aws what is vpc peering and what prerequisite we need to take care of
+which specifica subnet natgate setting?
+what is netgateway?
+where we spinup nat gateway 	
+diff between security group and nacl?
+WHAT is launch template ?
+what is lounch configaration?
+load balancer stikyness?
+connection dranning?
+what is user data script?
+git , diff between git pull and git fetch?
+diffce btw git revert and git reset?
+shell scriping shibang?
+shell script, run in debug mode
+docker: what if diff btw  copy and add?
+jenkins pipeline, what diff btw scripted and declartive ?
+User
+what is shared library and syntex to call shared lib?
+maven, what diff shapshot and release?
+what is significant term distribustion management tag in pom file?
+why do we require git even we do have server
+git commands to save the file in local and push on deployment?
+k8s cluster?
+how do you use terraform and where we use terraform?
+kubernetics, stablished conenct between two connections?
+how to connect to k8s cluster 
+how to connect 2 k8s cluster 
+can we restrict traffic in k8s eingress
+i want to restrck external traffic and drop k8s
+want to restrck outgoing traffic and drop k8s?
+what type of application k8s hosted ?
+stateless and statefull?
+major diffrence between above two?
+deployment methology follow ?
+ what is your role and what you have done in devops engineer answer properly ?
+ kubernatics cluster what woyld you do ? 
+ when you apply tf apply result need to be replace and want to keep the result ? what you will do?
+ kubernates from scrach create? 
+ how to manage cluster ?
+ what is swegger?
+ api services ?
+ testing automation work?
+ jenkinds seleniums write test cases?
+ 
+EY
+	Duration: 14min
+	Interviewer_name: Shubham
+	Questions: 
+	1) Tell me about yourself And day to day activities.
+	2) Explain the Jenkins Slave master architecture.
+	3) How is the Slave agent able to establish a connection master?
+	4) How do you declare variables in Jenkins scripts or What is the syntax for declaring variables in Jenkins?
+	5) What is blue ocean and how will configure?
+	6) How will you create CI/CD pipeline for the new enterprise?
+
+
+EY
+how to manage terraform statefile?
+you need to config backend terraform statefile, what we need in s3 bucket?
+how to enable?
+for terraform you have few resources is not part of tf, but you need to bring under terraform, how will you do that?
+import one ec2 instaces to import terraform state, what would be staeps ?
+command after import, how to update terraform configuration command?
+aws provider version ,you may need to update version aws provided version , what are the things to need to configure , so what does not brake?
+upgrade activity, aws provider?
+you have organization setup, you cann't go and manage you need center setup in aws how it works?
+you have an s3 bucket and running in an account you have some user role working in other account what are the changes need and where need ?
+s3 side where we need to attache json?
+you have some resources,  you want connect, you want to access smtp and some other thing, what the palces need to allow ?
+you are using direct connect to established connection what are the things need to use direct connection, after security group?
+aws connectivity?aws authentication
+you want to give acces to new user in aws how will you give?
+
+
+ 

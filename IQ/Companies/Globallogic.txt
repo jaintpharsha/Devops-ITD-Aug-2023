@@ -1,0 +1,31 @@
+Globallogic
+1. Tell me about your projects. 
+2. Write a shellscript to reverse a name 
+3. Write a shellscript for copy A file to server 1 to 2 and B 2 to 3.
+4 . What are the main components of k8s. 
+5.If your application is running well. After some time the app pod will not running. What are the main components that you check. 
+6.If we have some application running in the pod after some time node will be in pending state then what you do. 
+7.what is liveness and redinedd probes.
+8 . What are the main services in k8s. 
+9.If you have 50 pods of A and 50 pods of B due to some reason A pods has failed. Then how to recover the data. 
+10.what is a dynamic agent. 
+11.write a jenkins pipeline. 
+12. Describe the full process of master slave configuration. 
+13. How to configure promethus and grafana. 
+14.ecplain the architecture of promethus. 
+15.How promethus get log from the nodes. 
+16.what is DNS 
+17.if I want to host my application on webserver then what are the main STEPS which I have do in DNS .
+
+Completed interview with global logic
+Duration : 30 minutes
+Questions :
+1) tell me about youself
+2) write a ansible playbook
+3) how ll u configure ansible playbook
+4) if suppose you are working on two linux server and you are copying file from one server to another server and both file should have same permission how ll u achieve this
+5) what are the major difficulty you have faced in devops
+6) what are the critical issues you have solved in production
+7) write a ansible playbook to kill some process
+8) write a play to install any software.
+9) write a bash to kill perticular process using ansible playbook

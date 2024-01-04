@@ -1,0 +1,30 @@
+OpenText
+	Duration: 36min
+	Interviewer_name: Rakesh Naik
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) Have you worked on Terraform and any scripting language?
+	3) Where do you keep the statefiles?
+	4) Explain the CI/CD process?
+	5) What is the c-name record in AWS?
+	6) What is the advantage of having Github??
+	7) lets you deploy in an AWS account in a new region, how do you proceed and what are the things you need?
+	9) What is the difference between NAT and IGW?
+	10) What kind of load balancer have you worked on?
+    11) What is the gateway load balancer?
+    12) What is the transit gateway?
+	13) How do you access the ec2 instance in a private subnet?
+	14) What is WAF (web application firewall)?
+	15) How do you manage security for load balancers?
+	16) What is the use-case for AWS IAM? 
+	17) What is the use-case of S3?
+	18) What are the purposes of using promethus and grafana?
+	19) What is the use of cloudwatch?
+	20) What is Helm and explain the use case?
+	21) What is the flowlog and explain the use-case?
+	22) What kind of tasks do you by using Ansible?
+	23) What are alternative tools for Jenkin?
+	24) What are the CI and CD? 
+	25) Somebody complained performance issue in Linux, how do you check?
+    26) What command do you use to check what are process is running and how much space used?
+	

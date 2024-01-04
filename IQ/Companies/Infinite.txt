@@ -1,0 +1,38 @@
+Infinite
+
+1. aws configuration
+2. aws configuration tool
+3. a compay want to encrypt private user and data want , company want to encrypt in aws how to do that?
+4. established aws direct connection with aws established private in aws public ip address create vpn, 
+	establishe aws direct connecttion?
+5. the infrastructuerre for resourch isolution the team want to interconnect solution archetecture which i will use ?
+6. a global media company is instance to power it;s vbideos estrem to import eng team create power 
+	load balanceer to distribite and sql and as solution archecurre what would be most solution for it
+7. a user want ot imp automation template which template version 
+8. what is the mindatory cloud front settings?
+10. a company run data streaming in to implimnt load esc clusteraws ?
+ companuy want to implement cap what would be solution architectrue to do implementations .  
+11. a company run a website in ec2 in loadbalance relevant and external ip we  blockk for ip what would be solutions ?
+12. a comp house loan and company use api code api take 30 min aws what would be the solutions 
+13. aws cloud front template can create only upto a 2000 steps what would be the stes, true or false
+14. a user has creATED a cloutd front steps such as ec2 instance fail to create relation database, what would cloud front will do?
+15. can expression of local value refer other locals ?
+16. what would ne the output of folloinjg x =3 , y=2, x<4, y<3, print x,y and y =+1 x +=1, what would be output
+17. input1 =1,2,3, input2  = 1, print type(input1, input2)
+18. how to create s3 bucket through boto 3?
+
+Infinte
+1.Tell me about yourself
+2.what is K8s architecture
+3. How to configure Eks cluster in aws. 
+4.write provide. Tf and create ec2 instance. 
+5.Write a terraform script to create 3 buckets in a single resource block. 
+6.what is Vpc and it's components. 
+7.differnce between private and public subnet. 
+8.what is the difference between Nacl and security group. 
+9.What is cloud trial. 
+10.Whatvis provisoner and what are the types of provisoner. 
+11.What is the null resource. 
+12.Write a deployment file. 
+13.What is hostzone ?  What it does in route 53.
+

@@ -1,0 +1,48 @@
+Concentrix catalyst
+
+1) creating grafana dashboard
+2) what are the metrics collection configuration for Prometheus
+3) what is cloud front
+4) how to secure data in devops, any tools
+5) if we didn't specify any image , what happens in pipeline
+6) vulnerability in pipeline and troubleshooting them
+
+Concentrix
+Duration 45mins 
+Questions 
+1. How do you troubleshoot ec2 instance
+2. Jenkins what are you doing the plugins you used 
+3. Explanation of entire pipeline
+4. Sonarqube
+What would you do when your code doesn't pass certain parameters set ? How will you notify it 
+5. As Jfrog repository what are the repo standards you have followed
+6. Ticketing tool Jira.. how did you assign tickets 
+7. Scenario where three services has to be containerised and deployed 
+Front end back end and data base
+8. Three above services without specifying network during runtime instruction how would you make them interact as containers.
+9. Docker compose 
+10. AWS code pipeline
+11. Setting environment variables in Jenkins pipeline
+12. What are the branching strategies that you follow in your organisation
+13. if you could explain me how exactly the pipeline looks in your organisation
+14. How frequent is release in your organisation
+
+Concentrix
+
+Questions 
+1. How do you troubleshoot ec2 instance
+2. Jenkins what are you doing the plugins you used 
+3. Explanation of entire pipeline
+4. Sonarqube
+What would you do when your code doesn't pass certain parameters set ? How will you notify it 
+5. As Jfrog repository what are the repo standards you have followed
+6. Ticketing tool Jira.. how did you assign tickets 
+7. Scenario where three services has to be containerised and deployed 
+Front end back end and data base
+8. Three above services without specifying network during runtime instruction how would you make them interact as containers.
+9. Docker compose 
+10. AWS code pipeline
+11. Setting environment variables in Jenkins pipeline
+12. What are the branching strategies that you follow in your organisation
+13. if you could explain me how exactly the pipeline looks in your organisation
+14. How frequent is release in your organisation

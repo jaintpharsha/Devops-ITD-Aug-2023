@@ -1,0 +1,52 @@
+Covalense
+	Duration: 25min
+	Interviewer_name: Sujith Das
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) What are alternative tools you used instead of Jenkins and GitHub?
+	3) What will happen to the lungs, if the container restarts in Docker?
+	4) When you use the remote-exec command in Terraform?
+	5) In the RDS instance How to use credentials in Terraform?
+    6) What are the different types policy in AWS?
+    7) What are pvc and pv in Kubernetes?
+    8) Explain the architecture of Kubernetes?
+    9) What are EKS and ECS in AWS?
+	
+Covalense
+	Duration: 40min
+	Interviewer_name: Sandeep Mishra
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) Explain the CI/CD pipeline.
+	3) What are alternative tools you used instead of Jenkins?
+	4) What is the role of Ansible in your project?
+	5) What are the different types of scaling in Kubernetes and explain?
+    6) What will you use for the Kubernetes cluster?
+    7) Explain the Prometheus and Grafana?
+    8) How will collect the matrix in Prometheus from Kubernetes?
+    9) What are the steps you follow if you want to create a new docker file with model storing like Java to run on an image and need to optimize in terms of security and memory?
+	10) How multi stage build work in a Docker file?
+	11) Explain the different types of Networking in Docker?
+	12) How will work state file locking in Terraform?
+	13) Let you build the resource by using Terraform, Outside this Terraform environment you modify the resource by cli or manually or ui anything, How do you handle it. if error comes when you run terraform again?
+	14) Write a shell script to list the logs of some pods that are failing now due to a particular error.
+
+covalense digital
+Questions :
+1) explain your roles and responsibilities
+2) what is your braching strategy
+3) how will provide environment for dev qa in git
+4) what is the difference between replication controller and replication set
+5) what is the difference between docker layer and docker image
+6) asked about script
+7) why we use kubernetes
+8) what is the difference between monolithic and microservices
+9) how will get data metrics to promethus from kubernetes cluster what are the different ways
+10) why we go for kops
+11) how will u give  credentials of rds databases in terraform
+12) how ll u validate parameters data in terrafrom plan
+13) how will you give iam policy in terraform
+14) what are different types of policies in aws
+15) how will you configure two jobs on maven which are depends on each other by using git without jenkins
+
+	   

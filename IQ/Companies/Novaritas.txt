@@ -1,0 +1,10 @@
+Novaritas
+
+Questions :
+1) what are the challenges you have faced in your project
+2) explain complete cicd
+3) when you deploy statelss application in k8s what are the components will u get
+4) what is the advantages of using eks cluster
+5) what is the differene between scripted pipeline and descriptive pipeline
+6) in groovy script asked about def
+7) how ll u start your day 

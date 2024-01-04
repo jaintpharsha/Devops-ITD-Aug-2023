@@ -1,0 +1,16 @@
+Itcinfotech
+ 
+1.Write a java program for Fibonacci series. 
+2.you have 100 of ec2 instances you want to start the instance at 8:00 clock in the morning and shutdown the instances at 6:00 clock in the evening. 
+3.You have created 50ec2 instance and 50ec2 instance by console how to reflect all the instances in your statefile. 
+4.you have 100 ec2 instancein your application you want to terminate 50 ec2 instance through terraform. What are you do in this situation. 
+5.what is cloud watch. 
+6.which os u are using. 
+7.I want to install linux in my system as operating system what are the steps you follow. 
+8.What is vpc and the components. 
+9.what is EMS. 
+10. What is the K8s architecture. 
+12.If you node is faliure what's you do. 
+13.if your node is failure and what will happen to that pods. And how will you rectify that. 
+14.if you have lost your keypair then how will you recover that. 
+15.What is booting process of linux.

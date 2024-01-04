@@ -1,0 +1,17 @@
+CESIT
+Duration 45mins 
+1. What is sshd file in Linux
+2. Can EC2 be logged in using two pem keys 
+3. Linux file systems 
+4. Where do we get Linux user information
+5. How private subnet and public subnet configured 
+6. Which are the use case of ansible 
+7. How many modules you have worked on
+8. Powershell scripting
+9. Terraform commands worked on 
+10. If a resource has been created using terraform and in console changes made to the same resource what will happen to it 
+11. What are the next step of process that you would take in your terraform file so that in next apply that shouldn't happen 
+12. How do you deploy resources into different environment like dev test and production using single terraform script 
+13.how do you check the status of the previous command that you have executed
+14. Where is user information stored in Linux filesystem
+15. Shadow file system what does it contain

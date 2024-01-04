@@ -1,0 +1,46 @@
+  1 * how do you disable swap memory through cmd line and it should not get added to the system ?
+  2 * how to make sure that file system does'nt get mounted upon the reboot ?
+  3 * have you created a file system and how you ensure those file systems are available after reboot (etc filesystems)?
+  4 * after mounting EBS to instance, weather that will be still available after reboot ?
+  5 * init levels implements in linux ?
+  6 * CMD check the load of the system ?
+  7 * CMD check usage of memory / ram of the system ?
+  8 * CMD to check how many CPU cores are there in system ?
+  9 * Suppose I have 100 servers, each server has username and password, if i want to install packages in all those servers remotely without logging in how i will be able to do this using shell script.
+  10* Using Top command how will you control all process running.
+  11* Write shell script to print all alternative lines
+  12* script to sort all file in logs and sort it according to top memory consuming and copy it to another file 
+  13* runlevel commands explain
+  14* how you'll find complete details of linux version you are using
+  15* Ps -ef
+  16* Kill -9 processname 
+  17* $? $* $0 
+  18* Ssh 
+  19* what is port no of ssh,http and https
+  20* how to list the process running
+  21* how to login ec2 if pem key lost
+  22* how to check the memory in  linux server
+  23* how to get the IP address of server
+  24* how do I find available storage on the server using linux cmds?
+  25* how to identify/find files which are more than 10GB in size ?
+  26* Git merge and rebase
+  27* ssh, keygen
+  28* Cmd and entrypoint ,run
+  29* Basic command on Linux
+  30* linux server goes down what action you are going to take.
+  31* How to start the script at boot level
+  32* How to start a service at boot level
+  33* What is way to run script on background
+  34* How do you check open ports
+  35* How you see no of arguments
+  36* What's k statement in shell script
+  37* How to establish password less connection
+  38* Shell script for prime numbers for a given range.
+  39* Linux boot process, 20 linux commands with explanation
+  40* Linux commands - related to memory and system ram
+  41* which scripting you are comfortable with?
+  42* script  to find the port number
+  43* namespaces in Linux 
+  44* linux booting process 
+  45* types linux os you have used and what is package manager for Ubuntu 
+  46* $? and $!

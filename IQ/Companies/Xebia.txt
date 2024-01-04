@@ -1,0 +1,35 @@
+Xebia
+ Questions
+1) tell me about yourself
+2) what are the challenge you have faced in your project
+3) what are the security best practice in kubernetes
+4) what is docker file
+5) what are the services in kubernetes
+6) what is lambda
+7) what is sonarcube
+8) what are the steps in build process
+9) how ll tag environments in build process
+10) what is terraform
+11) how ll u create rds from terraform
+12) what are the networking concept in 
+13) what is the best practice of iam
+14) how ll u attach ebs to kubernetes pod
+15) have u worked on observation tool
+16) what are the steps you ll follow in building java application
+17) how ll u tag environments in building java application
+18) how many environments will u use in microservices
+19) how  ll u do vulnerability checks in cicd
+20) what is jenkins
+21) what are the security steps you have taken in ci
+22) suppose consider a scenario generates rds by using lambda. What are the components required to generate rds in lambda. And in which language you ll write code in lambda
+23) what is hpa in kubernets
+24) what are load balancer
+25) what is ingress controller
+26) ingress controller is L7 or  L4
+27) what are the steps you u will follow in git operation
+28) where ll u store state file in terraform
+29) what is your best practice for storing state file management
+30) how ll u tag environments in microservices, while tagging what are the parameters will u consider
+31) when u implement load balancer in eks cluster what ll happen
+32) which command you ll use to build java application in pipeline
+33) what is CDN? What is the use of it?

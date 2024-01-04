@@ -1,0 +1,23 @@
+Sophony
+
+1) tell me about yourself
+2) basic difference
+3) in terraform if u want to give latest ami id in resoruce block how ll u give
+4) what is state file
+5) what is file descriptor in linux
+6) what is inode
+7) difference between liveness probe and readiness probe
+8) what is the difference between kubelet and kubeproxy
+9) what is iam
+10) what is the difference between policy and role
+11) what is service account in k8s
+12) what is data source in terraform
+13) if we want connect ec2 instance i am unable to connect. How ll u troubleshoot it
+14) if we want to connect server by ssh and we are not able to connect how ll u troubleshoot it
+15) in eks cluster if we two server i want give s3 get accessing to one server and Efs to other service how ll u trouble shoot
+17) types of load balancer
+1 8) if i hit www.facebook.com unable to get resource how ll u troubleshoot it
+19) difference between tcp and udp
+20) if u get 404, 403, 500, 200   errors how ll u trouble shoot it
+21) most of scenario based questions has asked
+22) how ll know the how many ports we have used

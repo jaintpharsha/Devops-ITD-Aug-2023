@@ -1,0 +1,11 @@
+carelon
+Duration : 15 minutes
+Interviewer : 2
+Questions :
+1) introduce yourself
+2) how ll u deploy EKS cluster
+3) what are the prerequisite for EKS cluster
+4) how ll do upgrade operations EKS cluster
+5) how ll do perform weekend changes in your organization
+6) what are the operations you are doing daily in your current organization
+7) have u worked on openshift

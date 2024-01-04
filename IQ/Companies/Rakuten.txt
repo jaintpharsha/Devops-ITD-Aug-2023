@@ -1,0 +1,57 @@
+Rakuten
+1. If your linux server in k8s is crashed and you are getting some kernel panic error and server get reboted and node will not in ready state. What will you do in that situation 
+2. If kublet is down one of the node some application are running there what will happen to that application. 
+3. You have a cluster it having some 10 nodes you have a kubectl access. Where you get the server details from the kubectl and you have check all the server kernel version. Write a shellscript for that. 
+4. Write a shellscript for the host file is present or not. 
+5.write a shellscript to find that file which have only read and write permission. 
+6.LVM Partioning
+7.how will you check the disk usage in linux. 
+8. How will check the CpU AND MEMORY 
+9.Have you done any OS linux installation
+10.you are at in one node where the docker container run and then the partion will full where docker service and kublet will be down what you do in this condition. 
+11. We have 10 node server and one of the node your discard fully and docker, kublet all the service goes down. How will recover the server. 
+12. I am a application team guy. What are the main detail that you want from my side. 
+13. What is PV AND Pvc. 
+14. What are the type odlf QS classes
+15. What are the classess in there. 
+16.what is guranted pod in the team of resource
+17.you are deployed my app in your cluster it goes in pending state how to investigate them. 
+18. After that my pods is stuck in the container created state. What will do for that. 
+19.container is created in pod but continues crash why this happen
+20.Explain K8s Arch. 
+21.What are the types of service in K8s
+22. What are damonset controller
+22. Write a example of any manifest file.
+
+
+Rakuten
+Duration : 40 mins 
+Questions
+1. Introduction
+2. Team Strength
+3. Role in the team
+4. Day to day activities
+5. Difference between shell script and bash script
+6. Explain me EFM of your project
+7. Open an whiteboard and provide me the architecture of your application 
+8. Write a Dockerfile
+9. what is alpine 
+10. Difference between Unix and linux
+11. Draw Kubernetes architecture and explain
+12. what is the default pod size
+13. How many pods you are managing 
+14. Have you configured database for your Kubernetes cluster
+15. what are the databases that you have worked on 
+16. command to create database
+17 Have you worked on ELK
+18. How did you set up Prometheus
+19. How is the configuration of Kibana done
+20 what is OpenSearch in aws
+21. what are the external load balancers you have worked on in your project 
+22. How are you deploying your app to Kubernetes cluster
+23. Can a pod be created in Master node
+24. Give me an overview of the release template you follow in your organization 
+25. How do you create a helm chart template
+26.How many worker nodes and master nodes you are monitoring 
+27. What are the type services you use in your role
+

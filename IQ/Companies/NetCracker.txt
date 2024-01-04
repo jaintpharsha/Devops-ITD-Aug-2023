@@ -1,0 +1,41 @@
+NetCracker
+
+/dev/null 2>&1? explain this command
+why choose list over directory
+roals & playbook in ansible?
+handlers in ansible?
+what are tags ?
+save the output of any tasks which module we use to save?
+i have find out 5 worker node in k8s i'm exixting the playbook one of the , how to find out ran memory each services places, get output of all serves , what is module and how to use in ansible in server ansible service module pulled out how to do?
+ansible files formate
+loop and loop control?
+what is loop_Var 
+what is debug?
+
+Netcracker
+Duration : 40 minutes
+Interviewer : Evgeny Khorokhorin
+
+Questions :
+1) intriloduce your self
+2) what are  your roles and responsibilities in your project
+3) how will set up environment in your project
+4) how did you achieve zero downtime in your project
+5) which repository you were using in your project
+6) Do you have any experience in development along with devops activity
+7) how will provide security for cloud in your organization
+8) how does ansible is usefull for infrastructure management
+9) do you have any experience in telecomm sector
+10) which deployment strategy you were deployed in your project
+11) Do you have any group lead experience
+12) For maintaining infrastructure, how does iac is usefull
+13) which cicd tool you were using in your organization
+14) why did you prefer jenkins as compare to other cicd tools
+15) For monitoring which tools you have been using
+16) while deploying application do you have faced any issues. How did you troubleshoot those issues
+17) do you know groovy script, python
+18) which scripting you have prefered for automation active in your organization
+19) Do you have worked on GCP azure
+20) which monitoring tool you will prefer inplace of promotheus.
+
+

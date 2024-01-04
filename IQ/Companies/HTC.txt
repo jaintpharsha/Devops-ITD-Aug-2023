@@ -1,0 +1,24 @@
+HTC GLOBAL
+1.Tell me about yourself. 
+2.Role and responsibility
+3.What are the main service you are used in AWS. 
+4.What is a cloud watch. How to configure
+5.which services you are used in aws for secure your application. 
+6. Explain the K8s arch. 
+7.what are you doing when your master is failed. 
+8.what are you doing when your worker node is failed. 
+9.what are you do when pod is not created. How will you rectify that. 
+10.Terraform module. 
+11.if you want to transfer some data from one module to another module. 
+12.what is provisoner. 
+13 . Explain the type of provisoner. 
+14.list all the command that you are used in terraform. 
+15.some of the resources are created through aws console. And then u created some resources through terraform. Tfstatefile dont show that resources that you make through aws console then how to reflect that resources in statefile. 
+16.What is galaxy in ansible. 
+17.what are the inventory. Where you hold that. 
+18.what is docker arch. 
+19.what is docker volume. 
+20.If you want to create a image of your container. What we do. 
+21.You have lost your pem key then how to login on that machine. 
+22.you have a one ec2 instance in which application running after some time much load is there. 
+Then how to autoscaling that. What are the steps you follow.

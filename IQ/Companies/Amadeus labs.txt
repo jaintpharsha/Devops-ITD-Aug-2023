@@ -1,0 +1,11 @@
+Amadeus labs
+
+1) An applicationis made for some transaction purpose, at some point application hangs, whereas all our resources are fine and application and it's logs are all fine, so how check the application hang? Any ways
+2) how to restrict network access between 2servers located in different regions,like even the pings should not work. How to do it?
+3) is it possible to run multiple instances of Jenkins on same server to distribute the load?
+4) docker file to launch a webserver 
+5) how to test the connectivity of an application deployed on one server from another server?
+6) k8s taint and toleration, namespace
+7) how the k8s cluster actually works(work mechanism)?
+8) at any point of time,if the pod goes down, how to monitor,alert it and how to self heal it
+9) which is better among EKS cluster and self managed cluster in k8s, why?

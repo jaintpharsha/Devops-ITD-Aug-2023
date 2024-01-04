@@ -1,0 +1,10 @@
+TEK system(screening)
+	Duration: 29min
+	Interviewer_name: Kalyani
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) Explain the SRE and What is diff btw DevOps engg and SRE.
+	3) Explain the complete process of SRE.
+	4) What is the Route53 in AWS?
+	5) Explain the networking environment in the previous organization?
+    6) What is EKS?

@@ -1,0 +1,31 @@
+Norwin
+
+1) Introduce your self and explain your day to day activity
+2) how will u rectify CrashlookBackoff error
+3) How ll u rectify  ImagepullBackoff error
+4) difference between git rebase and fetch
+5) Let's consider a scenario. In which i have written a ansible playbook for installing 5 application on 
+	a single server. If i execute playbook 2 applications have installed successfully. While installing 3 application, 
+	ansible palybook will not work some bug has occured. If we rectify playbook and start to reexecute playbook it starts 
+	installing application from first, but i want to install application from third, where it was stopped. How ll u do this one.
+6) difference between cloud watch and cloud trail
+7) explain branching strategy
+8) explain about load balancer
+9) what is route 53 and its types
+10) how ll u run two images in docker file
+11) In cloud watch, suppose you are not getting any perticular metrics means what ll u do.
+12) how ll u check pods failure 
+13) Explain Kubernetes Architecture
+14) what is load balancer and explain its types
+15) what is ansible module
+16) what is the meaning of    
+$?  and  $#
+17) What is the provisioners in terraform
+18) how ll u store state file in terraform
+19) explain variable block in terraform 
+20) difference between Cname and alias in route 53
+21) how ll u schedule perticular pod on respective worker node.
+22) what is route 53
+23) how ll give user access to kubernetes cluster.
+24) what do u mean by services in kubernetes and explain
+25) difference between daemon controller and statefullset

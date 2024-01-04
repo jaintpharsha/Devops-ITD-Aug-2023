@@ -1,0 +1,73 @@
+valuelabs
+1.Tell me about yourself
+2.If you ever worked in SRE position
+3. How to set up configure Prometheus to grafana 
+4. How will you enable Prometheus and Gruffana to get all the matric data about your ports and node health extra
+5. What is your role in Jenkins
+6. Where are you build your docker image in which step
+7. Write a Jenkins file
+8. When you cheque in the repository what configuration you do on your Jenkins server so that it takes file from repository
+9. I have a web application which has front end There is an api call which back end of it write Deployment file
+10. I have one. file we are creating Touch command.txt . In this file, we have some commands are there You have to 
+	write a shell script to execute sh pick one command from command.txt
+11. You have a hello world application front end, which is running on my EC2 instance Minimum set of 2. I want to update 
+	my code without downtime in the existing instance.
+12.Can you share me the error you are facing in K8s.
+13. Which docker you are using 
+
+Company name: Value labs 
+Duration : 30 mins
+Interviewer name: Prashanth 
+Questions :
+1. Git asked me what all i did using git tool
+2. What application you deployed on k8s using docker 
+3. Terraform 
+4. How did you secure ec2 instance
+5. What is vpc what's your use case 
+6. What exactly you did using Jenkins 
+7. Shell script to delete 1st and 3rd character
+8.What was the recent challenge you encountered and how did you resolve it ?
+
+Value labs
+
+3 tire architechture, hwo do you configugrare what are requeisremtsns?
+in aws how to do you configure?
+i fi want to get internet for private subnet how we can do that?
+how to create cuustome polocy?, 
+we have some data in s3 a account, that data should be download some where and it should be upladed to a account s3 account, how we can do that?
+if i want want to access with in same account, in same account we have data and i want to upload and dwnload, is it possible, how we can do that?
+there should be some configure path, how it will work there?
+can we attach more role to instances?
+what is use of s3 policies, when we requere s3 policies?
+we have one instance linux, can't able to connect ssh, in this senarios what we need to check?
+i have ssh key can't able to connect?
+how to check instance status?
+what is use of route53 and roles of route 53?
+how many type of load balancer is there?
+when we will use nework and application load balancer? 
+jenkins, which type of jobs we create?
+what are steps and stages in jenkins, can we call docker file in pipeline?
+when we have deployment or release, you may face some issue where job got fail, how you can debug?
+master slave configurations?
+dynamic slave?
+promethues graphana, how to create dashboard?
+how we can create alert in graphana?
+how we can create alert in graphana?
+
+
+Value labs
+there are some group of ec2 instances under vpc, and client has complein not able to do it with domain name, 
+but with ip address client is able to acee, in vpc, how you will resolveif i want to use listout outstanding algorithum, 
+loadbalancer, which type of load baalnce will you use?
+algorithums suppt by application load balancer?
+diffrecnce btwn application load balancer and network load balancer? side by side give answer
+i have groups of events ec2, every i want to triiger lambda function based on event how to do that
+how the lambda can be trigger by coud watch?cicd write script and how to manage ?
+dockers and kubernatics?
+what is tools to manage kubernatics cluster on ec2,
+in side k8s cluster two service is there a and b, i want to use a and b for communicaiion pursope, and i don't want use cluster ip, you should use dns
+ b is headless service? how we will use?
+what is most main compponent invoved in worker node, which communicates to masternode/
+i have an etct, etct compohensa, we have lost, ho we can get it back?
+i was use postgres as database how we can use etcd, ?
+

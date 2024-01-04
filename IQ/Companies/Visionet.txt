@@ -1,0 +1,48 @@
+Visionet
+
+grafana ?
+graphana enterprised?
+nod port, nod exporter work flow, 
+is it same for window linux or it will be diffrent node exporter?
+you have aws so how you can labarage aws to node exporser to diffrenct instances?
+what is prompt tools?
+which databnase generally prometheus relieb?
+time-series database ?
+major comppornts associate throught alert manager?
+remote write in premethues?
+where do specify remove write?
+how to intigrate microsoft team on channels?
+what are the three main roles in srum Agile methodolgy
+type of issue come during monitorring
+how intigrate promethues with k8s
+how to gather logs in k8s
+
+
+Visionet
+	Duration: 25min
+	Interviewer_name: Rahul Krishna
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) What is Grafana and do you have experience in Grafana?
+	3) What is autoscaling and what is the use case?
+	4) What is DMS in AWS?
+	5) What is the c-name record in AWS?
+	6) How do you monitor the Jenkins matrics?
+	7) What is Prometheus and do you have experience in Prometheus?
+	9) What is Cloudwatch in AWS?
+	10) Explain the architecture of Cloudwatch collect the log in AWS and any agent/configuration you used?
+    11) What is Ingress?
+    12) What is the difference btw nodePort and load balancer services?
+	13) What is horizontal pod autoscaler(HPA)?
+	14) What is Prob and the different types of Prob in K8S?
+	15) What is CrashLoopBackOff and ImagePullBackOff?
+	16) Explain the Dockerfile and do you have experience in writing Dockerfile? 
+	17) What is NodeExpoter and Nodegroup?
+	18) How do you create an AWS cluster in AWS?
+	19) What is the use of the sed command in Linux?
+	20) What is Helm and explain the use case?
+	21) What is the difference btw monolotical and microservice architecture?
+	22) What is the command used for logging in to the container in K8S?
+	23) How do you check logs in Linux?
+	24) What is the use of the tail and head command in Linux?
+

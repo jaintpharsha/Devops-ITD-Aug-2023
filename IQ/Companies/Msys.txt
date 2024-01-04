@@ -1,0 +1,70 @@
+Msys
+in aws let say you have got machine and there window service running to connect s3 bucket copy to local machine every 5 min how will you grant permission to copy ?
+you got vpc wich with size, and subnet every utilies, i want to put same vpc, what would you do ?
+can we modify cidr if machine already createdd?
+yo uare hosting webpages using s3 bucket the bucket should bbe public and aws change no bucket will be as public , what change will you make?
+in terraform what is null resources?
+whre we use null resources?
+in tf what is provisoner?
+in tf where are can be define variable?
+same variable in multiple file which value tf wiill take
+how tf use statefile?
+if tf file deleted what will happen?
+in tf how to run user data to insTANCES
+WHICH APP PROVIDE TPL file?
+ec2 instances in same network but we don;t have ip left in vpc, how we'll do it without resizing vpc?
+day to day activitry for SRE devOps eng?
+cicd, how to manage deployments in kubernatics
+manifist, you are already imp jenkisn and deploy in kubernatics how we can do do?
+what would be deployment stratogy if we use jenkins for deployment?
+k8s, some reason pv is not what will be issue
+i have an app deployed in pod and some reason showing permission denied error, how will you handle that
+k8s secrates how do yo manage secrates?
+diffrence services type in k8s?
+i have my database to be deploye in k8s, what will be the service type?
+deployment statefull set?
+what type of app we deploy in statefull set?
+demonset what is purpose of it?
+einstance type in aws for kuber natics cluster?
+rbac how it works?
+premethus and grafana?
+
+
+Msys
+Duration : 55 minutes
+Interviewer : sasikumar Durai
+Questions
+
+1) tell me about yourself
+2) asked about experience of each devops tools
+3) Asked SFTP in linux
+4) difference between gitpull and git fetch
+5) about git revert
+6) asked about jenkins pipeline
+7) write a syntax of descriptive pipeline in jenkins
+8) how ll u manage jenkins secrets
+9) difference between daemon, statefull set and deployment
+10) how ll do migrate data from on premises to aws cloud and how ll do set up
+11) if you want to acces multiple vpc what is your approach
+12) what is terraform backend
+13) how ll u different statefile in terraform
+14) how ll u connect multiple vpc
+15) if suppose you have created two resources using terraform, how ll u give output of one resource to other resource
+16) what is terraform count and foreach
+17) about EKS
+18)asked about ansible
+19) asked about chef
+20) what is the difference between nacl and security group
+21) what is loadbalancer and their types
+22) what HPA
+23) how ll u secure data in s3 bucket for accidental delete
+24) how to check memory usage in linux
+25) how to check perticular file in linux
+26) what is the default path for logs in linux
+27) how to check logs in docker
+28) how to check busy ports in linux
+29) what is the differenec between. tfvars and variable.tf
+30) how ll u do unit testing in terraform
+31) some scenario based questions has asked
+32) what is the difference between configmap and secrets
+33) what is IAM

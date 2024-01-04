@@ -1,0 +1,9 @@
+symphony talent 
+Duration: 35 mins 
+1. How does your organisation exactly looks in terms of infrastructure and how it looks on an Amazon AWS 
+2. In what capacity you are involved with terraform
+3. Is your organisation completely micro service or monolithic in nature
+4. What's the project that you are working on 
+5. What deployment strategies in your organisation you are following
+6. How do you handle load traffic to a particular pod for just a couple of minutes say for instance at 12 in the midnight
+7. Using Terraform approach to automate for environment  like dev test and QA creating resource and necessary services such as db , load balancing

@@ -1,0 +1,15 @@
+Deloite
+Duration 35 min  
+1.How do you manage secrets 
+2. Service account pointing to deployment
+3. Helm chart deployments through pipeline or which methodology followed in organisation 
+4. Helm chart --wait usage what will it do 
+5. what its default time it waits 
+6. before deploying --dry run 7. --debug what exactly it does in the back-end 
+8. Difference between CMD and Entrypoint 
+9. with terraform whatt's your role in organisation
+10. How do you manage state files. 
+11. what happens when 2 or more developers try to run terraform script at same time 
+12. which are the cases ansible I used
+13. How does ansible work just by adding host names 
+14. Monitoring tools worked on

@@ -1,0 +1,180 @@
+Encora
+Duration : 28 minutes
+Interviewer : vijaykumar
+
+Questions
+1) introduce yourself and day to day activity
+2) what is sre
+3) what is the difference between sre and devops
+4) what is the difficulty you have faced in your project
+5) how ll transfer data from one region to another region in s3
+6) difference between cloud watch and cloud trail
+7 ) how ll u update patch in your running server after 6 month of deployment
+8) default port of nginx server
+9) default port of tomcat server
+10) suppose your server is running slow what ll u do. How ll u trouble shoot
+11) how ll u check logs in aws
+12) how ll u transfer 20 TB data from one region to another region in S3
+13) what are sre roles
+14) how ll u reduce docker file size
+15) how ll u refresh server
+16) if your server goes down immediately how ll automate to recreate another server
+17) suppose 5 jobs are running on jenkins how ll execute these 5 jobs parall
+18) what is default port of ms sql
+19) if server goes down immediately how ll trouble shoot and which command will u use for that. What is your approach
+20) what is kubectl
+
+Encora
+
+what are the major, fields in cicd pipeline?
+support you are working in company a shown aws process, and now a occupied b compaly and you have task to connect network, how you will connect in aws?
+vpc pairing steps?
+you have 4 linux server, and you have to attached share drive service within all server how we can do in aws
+you want to control dominant bond tyraffice how to handle ecp and vpc label?s3 diffrent storage classes in s3
+you put some data  in graciourr  , how we can retrieve data from glaciar?
+jenkins, what kind of tasks can be done by jenkinds?
+k8s integration with jenkins?
+credate kubernet pods define file, using value group, name label, container?iam, how many ways you can provide access to the user?
+here asre 10 to 15 user there are some power policies how we can provide access? 
+
+Encora
+Duration : 20 minutes
+Interviewer : swaroop
+
+Questions
+1) tell me about youself
+2) difference between git pull and fetch
+3)difference between configmap and secrets
+4) what is docker file
+5) how to connect onpremises data base to aws
+6) what is iam
+7) what is the difference between terraform plan and terraform apply
+8) what is state file
+9) what is role in ansible
+10) what is fact in ansible
+11) what is the advantage of terraform
+12) what is git sqatch
+13) difference between horizontal and vertical scaling
+14) have u worked on sonar qube
+15) have u set up kubernetes cluster
+
+Encora
+
+Questions
+1) tell me about yourself
+2) how ll u give new developer access to kubernete cluster
+3) what is context path
+4) if apply terraform apply if you didn't get exact infrastructure means how ll u rollback previous state
+5) have created eks cluster from terraform
+6) where ll u store shared library in jenkins
+7) how ll u integrate kubernetes with jenkins
+8) have u worked on helm chart
+9) what is crashloop backup error
+10) what is image pull backup error
+11) what is state file
+12) have u worked on eks cluster
+13) what is the difference between role, role binding and cluster role binding
+14) what is the horizontal autoscaling and vertical autoscaling
+15) if you want to change the configuration in pod, will change directly or create another pod
+16) how ll u give access to any developer to your pod
+17) what is affinity and antiaffinity
+18) when we will use taint and toleration, 
+19) how ll u configure jenkins with github
+20) how ll u give pod access to outside world
+21) scenario based questions has asked.
+22) how to connect database in kubernetes cluster.
+23) how ll u give log checking access to developer in kubernetes cluster.
+
+Encora
+	Duration: 17min
+	Interviewer_name: Vijay
+	Questions: 
+	1) Tell me about yourself And day to day activities.
+	2) Explain to me anything you worked on in automation.
+	3) 404 alert is coming in any monitoring tools how do you resolve this issue?
+	4) you are trying to access Webapp, and that web app giving 500 errors, what is reason and how will you troubleshoot?
+	5) What is SRE?
+	6) How do you manage Kubernetes deployments?
+	7) What is the purpose of the Helm chart using in your environment?
+	8) Any CI/CD pipeline you are using?
+	9) What is differnce btw Devops engineer and SRE?
+	10) What is cost optimization in AWS?
+	11) In AWS one web app is running Which load balancer did you configure and why?
+	12) What are all the security groups you will check if everything is fine or not in AWS?
+	13) You want to monitor one app thoroughly how will check and why?
+	
+Encora
+application requerment stratogy using terraform?
+you want to make sure you application never goes down in one resion, even with the reasion outrage?
+what is ami configuration
+how to you maintain traffic?
+how do you go back perticular commit on later master comit in git command?
+git cherry-pick?
+Branching stretogy ?
+p1, p2, p3, p4 what are thosue?
+premotheus graphana?
+keebana dashboard configuration?
+explain cicd pipeline?
+master, slave in jenkins explain?
+terraform, tfvar to create instance?
+create ec2 using terraform 
+what is statefile in terraform?
+if you edit statefile, what are the process will happen?
+git clone vs git fork diff btw git fetch and git merge?
+how to fix git conflit?
+integration test 
+what is state locking?
+kubernatics, architecture?
+kubernatics sevices?
+diffrence between statefull and stateless?
+what is blue green deployment?
+deployment stratogy?
+what is replicaset?
+replicaset and replica controller diffrences?
+
+encora
+
+Questions
+1) tell me about yourself
+2) how ll u give new developer access to kubernetse cluster
+3) what is context path
+4) if apply terraform apply if you didn't get exact infrastructure means how ll u rollback previous state
+5) have created eks cluster from terraform
+6) where ll u store shared library in jenkins
+7) how ll u integrate kubernetes with jenkins
+8) have u worked on helm chart
+9) what is crashloop backup error
+10) what is image pull backup error
+11) what is state file
+12) have u worked on eks cluster
+13) what is the difference between role, role binding and cluster role binding
+14) what is the horizontal autoscaling and vertical autoscaling
+15) if you want to change the configuration in pod, will change directly or create another pod
+16) how ll u give access to any developer to your pod
+17) what is affinity and antiaffinity
+18) when we will use taint and toleration, 
+19) how ll u configure jenkins with github
+20) how ll u give pod access to outside world
+21) scenario based questions has asked.
+22) how to connect database in kubernetes cluster.
+23) how ll u give log checking access to developer in kubernetes cluster
+
+Encora
+kubernatics: production ?
+explain kubernatics architecture?
+what is tuple
+list in python
+explain cicd pipeline?
+production and preprodcution difference?
+elk
+what are the need to run kubernet service?
+what is control plane in k8s? is IT PERCISTANCE OR NON PERCITANCE?
+cicd flow to buld image deploy k8s in jenkins?
+what is branching stretogy?
+docker limit mempory file ram size what parameter we neend to use?
+DICLARATIVE AND SCRIPTED PIPELINE DIFFRENCES?
+which one will use jenkins pipeline?
+what is agile process
+datatype use in pyhon
+
+

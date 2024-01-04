@@ -1,0 +1,27 @@
+Wipro
+1.Tell me about yourself. 
+2.what is the difference between natgateway and internet gateway. 
+3.difference between private and public subnet
+4.how to configure vpc peering. 
+5.How to configure cloud watch. 
+6.what is TLS. 
+7.how set the dns. 
+8.What is the command to access 1 instance to another instance. 
+9.what is scp command. 
+10.what is the command to memory usage. 
+11.what are the ports no of  http, https, dns, scp, ssh. 
+12.what is the command to list the process. 
+13.find available port. 
+14.Write a docker file. 
+15.what is docker networking
+16.What is docker. 
+17.How to create a image from a container. 
+18.how to configure jenkins with docker. 
+19.explain CI/CD.
+20.Write a jenkinspipe line 
+21.what is git stash, merge conflict , git fetch. 
+22.How to access the ec2 instance . If you don't have a pem key. 
+23.what is elastic search. E2E. 
+24.write a script in kafka. 
+25. Write a script in python for find a particular file and cut the last two line and last 2 columns. 
+27.what is HA PROXY.

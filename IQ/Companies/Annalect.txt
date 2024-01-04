@@ -1,0 +1,45 @@
+Annalect
+
+1.Introduce yourself and tell me about the tools that you have worked on 
+2. How much experience do you have on terraform 
+3. How much experience on AWS
+4. What are the services you worked on AWS
+5. Inline policy and custom policy difference
+6. Can you write a custom managed policy 
+7. I want to access S3 bucket from an ec2 instance explain me the process 
+8. S3 bucket related basic questions
+9. What are the type of load balancer you worked on 
+10. Suppose I want to create a load balancer scenario wherein I have a domain abc.com I want to create an application 
+	load balancer from an instance how do we achieve that
+11. Docker do you have expertise
+12. Take a scenario wherein I need to keep updating a particular application how do I achieve that 
+13. Jenkins how much experience
+14. What is the cicd process that your following in your current organisation explain to me
+15. After creating an image where do you push to it
+16. Do you have an hands-on experience on eks
+17. What are add-on in eks 
+18. Namespace
+19. Any language you used 
+20. What are you written using shell script
+21. What are the automation use case using shell script you did in your work
+22. can you write a configuration file 
+23. Have you got experience on writing helm charts
+
+Annalect
+	Duration: 51min
+	Interviewer_name: Sumanth
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) write a script to clean up the log files under the folder under the folder.
+	3) How do you identify the process which is consuming more memory?
+	4) How do you identify a process that is consuming more input-output operation?
+	5) How do you set up a static website using S3?
+    6) What is d btw ALB, NLB & GWLB?
+    7) How do you deploy lambda, if you don't have a console.
+    8) How do you autoscaling using memory ec2?
+    9) Can you tell me the steps to migrate the s3 bucket from one region and another region?
+	10) What are the different types of records available in Route53?
+	11) Write Jenkins pipeline code with 5 stages?
+	12) What is diff btw volume mount and volume bind in Docker?
+	13) How do you find a container that is consuming more space in a Linux machine?
+	

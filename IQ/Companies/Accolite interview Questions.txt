@@ -1,0 +1,57 @@
+Accolite Digital India Private
+Duration : 45
+Interviewer name : prashant
+Questions :
+1) How to host dynamic website in aws?
+2) What is aws fargate?
+3) what is EKS?
+4) asked about RDS?
+5) how to deploy android application using EKS?
+6) what happens when master node fails in eks
+8) what are the featutes of aws lambda and aws fargate
+9) write docker file?
+10) difference bet copy and add?
+11) what is your approach for multistage build 
+12) what is your approach to get more than 5TB of data from  from s3 bucket in single click or some delay occur?
+13) one question on AKS?
+14) write jenkins file  to deploy android application?
+15) what is your approach to get artifactory for android application?
+16) what is your approach for deploying android application using canary deployment.
+17) if master node fails what ll happens to downtime and self healing capability of master node
+
+Accolite Digital
+1. shell script perform cleanup activity 
+2. when log files older than 10 days archive them. path /home/example/logs/
+set cron to run at 12am
+3. ancible rols and use
+4. ansible playbooks and roles
+5. what si skills and monitoring 
+
+1) tell me about yourself, experience, How many projects you have worked and current project and company name.
+2) day to day activity
+3) what is serverless
+4) if your instance is unhealthy how ll u automate to create another instance automatically in aws. 
+5)for an instance 5 EBS volumes are attached. among 5 ebs volumes only 2 ebs volumes are mounted. How ll u know mounted volumes and how ll remove unmounted volumes.
+6) if you have a instance in mumbai region, how ll u create same instance on japan region
+7) what is kubectl
+8) How many files will be available on jenkins
+9) you are running a job on jenkins, it  running several file, i want to take backup of a perticular file. How ll i take backup of perticular file.
+10) if you have 5 users in linux server, one of user has changed the file permission as read only. No one is able to change the file permission.
+How ll u reset file permission.
+11) what is iam
+
+Accolite
+	Duration: 23min
+	Interviewer_name: Prasadh
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) Expalin CI/CD pipeline.
+	3) Explain the complete process of SRE.
+	4) What is public, private and hybrid cloud?
+	5) High memory utilization alert in scenarios what are the troubleshooting steps?
+    6) What is a cron job?
+    7) What are key fearute in Grafana?
+    8) What is a control manager in Kubernetes?
+    9) What is SAS(software as Service)?
+    10) Explain the production code error like 400, 500, or API API error?
+

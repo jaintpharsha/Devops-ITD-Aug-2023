@@ -1,0 +1,59 @@
+Saksoft
+
+1) tell me about yourself
+2) daily activity
+3) after deploying application in production environment, will u terminate ec2 instance or stop instance
+4) how ll do server refresh in your project
+5) how many instances you have created in RDS
+6) what are the resources you have created using terraform
+7) what is ansible tower
+8) what is route53
+9) how ll u implement autoscaling in your project
+10) how u ll implement loadbalancer in your project
+11) where ll u store docker images
+12) how ll u pass docker registry credentials into kubernetes cluster
+13) what is nameplace
+14) how ll checks logs in kubernetes cluster
+15) what is Ami
+16) how ll u update servers using ami
+17) how ll connect ansible with terraform
+18) what is jenkin
+19) where ll u store your repo
+20) how ll u configure your application ip address in route53
+21) how will know deployment is done successfully in kubernetes
+22) how ll u debug service related issue in kubernetes
+23) how ll u troubleshoot pod related issue in kubernetes
+24) what is network policy in kubernetes. What does it contains
+25) what is endpoints in s3 bucket
+26) how ll u connect ec2 instance with s3 bucket
+27) how ll u send docker images into kubernetes cluster
+28) what is bashion ip in kubernetes cluster
+29) why  do we need ec2 instance after deploying application in production server 
+30) how ll u refresh your deployment server regularly in your project.
+
+1. terraform archecture
+2. terraform write script from scach examples
+3. loadbalancer in aws
+4. what is load balancer
+5. what are services can be used to create centralised login services?
+6. you trying to provide services in some reason but access is not showing other reasion what would be the issue?
+7. aws services not region specific?
+8. ec2 root device volume?
+9. rds settings? 
+10. command to connect db?
+11. when you create rds therre will be two instance primary and stand by, will be standby ?
+12. on ec2 instance your application is in active state once the cpu used and instsances get 80 percentage, 
+	to reduce the load percent what strategory will use there?
+13. best practices for ec2
+14. ansible, install in any operating system 
+15. ansible server requerment?
+16. how to acess shell envrment variable ?
+17. in ansible how to access env variable
+18. how can you docker module in ansxible 
+19. how to see all the variable to specific to the host in ansible 
+20. can you lvm in linux?
+21. root account in linux
+22. kubernatics and why we using it
+23. pod uses patter kubernets 
+24. master node
+25. what statefull set and stateless set?

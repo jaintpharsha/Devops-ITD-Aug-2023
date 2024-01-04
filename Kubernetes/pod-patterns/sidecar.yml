@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: emptydir-nginx
+spec:
+  initContainers:
+  - name: busybox1
+    image: busybox
+    command: ["/bin/sh"]
+    args: ["-c", "echo 'This is busybox init container'; sleep 20"]
+  containers:
+  - name: nginx
+    image: nginx:1.14.2
+    ports:
+    - containerPort: 80
+    volumeMounts:
+    - name: emptydir-vol
+      mountPath: /var/log/nginx
+  - name: busybox2
+    image: busybox
+    command: ["/bin/sh"]
+    args: ["-c", "while true; do ls /var/log/nginx; cat /var/log/nginx/access.log; sleep 5; done"]
+    volumeMounts:
+    - name: emptydir-vol
+      mountPath: /var/log/nginx
+  volumes:
+  - name: emptydir-vol
+    emptyDir: {}

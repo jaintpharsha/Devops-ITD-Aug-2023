@@ -1,0 +1,29 @@
+Modivcare
+
+rebase git?
+jenkins, there is senarios 5 stages in cicd pipelien, now in btw some data nede to be given stage 3, how can we poush or stop data and fix the issue and restart, using jenkins
+how to poush and restart jenkins pipeline?
+plugins in jenkins and what kind of plugins and how we write ?
+what is end product you will get once the buld is done?
+image build using jenkins ?
+i trying to build a image the error is showing there is no proper config dependecy  what is solutions?
+jenkins i need to give access to multiple people how to controll acess and secure?
+mvn dependencies ?
+i have to build a image andpush to ecr can you tell me how you are going to write jenkins file pipeline?
+terraform: diff btw local.tf and variable.tf?
+what is data source data.tf
+i have to create tf template or main.tf, to a neawly created service in aws, unfortunattaly i doon;t have tempate in tf website, infrastructure are in cloud bsed,  how to handle this?
+docker value?
+write a docter file instructions?
+which layer will be bottom and top in docker, ditached ?
+i want to deploy a pod there is we in 3 node, what will be the flow?
+how to schduler will equally ditricbure pod in all the node?
+demonset controller why do we need?
+what is prob and prob actions?
+rollbase access control and when we use?
+config map in k8s?
+how you orchestrate using kubernetes 
+dockerfile architecture 
+how you deploy images in kubernetes
+use of helm chart 
+terraform import with example

@@ -1,0 +1,20 @@
+Centelon
+Duration : 40 minutes
+Questions :
+1) introduce yourself
+2) what is ingress
+3) what is ingress controller
+4) which ingress controller you are using in kubernetes
+5) have you written any modules in terraform
+6) how will you write model for vpc in terraform
+7) when did u changed state file in your project explain scenario
+8) how will provide security to pipeline
+9) how will write docker file
+10) what is braching stratergy
+11) how will you check secret password in jenkins cicd pipeline
+12) what are the scripts you have written in your project
+13) explain cicd pipeline
+14) how will scan docker images. Have u implemented docker scan in your project
+15) how did jenkins generate build image versions. How it knowns  versions for build images
+16) have u worked on ansible
+17) have u worked on monitoring tools.

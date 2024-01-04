@@ -1,0 +1,52 @@
+Harman 
+
+was to print ls -lrt result
+trigger a job at every 5 second
+what is use of ps -ef?
+command to attach ebs 
+apache or tomcat, app is running you make some change in config an restarted and servecie not coming how to
+500 error code
+roles sre perform?
+how to  prometheus setup?
+how to authinticate ec2 instances
+how to do update kubernetes infra using jenkins 
+how we intigrate terraformwith jenkins
+
+Harman
+day to day activies for devOps engineer?
+what resources use in cloud side
+you have 100 outlets in india, unfortunaticlly some store is down, how to find out where is problem and how to fix that as devOps SRE engineer?
+if sometime app go down what will you do?
+currentyly prod 1.1. is ther i want deploy 1.2 and something is not working how to fix this we'll roll back or we'll try to fix 1.2 version
+1.1 and 1.2 is working non prod, currectly we're deploing 1.2 and custemer saying site is not working properly how i can find out many client effected on that perticular time
+jenkins, how a devOps enginer build infrastucture and do every thing start from scratch?
+build is completed, and some one has taken build and buid succes, deploing in dev env for every build, does it will check resources?
+before doing deployment, we have to check resources, if resources isn't avilable, will it will create new onw, 
+User
+2 / 2
+if terraform check is there then deploy if its not there create, whre you iwll define?
+i have one instance name xyz and if i trigger terraform again it shoulf not create xys1 again where we'll define?
+new developer join team, i have cloned git and pushed changes where it will go?
+how to restrict master branch to push ?
+ new developer joined and already code is there in branch i just want to deploy,, what are the option for automatic deploymenta? i don't have any new code changes and it's automated branch?
+can we use empty commmit?
+you have site in india, and and we don;t have custer outside of india how we'll restrict outside from india?
+retrict website outside of india how will you do?
+amazon has site in us, uk, india, and i have travel site xyz india and uk, if uk site is down, how will you fix this issue?
+traffice manager?
+
+Harman
+	Duration: 20min
+	Interviewer_name: Prashanth
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) What are key fearute in Grafana?
+	3) What is a control manager in Kubernetes?
+	4) What is public, private and hybrid cloud?
+	5) What is SAS(software as Service)?
+    6) What is a cron job?
+    7) Expalin CI/CD pipeline.
+    8) Explain the complete process of SRE.
+    9) High memory utilization alert in scenarios what are the troubleshooting steps?
+	10) Explain the production code error like 400, 500, or API API error?
+

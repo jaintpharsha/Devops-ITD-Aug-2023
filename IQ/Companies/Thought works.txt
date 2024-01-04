@@ -1,0 +1,8 @@
+Thought works
+
+1) advance label troublesooting in k8s, aws, 
+2) when pods are not staring how to troubleshoot?
+3) if pod frequent restart happing how to troubleshoot?
+4) my end user when they tying to access only spefics 3, 4 service there is bick and they are getting timeout frequentry 
+how to trouble shoot?
+5)i have dataase postgress, i need to run in kubernatics, store permanetaly, how i spore permanantaly?

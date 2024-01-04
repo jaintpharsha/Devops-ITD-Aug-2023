@@ -1,0 +1,119 @@
+  1  * what is Terraform
+  2  * What all resources u created using terraform
+  3  * What are module in tf
+  4  * How u maintain tf
+  5  * How u maintain different providers in tf
+  6  * Terraform Architecture
+  7  * Write Terraform script Security group to allow 8080 and 8090
+  8  * Terraform taint ?
+  9  * Dynamic block in terraform ?
+  10 * Local block ?
+  11 * Terraform commands
+  12 * Diff between terraform run and apply
+  13 * Exactly what will happen in backend, when you run terraform commands
+  14 * Null resources in terraform
+  15 * Terraform D
+  16 * What are plugins you used in terraform
+  17 * Which all plugins you used in your project
+  18 * What do you mean by provider
+  19 * How will you ignore duplicate resource error
+  20 * Built-in provisioners in terraform
+  21 * Write a terraform script to create any resource in AWS?
+  22 * Terraform statefile
+  23 * terraformmodule code for ec2 instances, vpc, 2 subnets and s3 bucket?
+  24 * Terraform code for VPc
+  25 * terraform code for load balancing
+  26 * explain how you loop in terraform. in what scenario have you used it. Explain
+  27 * How many terraform scripts u have written
+  28 * What are the things you done with terraform
+  29 * What's tf state file
+  30 * Statefile 
+  31 * Terraform plan  
+  32 * Modules in terraform 
+  33 * how to use terraform in AWS
+  34 * explain commands of terraform
+  35 * explain statefile
+  36 * how to use terraform file to spinup resource in AWS
+  37 * differnece between ansible and terraform
+  38 * advantages of terraform
+  39 * what are the file present in root module
+  40 * explain terrafrom modules
+  41 * explain terraform variables
+  42 * how do you take value from the output variable and use it in the modules
+  43 * why do we use statefile
+  44 * what will happen fi state file is lost
+  45 * what is terraform backend
+  46 * expalin terraform code to create ec2 instance
+  47 * recent version of terraform?
+  48 * how will implement if else condition in terraform? Basic syntex for terraform loops
+  49 * what is remote backend in terraform?
+  50 * Terraform vs Ansible
+  51 * Can terraform be used for onprime?
+  52 * How do you connect ansible from terraform?
+  53 * Terragrunt?
+  54 * How do you test your terraform files?
+  55 * Terraform statefile
+  56 * how do you ensure other people are working the same set of state file in terraform
+  57 * how do you manage different environments with different statefile 
+  58 * how do mange same set of code for different environments in terraform
+  59 * how to protect state file in Terraform
+  60 * Ec2 instance spin up in Terraform (ami,instance type ,pem , count )
+  61 * Terraform state list :list resources
+  62 * What are the use
+  63 * If 2 people are running the script at the same time then how terraform state file wil work?
+  64 * If the statefile is deleted, what will happen?
+  65 * If someone removes instances from portal n if he run the terraform projects, what will happen?
+  66 * Ansible play vs playbook vs task
+  67 * Why Ansible ? 
+  68 * We can also do cloud provisioning in Ansible but why terraform? cases in terraform with respect to ur project?
+  69 * Terraform state
+  70 * Using Terraform configure VPC ?
+  71 * Terraform Architecture
+  72 * Write Terraform script Security group to allow 8080 and 8090
+  73 * Terraform taint ?
+  74 * Dynamic block in terraform ?
+  75 * Local block ?
+  76 * where you are storing terraform file.
+  77 * I donot have backup and terraform file corrupted how do you take backup.
+  78 * what are the terraform change applied. what command you are using
+  79 * how do you apply for selective file for selective apply . which command we can use
+  80 * how do you overwrite a variable define in a module
+  81 * are you aware of terraform modules
+  82 * statefile ?
+  83 * how to use TF to spin up resources in AWS
+  84 * how you create loadbalncer in terraform 
+  85 * explain some Terraform  commands 
+  86 * What is data source
+  87 * How you can querry data source module
+  88 * What's terraform statelock
+  89 * How to override statelock
+  90 * What is Terraform validate
+  91 * What is Terraform output file
+  92 * How to querry the output file
+  93 * Explain terraform variables
+  94 * What's remote state
+  95 * have u worked on terrfaorm ?
+  96 * commands in terraform?
+  97 * What u have done on terraform? 
+  98 * What are input variables? How u have used it?
+  99 * How u have used output variables?
+  100* Do u know local variables?whats the importance?
+  101* What are the data types u know? 
+  102* Loops in terraform ?
+  103* What u mean by maps in terraform ?
+  104* what is terraform import?
+  105* Terraform statefile , taints , provider , terraform init
+  106* How to write terraform configuration to run on different cloud platform AWS,  azure , gcp 
+  107* How do you pass output variables from AWS instance provider to use in azure provider 
+  108* Open notepad and write terraform configuration for ec2,  vpc , folder structure
+  109* Terraform commands 
+  110* You have instance configured which is not terraform provisioned in dev , u want the same type instance to be provision in test env - using import terraforming
+  111* Terraform concepts
+  112* Resource type for vpc, ec2 instance, security group and what all components required to create it
+  113* Terraform Init and plan diff
+  114* Write terraform modules
+  115* How can I get back my deleted/ lost terraform state file
+  116* u have create a instance through terraform as t2 medium and someone has changed the instance type as t2 large on cloud.what happens when
+  117* you run terraform apply now?
+  118* terraform scripts for rds provisioning?
+  119* diffrence between provisioners and providers, architecture of terraform

@@ -1,0 +1,35 @@
+Airspan 
+Duration: 50mins
+Questions 
+1. You were part of how many member team
+2. Day to Day which are the tools you are doing hands-on
+3. What's your exposure to Python programming
+4. How Well your Excellence in Shell scripting
+5. What would be your rating on Jenkins
+6. Difference between Declarative and Scripted Pipeline
+7. Advantage over Scripted Pipeline
+8. Did you get a chance to build jenkins server from scratch on what occasion you built jenkins server 
+9. What is Sandboxing Environment
+10. Jenkins Master Slave structure , what are the agents you use 
+12. On what server you have installed Jenkins 
+13. What is the milestone in DSL
+14. Jenkins Shared Libraries
+15. How did you troubleshoot Jenkins Job on its failure 
+16. Do You have any multibranch pipeline in your organisation on any environment
+17. What is the significance of multibranch pipeline / do you know how multi branch pipeline works
+18. As a Devops operation on what capacity you used git and git hub
+19. Git rebase and git merge
+20. git fetch and git pull
+21. In your current project what is the branching strategy that you are following 
+22. Git Cherrypick 
+23. Which operating system that you are most comfortable working with 
+24. How to find out routing table in linux 
+25. shebang what is its signifacance
+26. how do you debug a Shell Script
+27. Docker Containers how does it run in the background
+28. Kubernetes namespace
+29. Version of Kubernetes Using
+30. cluster role in kubernetes
+31. how kubernetes differ from docker 
+32. on what capacity you are working on terraform 
+33. on what level you have automated your infrastructure using terraform

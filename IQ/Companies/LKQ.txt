@@ -1,0 +1,41 @@
+LKQ
+
+Questions
+1) introduce yourself
+2) what is ingress controller
+3) what is deployment
+4) what is replica set
+5) what hpa in k8s
+6) how to check logs in k8s
+7) what is cni
+8) which cni you are using in k8s
+9) how u mount docker volume
+10) how ll u clear perticular docker container in docker overlay by using which command
+11) how ll u attach docker volume to container
+12) what is the difference between cmd and ENTRYPOINT
+13) how ll build docker container using docker file
+14) how ll u push docker image to registry
+15) how ll take backups in je xdnkins
+16) which scripting you are using in pipeline
+17) what are the stages of declarative pipeline
+18) suppose you are accessing jenkins server but it is not giving access, you have enabled jenkins ports in security group alsowhat could be the reason
+19) what is the port number of dns
+20) what is the port number of ssh
+23) what is the port number of https
+25) what is the port number of telnet
+26) if suppose you are working on ec2 instance checking the mounted volumes suddenly system get stuck, you have restarted service then if you checking mounted volumes means you will  can not get mounter volume now. What could the reason and how ll u troubleshoot it
+27) how ll u check process id of perticular process
+28 ) suppose jenkins server is running, you are running top command in ec2 instance to know the process id and resource utilization but jenkins server name is not showing in output console. How  ll u troubleshoot it. And what is your approch
+29) what is the difference between tcp ans udp
+30) which is faster between tcp ans udp
+31) do you know bash scripting
+32) what do mean by terraform init
+33) which version linux ubutu you are using
+34) what do mean by git stach
+35) how to go to 5 line of code in git
+36) what is lambda in aws
+37) if suppose any process is stuck in linux environment how ll troubleshoot
+38) how networking is configured in kubernetes
+39) how to know mount file system in linux
+40) how to check logs of stopped container
+41) if suppose you starting jenkins server by command kubectl start jenkins but you are getting error like failed. What could be the reason. How ll u troubleshoot it.

@@ -1,0 +1,15 @@
+Telus
+	Duration: 18min
+	Interviewer_name: Roshan Singh
+	Questions: 
+	1) Tell me about yourself And day to day activities.
+	2) What is VPC peering and why are we needed?
+	3) How do you connect VPC peering for two accounts?
+	4) What are other methods to connect two accounts than VPC peering?
+	5) How do you create multiple CIDR in a single VPC?
+	6) What is a load balancer?
+	7) In which load balancer can we assign IPs?
+	7) What is the use of target groups? 
+	8) In the EC2-instance have you used user data scripts?
+	9) What is the purpose of inbound and outbound in security groups?
+	10) How do you restrict the specific user from the s3 service?

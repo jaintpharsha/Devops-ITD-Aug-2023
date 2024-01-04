@@ -1,0 +1,18 @@
+Relevancelab
+Interviewer : rajesh
+Duration : 30 minutes
+Questions :
+1) introduce yourself
+2) experience in automation tools
+3) write any script you have written in production environment
+4) if perticular build fails in jenkins due to plugins how ll get resolve it
+5) write a shellscript to find perticular file and delete it
+6) what are the environments you have worked in production
+7) what are the services you have worked in aws
+8) how ll u do migration in aws from on premises to aws cloud
+9) if perticular build fails in jenkins how ll you identify and resiove it
+10) what are the common issue you have faced in scm
+11) if suppose new developer has joined your team how ll give acces to him git for writting code
+12) what are the challenges you have faced while writting shell scripting in production
+13) if suppose your build is fail in jenkins due to outdated plugins you were unable to resolve it. How ll u concern issue with client
+14) he has asked most of scenario based question
