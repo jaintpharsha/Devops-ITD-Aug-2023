@@ -1,0 +1,58 @@
+Epam
+
+1) introduce yourself
+2) day to day activity
+3) what is the default port number of ssh
+4) how do we change ssh default port number to any other port number
+5) what is the default jenkins port number
+6) how do u change jenkins default port number to any other number
+7) difference between git pull and git gut fetch
+8) what is rebase
+9) what is the difference between merge and rebase
+10) how will set up multibranch pipeline
+11) how will you migrate multibarch pipeline running server to other server
+12) if inodes are full what will be the impact
+13) where ll u keep your state file in terraform
+14) what is the difference between local-exec and remote-exec
+1 5) what is kubelet
+16) how ll you know kubelet is working or not
+17) how ll u configure liveness probe and readiness probe.
+18)how will u setup terraform state file in backend
+19) in which folder our named files will be saved in linux
+20) write a script to type number from 1 to 100.
+21) what ll happen when etcd becomes down
+22) how ll monitor liveness probe and readiness probe.
+23) in git if u commit a mistake how ll u rectify.
+24) how to change the default port number in jenkins with using aws.
+
+EPAM
+1.Tell me about yourself and tell about the roles and responsibility. 
+2.list all the users in linux
+3.I want to change port no of SSH . 
+4. What is git pull and git fetch. 
+5. What is git stash
+6.What is the difference between git revert and git reset. 
+7.what is git rebase and git merge 
+8.write a pipeline for parallel execution
+9.how to do master slave configuration. 
+10 . What is port no of jenkins. 
+11.How to change the port number of jenkins
+12.what is multi branch pipeline
+13.what is dockerfile and how to reduce image layers. 
+14.what is k8s arch
+15.what is liveness and rediness probes. 
+16.if your pod have oos issue then what you do. 
+17.how to resolve if you have face the issue of crashloop
+18.what is the difference between private and public subnet. 
+19.How to get access of private subnet. 
+20. What are the other way to access private subnet except Baishton host. 
+21 in which condition peering is not done. 
+22.what are the VPC endpoints. 
+23.what is cloud watch. 
+24. If you have lost your keypair then what you do in that situation. 
+25. What is a statefile. Write a tf file. 
+26.Write a shell script to print 1 to 100. 
+27.Write a shell script to print that number it not divide by 11.
+
+
+

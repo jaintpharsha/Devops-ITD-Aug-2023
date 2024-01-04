@@ -1,0 +1,43 @@
+  1 * What all the things have you done on ansible?
+  2 * Roles in Ansible ?
+  3 * How you will call an handler in a task ?
+  4 * What is ansible registery ?
+  5 * How to use web command to run a loop in ansible ?
+  6 * Ansible playbook
+  7 * Role in Ansible
+  8 * about Ansible commands 
+  9 * how playbook works in ansible.
+  10* how to maintain inventory in ansible
+  11* explain Ansible Ad-Hoc Commands
+  12* write a palybook and explain it
+  13* what is ansible role
+  14* what are the types of inventory in ansible
+  15* Ansible: how do you call a playback inside another playbook: import it 
+  16* Tasks ,image or file name(yaml), notify  handlers
+  17* What are the used case scenarios for Ansible in ur project?
+  18* Command to ping a server in ansible.
+  19* ansible: what kind of work you configure. why you prefer Ansible.
+  20* different between chef & Ansible
+  21* any one reason could you give where we use chef than ansible
+  22* ansible galaxy and ansible tower
+  23* have you worked on Ansible 
+  24* explain Playbook 
+  25* roles in Ansible
+  26* ansible tower
+  27* ansible playbook
+  28* ansible role
+  29* types of inventory
+  30* Ansible questions: inventory file, playbook architecture 
+  31* How are you using ansible in your project
+  32* On how many server using ansible u have done configuration.
+  33* What all u know about ansible
+  34* How do you copy output of one playbook as input to another playbook
+  35* How do you include 2, 4, 6 tasks of one playbook to another playbook
+  36* If i have 2 ansible roles, how will I copy output of one role to another role
+  37* handlers in Ansible
+  38* Explain how you set up Ansible
+  39* Which extension does those plugins have
+  40* explain Playbook 
+  41* roles in Ansible
+  42* write ansible playbook for service and install modules
+  43* how to copy the files from remote to local in ansible?

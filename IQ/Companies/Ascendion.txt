@@ -1,0 +1,20 @@
+Ascendion
+	Duration: 27min
+	Interviewer_name: Prakash
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) What are awk and sed commands and use cases?.
+	3) What is the zombie process in Linux?
+	4) Write a shell script to arrange files in descending order?
+	5) Which current Jenkins version are you using?
+    6) Explian declarative file in Jenkins file?
+    7) How will achieve a particular node only run in Jenkins?
+    8) What tool do you use to take backup of Jenkins job and plugin?
+    9) What is maven check-in and clean will do?
+	10) How will deploy ec2-instance in 4 different environments by using Terraform?
+	11) What is diff btw variables.tf & tf.vars and which is as highest residence?
+	12) What is a sticky session in a load balancer?
+	13) What is diff btw gp2 v/s gp3 in EBS?
+	14) What are EKS and ECS in AWS?
+	15) How will take the backup from the terminated container in the docker?
+	

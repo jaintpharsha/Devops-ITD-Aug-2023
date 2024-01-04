@@ -1,0 +1,247 @@
+  1  * I have an application, how you will setup a VPC ? what all the components you use ?
+  2  * Where you will set the Route Table ?
+  3  * Services used in AWS ?
+  4  * How can you make any S3 bucket as private ?
+  5  * Cross region replication ? how you apply it ? will it copy automatically ?
+  6  * S3 transfer accereration ?
+  7  * Read replica
+  8  * Suppose you create Auto scaling group and in launch conf you specify as 3 instances, then the all the 3 instances are running in full capacity ? 
+  9  * will the applciation fails or  it will be running ? Do you think AWS will provide new instance ?
+  10 * How to you manage credentials ?
+  11 * If credentials icon is not available? What you will do?
+  12 * You are working on EC2 and that goes down and how do you resolve this ?
+  13 * You want to give a access to a EC2 and you have only pvt key and how do you enable him to access the EC2 ?
+  14 * EKS ?
+  15 * VPC ? suppose I have a server, need to download the packages from the internet, but sever should not be accessed directly from outside ? how you can do that
+  16 * 2 AWS accounts, my EC2 of 1 account should talk to my another EC2 ? How ?
+  17 * IAM ? I have 10 instances, how do you give access to user for only 5 resources ?
+  18 * Cross region Route53 ?
+  19 * Health checks in Route53
+  20 * DualStack configuration in Route53
+  21 * what is S3 and why customer choose S3 ?
+  22 * When the jar is created, how will you push it to S3?
+  23 * dynamoDB
+  24 * vpc architecture
+  25 * why we need ELB & how you select which type of loadbalancer suitable for my application.
+  26 * crosszone Loadbalancer
+  27 * cloudwatch & cloudtrail
+  28 * How many aws account you have managed?
+  29 * How many aws account you have managed?
+  30 * client has different data centers on different locations. if your client has 50 aws accounts now there is a requirement to establish a connectivity so that the application which is hosted in data centers servers can easily communicate with applications (or) resources which are hosted on different vpc and diff aws accounts so how you are going to establish the connection 
+  31 * customer has 50 (or) 100 odd aws accounts they are looking for a solution so that each and every single vpc can communicate with each other how you are going to establish that connectivity?
+  32 * customer has a physical side production environment (or) workloads are running on aws there is 1 particular Ip/CIDR which is continously hitting their environment multiple times in a day they are suspecting that a malicious activity they are asking you to block any kind of a traffic from a Ip/CIDR how you will going to block them?
+  33 * CIDR for 15 ec2 instances , 2 subnets 1 private and 1 public , write CIDR ranges 
+  34 * you have created one server in a private subnet now you have given the Ip address to me. I am the person who will install some softwares (or) configurations on that server. I am siting infront of my laptop i am complaining you that i am not able to access the machinefrom my laptop how you can resolve it?
+  35 * how you can access a machine without a .pem key?
+  36 * if you create a transit gateway what exactly you will define in attachments?
+  37 * how your sharing the key  for a group of 4 members & these 4 members will be logged in from same username after 4/5 days customer complaining that a file deleted how can you track back who did what?
+  38 * what instances you are using in your project? why particular those instances?
+  39 * customer is asking you to change the instances family to 2 ec2 instances which are part of the autoscalling groups siting on a load balancer & the condition is they are not looking for new instances and none of the instances to be deleted how your going to change the instance family of these 2 instances?
+  40 * what kind of individual contribution load that you have played in your experiance on aws? what kind of issues you have resolved? what kind of troubleshooting you have performed?
+  41 * pre signed url in s3?
+  42 * different routing policies in aws? which policy you have used for your project?
+  43 * diff b/w cname and alias?
+  44 * what record used for dns to ip?
+  45 * any experiance with lambda? any experiance inwriting lambda functions?
+  46 * what is API gateway why we need it ?
+  47 * How you bind role to account ( script explain)
+  48 * how you configure autoscaling and cloud load balancer
+  49 * Where your application is running EC2 or EKS
+  50 * Why your team went manual instead of using EKS
+  51 * Security group  ,nacl 
+  52 * Ecs 
+  53 * Ec2 s3 iam roles
+  54 * Lambda 
+  55 * aws instances
+  56 * difference between nat instance and nat gateway
+  57 * loadBalencer
+  58 * aws VPC components
+  59 * what are the DB you are going to use
+  60 * about lamda
+  61 * difference between network lb and application lb
+  62 * about Route 53
+  63 * about autoscalling
+  64 * how to use terraform in AWS
+  65 * how will you restric inbound traffic when outbound traffic in open
+  66 * what is vpc and vpc perring
+  67 * How will an instance present in Oregon can access a S3 bucket present in Sydney without any manual intervention?
+  68 * (only the ec2 shd b able to access the S3 without any user involved in it,)
+  69 * One ALB with 2 instances A and B and ALB is mapped with 2 website site1 and site2,
+  70 * Can we configure requests which comes to site1 mapped to instance A n site2 to instance B.
+  71 * Can we achieve this behaviour using ALB?
+  72 * I have one S3 bucket in which im going to upload 3 files, one with 2TB, 4.9TB and 5.1TB.
+  73 * So how many files will get uploaded into S3 bucket?
+  74 * I have 10 ec2 with ALB, each of the instance have 100GB EBS vol. One instance memory utilisation has crossed 80% 
+  75 * and manager asked u to increase the vol to 1TB with zero downtime for all instances, how will u do that?
+  76 * In RDS, we have parameter group and an option group, whats the diff?
+  77 * I have 2 subnets in VPC, how can I know which subnet is public?
+  78 * There is a public IP and u have to restrict all type of access for this publicIp, how will u do that?
+  79 * How does S3 bucket talk to NAT Gateway?
+  80 * Which AWS service will be best suited for persistent vol for a specific pod in a cluster which wil b catering 10000 requests.
+  81 * Data shd b accessible at all point of time? S3 or EBS or EFS drive
+  82 * How will migrate the app from onprime to AWS Cloud
+  83 * Suppose I have multiple accounts and need to create AWS infrastructure? How can I do that
+  84 * Which type of instances are using in AWS
+  85 * There is surge in traffic how you will maintain frontend and backend?
+  86 * why we have to use SSL certificate 
+  87 * dynamoDB
+  88 * vpc architecture
+  89 * why we need ELB & how you select which type of loadbalancer suitable for my application.
+  90 * crosszone Loadbalancer
+  91 * cloudwatch & cloudtrail
+  92 * Suppose you have ur dns in one server example xyz.com and one more asdf.com in another computer server how your server xyz.com knows asdf.com also your how you do that
+  93 * Vpc 
+  94 * Public subnet private subnet
+  95 * Cloudtrail
+  96 * If we have like 100 servers in that 1-2 server failing how do you find out which one is failing
+  97 * Best practices for securing Ur aws
+  98 * how do you configure ec2 for high availability 
+  99 * what are options aws provide for highly availiable ec2 if get trouble in one environment 
+  100* what are different configuration used for do autoscalling
+  101* how do you ensure that multi AZ configuration
+  102* how can we connect s3 through vpc privetly
+  103* how can we execute round robin waited routing of route53
+  104* how can you search for particular error in K8s cloudwatch
+  105* Apln load balancer :
+  106* User data ,meta data
+  107* Listener target 
+  108* Cross zone load balancing 
+  109* Application load balancer , classic network; disable ,pricing
+  110* Bucket policy , access control 
+  111* Autoscaling ,cloud watch alarm ,;predictive
+  112* Cool down period (waits)
+  113* Default encryption algo is base 64 
+  114* Ingress ,loadbalancer
+  115* Stateful sets ,static ip
+  116* Have you used INSTANA?
+  117* agroCD
+  118* AWS glue?
+  119* Servicemesh?
+  120* SQL vs No SQL
+  121* In aws, i have an instance which is critical machine that cant go down and its reaching 100% cpu utilisation.
+  122* what are the steps that u r going to take to save this machine from going down?
+  123* I have a ec2 instance, I want to change the private ip of that instance, can I do that?
+  124* Can I change the private ip of running ec2 instance?
+  125* I have a S3 bucket which my client want to track the access for internal audit.
+  126* How can I track the access on my S3 bucket?
+  127* For what purpose cloudtrail is used?
+  128* I have an instance n db connected to this instance is on prem. how can I connect my application to on prem database.
+  129* How will u connect aws with on prem database?
+  130* nacl & security group
+  131* nacl will be having inbound & outbound.. is it any configuration have to do manually
+  132* traffic flow from NAT gateway to IGW
+  133* traffic flow how cross NACL, SECURITY GROUP, NAT gateway 
+  134* Why NAT gateway why  we cant NAT instance?
+  135*  In aws, i have an instance which is critical machine that cant go down and its reaching 100% cpu utilisation.
+  136* what are the steps that u r going to take to save this machine from going down?
+  137* where u involved in the production release of ur application? are u deploying any application
+  138* what is the deployment strategy that is used in ur company and other stratgies that u know?
+  139* How you will spin up VPC
+  140* How you were using cloudwatch
+  141* Services used in AWS ?
+  142* How can you make any S3 bucket as private ?
+  143* Cross region replication ? how you apply it ? will it copy automatically ?
+  144* S3 transfer accereration ?
+  145* Read replica ?
+  146* Suppose I have 1 master and 2 replicas, master crashes and what will happen to replication ?
+  147* In case there is only one master and fails, application runs or failure ?
+  148* Suppose you create Auto scaling group and in launch conf you specify as 3 instances, then the all the 3 instances are running in full capacity ? will the applciation fails or  it will be running ? Do you think AWS will provide new instance ?
+  149* How to you manage credentials ?
+  150* If credentials icon is not available? What you will do?
+  151* You are working on EC2 and that goes down and how do you resolve this ?
+  152* You want to give a access to a EC2 and you have only pvt key and how do you enable him to access the EC2 ?
+  153* steps to spin up EC2 instance on linux server
+  154* why Loadbalancer required
+  155* where you are storing your application in cloud
+  156* have you setup master & slave in jenkins? why slave machine required
+  157* cloud watch
+  158* do you have experience in lambda function & use case of lambda
+  159* when its advicable to use vpc endpoint or IGW
+  160* we have deploy an application in EC2 so i want to block few http ip address
+  161* have experience with docker images. you deployed into AWS?
+  162* tell me  about lambda syncronous and asyncronous using word configuration.
+  163* how to create static website in s3
+  164* what are the use cases you used in s3
+  165* what are the use case of lambda. how you have used in your company
+  166* explain complete setup of VPC how you are configure
+  167* s3 is general, why we have to go for cross region. 
+  168* Difference between public subnet and private subnet
+  169* What is ENI
+  170* How to connect two vpc
+  171* How to upload files to S3 bucket
+  172* How do you give access to S3 buckets
+  173* Different kinds of load balancer
+  174* Difference between alb n nlb
+  175* Difference between TCP and UDP
+  176* terraform for AWS lambda
+  177* S3 encryption
+  178* how other team member access S3
+  179* how u have used IAM
+  180* how encryption takes place in S3 for the team user operating on S3.
+  181* cloudwatch vs cloudtrail
+  182* Cost analysis for AWS services.
+  183* Which are the AWS services that you have used?
+  184* Waht are the limitaions of SNS services?
+  185* How you monitor unhealthy instance using cloud watch?
+  186* NAT gateway?
+  187* Router?
+  188* subnetmask? which one has more ip values 24 or 25? 
+  189* How to configure autoscaling not to happen too rapidly?
+  190* AWS- vpc , ebs and s3 diff
+  191* Lamda function how u used in project
+  192* Ec2 trouble shooting if u r not able to login 
+  193* EKS
+  194* Which region ur applications are hosted - tell atleast two regions 
+  195* Which region kubernetes cluster set up
+  196* CDN in AWS- cloud front
+  197* In real time examples for cloud front
+  198* Have you deployed any application to S3 bucket.
+  199* What kind of data stored in s3 bucket- dynamic or static
+  200* Types of servers used : app and web server Configuration details for jboss server
+  201* ALB 
+  202* Target groups and autoscaling groups and difference betn them
+  203* Diff betn subnet and security group 
+  204* AWS fargate 
+  205* Single thread in AWS lambda
+  206* what is SNS used for?
+  207* Can we check disk space n usage from cloud watch ?
+  208* In general section ec2, they have separate section on CPU credits, what are CPU credits on ec2?
+  209* There are 2 major classification of ec2s, that is shared and dedicated. What is the diff between them?
+  210* VPC peering
+  211* VPC endpoints
+  212* How you monitor complete e commerce website
+  213* How you provide authentication and authorisation for users using your e commerce website
+  214* What are the services you used in AWS
+  215* How monitoring using promotheus and grafana works
+  216* How you will give access using Iam to a user who wants to access only Jenkins master
+  217* how do u configure cloudfront
+  218* You are building a solution for a customer to extend their on-premises data center to AWS.
+  219* The customer requires a 50-Mbps dedicated and private connection to their VPC. Which
+  220* AWS product or feature satisfies this requirement?
+  221* Which DNS name can only be resolved within Amazon EC2?
+  222* What does Amazon CloudFormation provide?
+  223* diffrence between the cloudformation and terraform
+  224* have you deployed in diffrent regions ? how many availability zone ur using for application? why excatly those azs only
+  225* distastive recovery in aws ?
+  226* how to protect the aws through disaster
+  227* if you have diffrent aws account how you will do the deployment? multi region deployment?
+  228* how using route 53 route the traffoc to diffrent regions
+  229* how your created vpc , how many type of subnets u have in compnay? 
+  230* how will acess the database from the public subnet
+  231* what are the nacl rules u have allowed for your application?
+  232* what are the ports you have used for accesing data base for your application?
+  233* how access the database like mysql , how you will define the port for database? how you will do that
+  234* where will you define the port?
+  235* how you will protect your system so that no one can acess the system?
+  236* how do ypu check how much memory is consumed once you configure the autoscaling ? where will be logs stored 
+  237* how ur acess the api gateway ? diffrence between load balancer and api gateway
+  238* how do we pass the credentials for api gateway? how do we pass for web browser?
+  239* how do you check the cloud watch logs through ec2 instance ? how do you check ?
+  240* how to check the logs of application in ec2?
+  241* if the logs size reaches the maximum capacity how ur going to manage, snapshot and ami are not the solution how you do it
+  242* how do you mount the ebs volume permanantly
+  243* aws cloundFront 
+  244* diff between EKS and ECS
+  245* s3 storage classes and diff bw standard and glacier storage class
+  246* types of ELB
+  247* how will check when you are unable connect to ec2 instance from your local system 

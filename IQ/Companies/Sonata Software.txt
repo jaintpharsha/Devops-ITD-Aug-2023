@@ -1,0 +1,114 @@
+Sonata Software
+
+1. jenkins how many stages is there
+2. i want to deployment kubernating wise pipelines after docker ocnce you pull it how w=you will use
+3. which plugins requere for kubernate in jenkins 
+4. kubernates i want to deploy pod manually on some respective label
+5. terraform main diff between provide and provision  
+6. i have multiple envirments deploy and staging when i run the terraform apply i want to run only some respective in 
+	productions how to achive
+7. work space in terraform 
+8. ansible task applcable(task in ansible)
+9.  where you can use ansible in your pipeline
+10. loadbalance what are type and objects ?
+11. i have s3 bucket i want to restrct user to upload 
+12. load balance otte scalling groups 
+13. can we place load balancer in autoscalling?
+14. what is iam roles and iam groups
+15. what is gio torgetting in cloud frount 
+16. can you names aws services not reason specific 
+17. jenkins what the diffrent type of pipelines 
+18. entire pipelines 
+19. how to intregrate plugins in jenkis 
+20. access the secrate in the pipeline jenkis write code
+
+Sonataone
+Questions
+1) introduce yourself and explain your day to day activity
+2) difference between provider and provisioner
+3) what is loadbalancer and types of load balancer explain
+4) where ll u store state file in terraform
+5) how will manage file locking in terraform
+6) if you loss state file. How ll u get state file back and which command ll u use for it.
+7) how ll u push docker images into kubernetes cluster
+8) how ll u integrate jenkins with kubernetes
+9) where ll u configure load balancer in your project explain the process
+
+1) tell me about yourself
+2) basic questions on terraform
+3) scenario based questions on terraform
+4) scenario based questions on aws
+
+Sonata Information Technology Limited
+	1) Tell me about yourself And day to day activities.
+	2) Can you highlight any troubleshooting experiences.
+	3) How do you fulfill the high availability application with limited resources or How maintain zero downtime.
+	4) How does AWS RDS ensure its reliability in large volumes date coming?
+	5) what is aws migration?
+	6) Any cloud watch experiences.
+	7) What about your work experiences with ELK, stake, S3 & EBS.
+	8) Can you explain CI/CD process and automation.
+	9) What kind of issues are faced in the pipeline?
+	10) What are ways to trigger the pipeline?
+	11) How will you integrate Git with Jenkins?
+	12) How will you resolve the merge conflict in Git?
+	13) When you use git reset, rebase & revert?
+	14) What is the purpose of docker-compose?
+	15) Can you talk about Kubernetes architecture?
+	16) Can you talk about the Ansible playbook and tasks?
+	17) Can you write the essential Linux commands that are used in job operation?
+
+Completed interview with sonata.
+Interviewer : sanaya
+Duration : 40 minutes
+
+Questions
+
+1) introduce youself
+2) have you involved in deployment in your comany
+3) if suppose traffic has increased insteadly and pods became unhealthy and you are getting crashloopback error. how will make sure that pods become healthy in this case
+4) have you worked on self managed and aws managed cluster
+5) how will you deploy self managed cluster
+6) how will you upgrade kubernets cluster.
+7) if suppose we want to schedule pods on perticular worker node. How will you achieve this
+8) what kind of issues you have faced in deployments.
+9) what is the difference between nacl and sg
+10) what is the difference between s3 and efs
+11) what is the difference between ebs volume and instance store
+12) how will you provide security to your application in ec2
+13) what kind of deployment you were done
+14) where will you configure nat gateway in vpc 
+15) how will you connect s3 to ec2 instance
+16) if suppose ec2 instance in one account and s3 in other account. How will establish communication between these two.
+17) how will you provide security at subnet level and instance level
+
+Completed interview with sonata
+Duration 50 minutes
+
+Questions
+
+1) tell me about yourself
+2) have you worked on self managed cluster and eks
+3) components of masternode
+4) how ll u set up EKS cluster
+5) in EKS who has control over control plane
+6) what is affinity
+7) lets consider a test enviroment test 1 and test 2. I want to move pods from test1 to test2 environment without impact on application
+8) lets consider test environment with 4 namespaces there t1 t2 t3 t4. If suppose i want to schedule a pod on t2 only. How ll u achieve this
+9) how to know kernel version
+10) mention types of ebs
+11) what is the difference between perment mount and temporary mount
+12) what do u mean by glacier
+13) lets consider a scenario, we are storing data from ec2 instance to s3 bucket 1TB daily. After few days we realised that network transfer cost would be very. How ll you optimize network data trasnfer cost here. What is your approach
+14) what is the workflow of terraform
+15) suppose you have created a ec2 instance by terraform script but someone has changed port number and in security manualy how ll you troubleshoot this
+16) can we attach ebs volume to multipla instance
+17) suppose you have 3 users x y and z, how you ll know password expire of person x
+18) suppose you have created jenkin of m5.medium instance box by using terraform. Suppose you have to changed m5.medium to m5.large and applyed terraform apply command what will happen in this case
+19) which is less cheaper storage class as compare to glacier
+20) suppose some has deleted some files among multiple user. How ll u restrict this at server level
+21) how ll u validate script in terraform
+22) what is lsof
+23) how ll u restrict perticular port at security group level
+24) how to change the private ip of running ec2 instance
+

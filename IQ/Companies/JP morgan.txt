@@ -1,0 +1,14 @@
+JP morgan
+
+what is need for rounting table and security ?
+what is net gateway?
+git central reposotory?User
+how do you manage securitiess ?
+what pluggin use to connect kubernatics in jenkins ?
+what is k8s cluster setup?
+User
+what is the diff module and providers ?
+what is the best way to structure terraform projects ?
+day to day linux task for devops ?
+shell script example and write codes 
+how to increase the harddish capacity in aws instance?

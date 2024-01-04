@@ -1,0 +1,10 @@
+Tech mahindra
+
+write jenkinsfile for 3 stages
+write dockerfile to install https
+non region specific AWS services
+Linux commands
+boot process in Linux
+what is docker compose
+how to access Ec2 without pem.k
+role and policy for access S3 from Ec2

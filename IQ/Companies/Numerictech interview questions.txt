@@ -1,0 +1,8 @@
+
+Numerictech interview questions
+1. Write a helm chart to deploy a Java application
+2. How do configure multi branch pipeline
+3.What is container orchestration
+4. Senerio based on IAM role jeson format
+5. What are the automation you do in your project
+6. How to secure docker container

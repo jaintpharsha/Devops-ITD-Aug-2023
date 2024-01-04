@@ -1,0 +1,17 @@
+FIC cloud
+
+diff b/w daemonset & deployment
+statefull and stateless
+use of configmap and secrets
+diff type of deployment strategy
+what is taint and tolreation 
+how we define strategy in deployment
+diff b/w role and playbook
+explain playbook
+what is github action
+explain k8s  archecture
+what is .tf state in terraform
+responsibility as a l3 engineer
+which toll we use for monitoring
+explain change and incident management
+why we use headless service in k8s

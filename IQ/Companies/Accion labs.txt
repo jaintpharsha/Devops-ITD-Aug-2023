@@ -1,0 +1,66 @@
+Company : Accionlabs
+Duration : 15 minutes
+Interviewer : guruvaih
+Interviewer said Company wants SRE profile. 
+Said.
+Questions :
+1) grafana
+2) ELK
+3) what is your approach, how to install docker inside a docker image.
+4) what is service mesh in kubernetes. 
+5) if we are using 1000 of server means it ll take lots money. How ll u optimize cost.
+6) how ll u install libraries in ubantu image
+
+ Accions labs
+what exactaly jenkins pipelines ?
+how jenkins connect kubernates and plugins  using plugins?
+write jenkins pipe lines
+how to monitro kubernetive cluster?
+heml chart design kubernatics and premathuse ?
+design a heml chart?
+what kind of database premathues use?
+and why we use 
+why use ansible in project?
+write ansible playbook?
+terraform and ansible diffrent?
+network loadbalance and application laod balancer?
+
+Accion Labs
+how to intall setup of kubernets ec2 instance?
+basic componets of k8s?
+how build used to happen in jenkins?
+diffrence btw diclative and scripted pipe line in jenkins give solutionn side by side
+there is merge conflict to raise pr, how we can resolve that?
+there are two commit adocker command and explain ?
+nd both are identical how we can fix?
+i have k8s installed on azure service at time load and image getting pulled and less server is there to clean up i have to write only linux command.
+what is default port for tomcat server
+how was tomcat use in which senario?
+sprint?
+jira what purpose we use?
+ansible write a play book that talk to window server?
+inventor file hold for window server?
+diffrence btw anscomppoents of terrafom architecture?
+ible and shef pupet?
+what information willl you provide for window server , ansible?
+docker file and what it must carry?
+there are two comitaner registory a and b, and i have image in a and need that in to copy in b, we can do that using docker command ?
+jenkins pipe line build the code i want to deployment from dev to production how we can do using docker command
+terraform, what are kind of script can be develop please write some of script?
+why terraform use for devOps?
+what is null resource in terraform?
+what are the compitator for terraform in aws?
+basic command of terraform,
+what is statefile in terraform?
+terraform tf statefile will be crated?
+what is security groups in aws, why we need?
+local exc provisinor?
+diffent label in central inforcement?
+log the state file, how we can do that?
+kubernatics, diffrence btw deamonset and statefull set?
+what are diffrent type k8s services?
+ngrex services?
+way restart pod?
+wap base script does rollout of deployment?
+keda?
+

@@ -1,0 +1,184 @@
+  1  * K8s write deployment spec
+  2  * Troubleshooting in k8s
+  3  * K8S architecture ?
+  4  * Diff bw container and the process 
+  5  * Suppose I have 1 master and 2 replicas, master crashes and what will happen to replication ?
+  6  * In case there is only one master and fails, application runs or failure ?
+  7  * How do you rate in k8s ?
+  8  * Name control plane of k8s ?
+  9  * Networking solutions on k8s ?
+  10 * Which network solutions are do you use in deployments ?
+  11 * In my cluster schedulers goes down completely ? what will happen to applications ?
+  12 * Can I create my scheduler ?
+  13 * Can I create my own controller manager ?
+  14 * What is static pod ?
+  15 * You create a deployment and app will deploy to a pod, both pods are up and running but traffic is directed to only one pod. Why and how do you troubleshoot it ?
+  16 * K8S archeticture ?
+  17 * Suppose POD is not coming up ? troubleshooting steps ?
+  18 * Network policies in K8S ?
+  19 * Suppose traffic has to go to the only particular IP ? or k8S cluster should accept the traffic from certain IP range ? How do you manage ?
+  20 * explain cluster IP service ?  WHY* ?
+  21 * can you create a service without a cluster IP ?
+  22 * Why k8S is given cluster IP ?
+  23 * Why k8s has given NodePort services ? can you access the traffic only to that nodeport from all the worker nodes or particular worker node?
+  24 * you are getting the traffic from outside and you have exposed a deployment or a pod to a node port and can you access it from all the worker node ?
+  25 * when a traffic hits a website, how the traffic will be getting into k8s cluster ?
+  26 * Deployment stratergies ? Explain how you were setting up logic in real time
+  27 * Write a deployment script with a service and end point for the application that is containerised as pod and 
+  28 * for that pod I need to create a service?
+  29 * By default, how much volume did the k8s give for the pod and what will be their size?
+  30 * k8s deployment file
+  31 * k8s configmap & secrets
+  32 * why we have to use SSL certificate 
+  33 * k8s services & types
+  34 * ingress 
+  35 * ingress controller
+  36 * how do I connect RDS to k8s pod
+  37 * are you provisioning infrastructure for k8s or you are maintaining the k8s cluster?
+  38 * there are 3 replicas sets of the service that is frontend service for an application customer complaining that they cannot see the home page of the application but you check on the k8s you come to know that respective pods are coming and dying very frequently within frequent seconds how you will resolve and troubleshoot it?
+  39 * are you managing the application deplouyment as in ci/cd devops pipeline or there is a different team managing the application deployments?
+  40 * customer is looking for microservice which is exposed to internet so what are the diff manifest files to support this behavior?
+  41 * which ingrss controller your using?
+  42 * Kubernetes setting up high availability cluster
+  43 * Troubleshoot cluster
+  44 * ingress how will you connect with load balancer
+  45 * what and all have you done using Kubernetes
+  46 * How you are using Kubernetes in your project
+  47 * Will you be able to work with us on Kubernetes, r u comfortable
+  48 * Troubleshoot cluster
+  49 * Troubleshoot node
+  50 * Troubleshoot pods
+  51 * what will you do if node is continuously restarting
+  52 * Where you are using kubernetes
+  53 * Explain basic manifest file
+  54 * Any idea what is ingress
+  55 * Setup ingress,is there any requisite you need to do?
+  56 * Which Ingress controller you are using
+  57 * Which all tools you use for deployment
+  58 * K8 Master node ,Worker node
+  59 * Yaml file
+  60 * Blue green stratery 
+  61 * difference between nodeport & clusterIP
+  62 * K8s architecture
+  63 * what is kube proxy
+  64 * what is ingress and egress
+  65 * what will kubectl do
+  66 * explain blue green deployment
+  67 * Replicaset and statefulset diff. Give an example for stateful set application?
+  68 * Diff betn configmaps and secrets?
+  69 * I have a pod with 3 containers inside it mysql,nginx and redis container n pod name abcd. what will be the default container placement
+  70 * strategy if we deploy this pod (one container on one node, or 2 containers on one node)?
+  71 * After deploying this pod, how will u check the logs for nginx container only? whole command
+  72 * How will u go inside the mysql container that u have deployed now?
+  73 * K8s arch
+  74 * Init and side car
+  75 * Demaon set?
+  76 * Services in cluster ?
+  77 * Ingress ?
+  78 * In k8s job is taking 10s to finish the job but if it is exceeding 10s how you can stop the job?
+  79 * Some maintenance going on pod and how you will drain the traffic?
+  80 * There are 2 Container in a pod and how can I access those container from the browser ?
+  81 * Can secrets be given for a running container ?
+  82 * One application and database pod how those will be connected ?
+  83 * How you are managing your secrets?
+  84 * How you make cluster high availability?
+  85 * What is the main reason to keep master nodes in odd no
+  86 * How you will configure k8S dashboard?
+  87 * If the worker node goes down, how you will troubleshoot
+  88 * k8s deployment file
+  89 * k8s configmap & secrets
+  90 * k8s services & types
+  91 * ingress 
+  92 * ingress controller
+  93 * how do I connect RDS to k8s pod
+  94 * services kuberntes
+  95 * Monolithic and microservices
+  96 * oom-killed what is the state and how can rescue that particular pod
+  97 * Hard limit ,soft limit
+  98 * I have pod on which appplication is deployed, I want to access the application using public ip. How can i do that?
+  99 * Used cases for Daemonset. where will u use daemonsets?
+  100* k8s config map & secrets
+  101* have you deployed jenkins to k8s.
+  102* where you stored in kube config file. where you will be storing it.how its linked to aws environment
+  103* explain your k8s cluster and how many master and Node you have.
+  104* Monolithic vs Micro service
+  105* How you were deploying 
+  106* If you were not using helm How you'll deploy the app to k8s
+  107* Name control plane of k8s ?
+  108* Networking solutions on k8s ?
+  109* Which network solutions are do you use in deployments ?
+  110* Which network solutions are do you use in deployments ?
+  111* In my cluster schedulers goes down completely ? what will happen to applications ?
+  112* Can I create my scheduler ?
+  113* Can I create my own controller manager ?
+  114* What is static pod ?
+  115* You create a deployment and app will deploy to a pod, both pods are up and running but traffic is directed to only one pod. Why and how do you troubleshoot it ?
+  116* explain the components of K8S 
+  117* different kinds of technical deployments
+  118* i have web application nginx , i have a sql server ,would like to deploy elk. which of the component will use stateful, stateless.
+  119* k8s master node
+  120* k8s challenges you have faced & jenkins challenges in build failures
+  121* explain some kubernetees  commands
+  122* k8s perticular pod is not restarting. how you do troubleshoot
+  123* load balancer how you creating in k8s which port service you are using.
+  124* Kubernetes components in master n worker nodes
+  125* What's kubeproxy
+  126* If master node is down What will happen (if single master)
+  127* What's labels and selectors
+  128* Default deployment strategy
+  129* How we can achieve blue-green deployment strategies
+  130* What kind of monitoring tools you are using
+  131* what u have done in k8s?
+  132* what steps u follow in creating pod? & which command?
+  133* pod status?
+  134* what is imagefullbackup? what all are the reasons?
+  135* how to have image when internet is not available?
+  136* ans: we can keep it in scm full along with source code
+  137* Kubernetes- config and secretes
+  138* AWS security manager has credentials , how u use it in kubernetes as secrets 
+  139* Branching strategy
+  140* Scenario on release branching strategy to handle two release in dec and jan on after another 
+  141* Which set up - EKS or selfmanaged
+  142* Many questions on self managed cluster
+  143*  troubleshooting node 
+  144*  evicting pod from a node
+  145*  node pool - nothing but node pod affinity antiaffinity topic .. 
+  146* Assume only one master node - what if it crashes, vl application run
+  147* How do u solve this issue if master crashes
+  148* What if a node crashes , how do u debug or get logs and troubleshoot it 
+  149* Where the logs of application are saved .
+  150* Command to get the logs . 
+  151* Many other scenario based questions on trouble shooting kubernetes cluster issues
+  152* Where have u set up kubernetes,  self managed or EKs
+  153* Kubernetes taint nodes
+  154* How to control taint nodes - ans is node controller
+  155* Load balancer- configurations done for load balancer in config file 
+  156* Kubernetes probes - liveliness and readiness
+  157* The application deployment is successful but still pod is not up what could be the reason
+  158*  How do u manage ur k8s env in prod?
+  159* In multi cluster arch of k8s, u have 2 clusters n each cluster has a diff VPC. if u create a EKS cluster, it will create 2 VPC in same region (Mumbai)
+  160* then how can pod in cluster 1 can communicate with another pod in cluster 2?
+  161* Difference between load balancer and ingree. Y u need ingress
+  162* How are you exposing your service
+  163*  What is LDAP
+  164* deployment of apache with 3 replicas
+  165* what is kubeconfig 
+  166* Explain the plugins you used
+  167* How you secure your clusters
+  168* What is the purpose of ingress and how you connect it
+  169*  manifest file for deployment with autoscaling in it from 3-7 pods
+  170*  manifest file for secrets and volume attach
+  171*  How u connect ingress
+  172*  which controller u r using
+  173* how many master and worker node you have
+  174* how many clusters
+  175* How Kubernetes namespace works
+  176* explain your k8s cluster and how many master and Node you have.
+  177* how many master m/c and slave m/c do u have, what are type of instance you have have used 
+  178* kubernetics monitoring, clusterup  steps, instances used for k8s?
+  179* why not eks?
+  180* how you are deploying application in kubernetics
+  181* how to create a pod on perticular worker node
+  182* k8s services 
+  183* what is version of K8s and helm you ar using 
+  184* how 2 containers with 2 diffrece application can share the information

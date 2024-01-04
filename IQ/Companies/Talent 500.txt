@@ -1,0 +1,9 @@
+Talent 500
+
+what is your role as sre
+how you deploy in k8s
+diff b/w daemonset and statefullset
+write yml for service
+diff b/w git pull and fetch
+how you intigrate git with jenkins				
+most chalanging task you face

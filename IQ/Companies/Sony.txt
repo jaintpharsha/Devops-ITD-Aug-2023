@@ -1,0 +1,17 @@
+Sony
+	Duration: 15min
+	Interviewer_name: Greeshma
+	Questions: 
+	1) Tell me about yourself And day to day activities.
+	2) Explain the DevOps pipeline flow and what are tools integrated?
+	3) How do you monitor the environment and explain which tools are used for monitoring?
+	4) Most used Linux command in daily usage?
+	5) What is the autoscaling in AWS?
+	6) How did the autoscaling trigger and explain scenarios?
+	7) Explain the production code error like 400, 500, or API API error?
+	7) How do you do the capacity planning & configuration? 
+	8) Explain the deployment strategies.
+	9) High memory utilization alert in scenarios what are the troubleshooting steps?
+	10) What are the ticketing tools you used?
+	11) Give me some recommendations to reduce the cost of ec2-instance or cost optimization?
+

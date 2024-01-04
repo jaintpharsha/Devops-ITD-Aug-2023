@@ -1,0 +1,9 @@
+Autodesk
+
+1) tell me about yourself and day to day activity
+2) difference between softlink and hardlink
+3) what is tupple in python
+4) what is the advantages of scripting
+5) difference between python and shell scripting
+6) write a script to display odd numbers between 1 to 10
+7) what are loops in python

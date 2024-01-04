@@ -1,0 +1,40 @@
+UST Global
+Interviewer : shariq
+Duration : 35 minutes
+
+Questions
+1) explain your roles and responsibilitues
+2) what are the services you have worked in aws
+3) if customer has complained that application is not running how will u troubleshoot this scenario what ia your approach
+4) how did you configure load balancer in your project
+5) how autoscaling is configured in your project
+6) how did you set up cicd in your project
+7) how did Jenkins get code from github. How ll u configure
+8) how will you deploy container on kubernetes
+9) difference between docker and kubernetes
+10) what is docker file
+11) lets consider you have docker images in docker registry how will you deploy these images to kubernetes
+12) if suppose customer has complained the application is not guving access. How will you troubleshoot
+13) suppose your linux has overloadded how will you troubleshoot and what are the commands you will use to solve this situation
+14) how will write docker file
+15) let's consider 10 servers and a application is running on each servers. How will write automation script to check wether application is running or not on each server
+16) by using terraform what are the resources you have created
+17) how will write pipeline script in jenkins
+18) how will you pull docker images in your pipeline script
+19) advantages of kubernetes over docker
+20) how will you schedule perticular container on perticular worker node
+21) suppose your application is Down. How will you troubleshoot this. And what are the steps you will follow.
+22) lets consider ui server, api server and database. How will you deploy in aws. What are the resources will you use in aws
+
+Ust
+Questions
+1) introduce yourself
+2) what are the tools you have used in project
+3) what is your roles and responsibilities in project
+4) how ll u integrate sonarqube with gitbub
+5) what is code coverage
+6) how did sonarqube generate code coverage report
+7) how ll get project token and password for sonarqube
+8) how will you setup sonarqube with github
+9) what does code coverage will give
+10) how will u generate test scripts in sonarqube

@@ -1,0 +1,10 @@
+siemens
+
+1)  tell me about yourself
+2) difference between vp and vpc
+3) difference between statefull set and stateless
+4) difference between kubelet and kubeproxy
+5) what you have done from last 15 days in your company
+6) how ll you secure docker file
+7) if two pods are running on same worker node how ll push images to these pods from 2 docker registry
+8) most of  scenario based questions has asked.

@@ -1,0 +1,51 @@
+Wissen
+			
+	Questions:
+			 -introduce yourself and explain day to day activities along with roles and responsibilities.
+			 - explain merge conflict and how to resolve it in git(branching)
+             -what is git stash
+             -how to migrate jenkins server
+             -how to take backup of the jenkins job
+             -explain docker architecture
+             -how to run container in background
+             -difference between cmd and entrypoint
+             -difference between add and copy
+             -how does communication of pods in k8s happens
+             -explain k8s architecture
+             -difference between daemonset and replicaset
+             -what is terraform state file
+             -what all commands frequently used in terrfaorms
+             -where we can store terraform state file and why?
+             -what is crashloopbackoff in k8s
+             -explain LB in aws and types
+             -what is lambda
+             -how can you add tags without having record in statefiles
+             -how can u configure existing ec2 server after newly setting up terraform cluster
+             -bash script to create folder and give user all permission and only read permission for others.
+             -explain sns topic
+			 
+Wissen
+	Duration: 24min
+	Interviewer_name: Sunny Gupta
+	Questions: 
+	1) Tell me about yourself And day to day activities.
+	2) AWS Ec2 instance in Public subnet can't access the internet, What could be the issue?
+	3) If a 2 VPC peering connection is set up but connectivity is not working, How will troubleshoot these?
+	4) If you want to block 3 types of traffic RDP, HTTP & HTTPS what kind of port you will block?
+	5) I'm unable to establish a VPN connection btw on premises network to AWS VPC, How will establish the connection?
+	5) I have an elastic load balancer in my architect and the health check is failing the instance, how will troubleshoot this issue?
+	6) I have configured a network load balancer for my application but I'm experiencing a connectivity issue, How can you troubleshoot this problem?
+	7) I'm unable to establish a VPN connection btw on premises network to AWS VPC, How will establish the connection?
+	7) How many ways do we have to connect VPN connectivity?
+	8) If I want a connection btw 2 VPC should be encrypted which service of AWS would you select?
+	9) In Jenkins my job is failing with no such file or directory error when you want to attempt to access a file, how will you troubleshoot?
+    10) Jenkinsfile is unable to connect my source code repository during the job, what could be an issue? 
+	11) My Jenkin pipeline job is stuck at a specific stage not progressing further, how can you troubleshoot and fix this issue?
+	12) Jenkin is failing due to dependency and how will manage this issue and troubleshoot?
+	13) one container in docker I want to go inside and install something, which command are you using?
+	14) if you need to check the current status of containers, which command you will use?
+	15) My Kubernetes service is not reachable from the outside cluster,	how can you troubleshoot and enable external access?
+	16) My Kubernetes port is not started and stuck, how will you troubleshoot?
+	
+
+

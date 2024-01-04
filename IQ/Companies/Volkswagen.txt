@@ -1,0 +1,44 @@
+Volkswagen
+
+1) tell me about yourself
+2) day to day activity
+3) explain about your project
+4) what is the difference between continues delivery and continues deployment
+5) what is inspector in aws
+6) how ll u write bash script in terraform
+7) what is ansible
+8) why are not using terraform for configure management
+9) write pipeline code for jenkins job for pulling code from github to deployment
+10) how ll set up pipeline from github to deployment
+11) if developer changes the code and commit the code if any error or mistake happen how ll u troubleshoot in automotion 
+12) what is git push
+13) how ll u set up network for on premises to aws cloud migration
+14) what are the tools u have used in devops
+15) how ll u create jar file from source code
+16) tell me about devops services
+17) Tell about aws build, aws deploy and
+18) how ll u deploy your application
+19) write a descriptive pipe for getting source code from github do complete cicd process
+20) write a script to pull code from github generate docker image and jar files
+21) on which flavour unix you have worked
+22) how u know on which favour unix you are working
+23) how ll u deploy jenkins
+24) how ll u know status of last executed command
+25) how ll u deploy services in devops
+26) which methodology you are using in your project
+27) how ll u know success story
+28) how ll use jira in your project
+29) what is python. sdk
+30) what is devops? Why we are using devops
+31) what are the governor policy you have implemented in your project
+32) what are the  security measures you have implemented in your project
+33) what are the devops services in aws and explain
+34) how ll create devops services by automation
+35) what is state file
+36) what is aws stat
+37) how ll do network setup for onpremises server to aws cloud
+38) why are using ansible for configure management rather than terraform
+39) on which version of unix flavour you are working
+40) explain about your project architecture
+41) what are the tools u have worked in devops
+42) how ll u write bash script in terraform

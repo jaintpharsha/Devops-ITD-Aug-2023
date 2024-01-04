@@ -1,0 +1,197 @@
+  1  * Diff bw – (hypen) and _ (underscore) in coding
+  2  * What sort of web application server have you worked 
+  3  * How you will configure load balancer in apache ? In which config. file you need to change ?
+  4  * Any certifications ?
+  5  * Tell me about yourself
+  6  * how do you rate yourself out of 10 in all the tools which you have worked ?
+  7  * Difference between devops and agile methodology
+  8  * Explain about your project
+  9  * How you implemented all the tools in your project
+  10 * How will you store artifactory
+  11 * Introduction
+  12 * roles & responsibility
+  13 * Which cloud model do Developers and organizations all around the world leverage ?
+  14 * when you deploy an application how do you monitor cluster
+  15 * if you are using prometheus where you see all the logs
+  16 * prometheus scrape data
+  17 * what kind of monitoring experiance you have?
+  18 * customer is asking you to monitor RAM of a particular instance how you are going to do that?
+  19 * Will you be able to work with us on EKS, we are using EKS as well
+  20 * ticket numbers you get during production
+  21 * Introduce yourself
+  22 * Day to day activities
+  23 * How will you setup the virtual environment
+  24 * Are you aware of helm charts
+  25 * Have you deployment anything using helm charts
+  26 * Artifactory 
+  27 * what is the recent activity done your company
+  28 * what are the challenges you faced 
+  29 * what are the application running in your company
+  30 * explain about your project 
+  31 * do you have knowledge about any programming language
+  32 * Which company and project u are currently working in?
+  33 * Roles and responsibilities
+  34 * How do u rate urself in all tools, jenkins, docker, kubernetes, terraform, shell scripting
+  35 * Security practices in ur project
+  36 * Would u like to work in company if no tools like kubernetes and terraform?
+  37 * give the output of the following code
+		# File name is script.py
+		# python3 script.py example
+		import sys
+		print(sys.argv[0])
+		print(len(sys.argv))
+		print(str(sys.argv)) 
+     
+  38  * what are the tools you used in your project
+  39  * expalin your project
+  40  * Why have u decided to move out from ur current company?
+  41  * Tell me about yourself and day to day activities ?
+  42  * How you are differentiating multiple images.
+  43  * Tell me about yourself and tools have you worked?
+  44  * Do you know Python scripting
+  45  * Introduction
+  46  * roles & responsibility
+  47  * Introduce yourself
+  48  * Overview of your daily task
+  49  * How you were doing the releases
+  50  * Suppose 4-5 members from other teams comes to you for some tasks who will you give priority first to solve
+  51  * share experience with debug in production 
+  52  * have do any operational support in current company
+  53  * have you manage any database server (Administration part)
+  54  * have you any deadlock issue in linux
+  55  * have you deployed application in your current company
+  56  * what are the activites done in k8s recently in your company
+  57  * how you are mantaing your application in pod if load is huge
+  58  * what are the challenge you faced in your company
+  59  * projects worked on Detailed explanation
+  60  * Why do u want to change company 
+  61  * Nagios :Monitors k8 cluster
+  62  * want to change url of local repo from https to ssh
+  63  * whaen you provising different env how do you orchestrate that with the currect configuration
+  64  * prometheus scrape data
+  65  * Helm file structure
+  66  * when you deploy an application how do you monitor cluster
+  67  * if you are using prometheus where you see all the logs
+  68  * Which cloud model do Developers and organizations all around the world leverage ? 
+  69  * What all testing does you release goes and which manual and automatic ?
+  70  * What kind of approvals do you take in release process?
+  71  * Which tool are you using to deploy or to maintain deployment strategy
+  72  * What is the recent actual implementation that u did/recent automation or what kind of problem that u have solved
+  73  * recent task that u were involved?
+  74  * where u involved in the production release of ur application? are u deploying any application
+  75  * introduction
+  76  * brief about work experience
+  77  * how you are promote their application from one environment to another environment (qa to staging)
+  78  * why we have to use terraform  why its hyped in market. based on your experience give some instances.
+  79  * do you have working knowledge on python/java
+  80  * what kind of shell script you have written
+  81  * are you ready to work on Azure & AgroCD
+  82  * have you work any cloud migration 
+  83  * have you work on python
+  84  * What type of JIRA tickets that u get regularly and how many u dissolve in a sprint?
+  85  * What is the recent actual implementation that u did/recent automation or what kind of problem that u have solved
+  86  * recent task that u were involved?
+  87  * Tell me about yourselfHelm Version
+  88  * What is the diff bw Helm V2 and V3 ?
+  89  * Why have they removed tiller?
+  90  * Deployment strategy
+  91  * Nagios ?
+  92  * What were you monitoring Nagios
+  93  * What are the things will happen when I hit www.google.com
+  94  * How you were deploying application to diff environments
+  95  * What tools were you using to monitor k8s?
+  96  * Tell me about yourself and day to day activities ?
+  97  * Explain the infrastructure in your company
+  98  * What is your project
+  99  * How big is your project 
+  100 * How was your cicd process
+  101 * What was your team size,  what is your contribution for that ? 
+  102 * How to make app HA
+  103 * If you want to autoscale manually What is the cmd
+  104 * Tell me about yourself
+  105 * How do you rate in k8s ?
+  106 * Any certifications ?
+  107 * Introduction
+  108 * how would you rate in terraform
+  109 * scripting experince do you have.
+  110 * whats the reason you are looking for a change
+  111 * educational background
+  112 * what made you to switch your domain to devops from electronics
+  113 * day to day activity
+  114 * Introduction & project details
+  115 * how many years of experience in terraform
+  116 * what are the other tools you have used
+  117 * suppose you ask to deploy API gateway that should be on external side
+  118 * have you work on cost estimation side in your project
+  119 * how early you are going to join
+  120 * do you have holding any offer right now
+  121 * short overview of day to day activity and what are the devops tools you have used.
+  122 * for aws what are the services you used for day to day project
+  123 * you have experience in EKS, ECS
+  124 * what tools you are used on infrastructure
+  125 * briefly overiew for your infra, k8s, docker how you provisioning. what are the component , services, how manymaster nodes & workernodes & creating an EC2 instance. through terraform how use it.
+  126 * ticket has came to install 2 master node, 3 worker nodealong with that need to maintain end to end cluster ip, this need to be created using terraform.
+  127 * how many microservices and  how many aws account you are using . 
+  128 * one application is running locally,i need to access globally then what need to configure. how you set up your requirement temporarily need how would you validate
+  129 * ingress controller which one you are using
+  130 * Day to day activities
+  131 * Do you handle team or individual contributor
+  132 * How's the work
+  133 * How much experience do you have in AWS
+  134 * Tools u have worked on
+  135 * Recent achievements.
+  136 * Explain roles and responsibilities
+  137 * Detailed CICD using all tools taking ur project as example
+  138 * Which testing tools u have integrated
+  139 * What's the team size (devops)
+  140 * How many developers
+  141 * node.js any tool used for coverage?
+  142 * do you know java spring boot?
+  143 * which domain ur working (project)
+  144 * which methodology u r usinh(agile)
+  145 * how u have it ? scrum meeting & spring?
+  146 * how will u get a ticket or how will u get a requirement?
+  147 * how you handle backlogs?
+  148 * sprint? How many use cases u develop?
+  149 * when all the piple jobs are setup then what will be ur daily tasks?
+  150 * What was last requirement (or task or ticket )?
+  151 * why we use destroy? when such cases arise?
+  152 * which monitoring tool?
+  153 * What all scripts U have worked on? Explain the logic?
+  154 * Mainly looked for logic building skills?
+  155 * Introduce yourself
+  156 * Devsecops - SAST and DAST
+  157 * deployment patterns
+  158 * Scenario based questions on 3 tier app
+  159 * Status Checks done  for ec2 instance (2/2 checks passed) what that means.
+  160 * Scenario provided on handling a issue to run script  -  post build action can be handled
+  161 * CICD process set up in project
+  162 * Introduction 
+  163 * Day to day tasks
+  164 * Rate yourself on ansible
+  165 * What are the suggestions you have provided for improving or automation in project
+  166 * What is the team count
+  167 * How big is ur team. how many people are there?
+  168 * Can u explain ur prod env, are u running on ON prem? what is ur server capacity?
+  169 * what are the monitoring tools that u used?
+  170 * How many server u used on prod env?
+  171 * How deployments are done in prod?
+  172 * Explain project
+  173 * Roles and Responsibilities
+  174 * Why leaving company
+  175 * Which CI tool you are using
+  176 * In canary deployment strartegy, how will u differentiate the traffic n configure ?
+  177 * Introduce yourself
+  178 * what is api
+  179 * Structure of helm
+  180 * Explain agile and waterflow model
+  181 * have you work any cloud migration 
+  182 * have you work on python
+  183 * explain your Jenkins setup like how many slaves you are maintaining
+  184 * have you worked on Ansible 
+  185 * how do you reduce the time taken to build , troubleshooting of builds.
+  186 * what is the diffrence jenkins and hudson
+  187 * what are your roles and responsibility ,explain the framework in your company
+  188 * what is ammasador,adaptor
+  189 * explain your project , what exactly you have done in your project
+  190 * do you know what is immutable infrasture?

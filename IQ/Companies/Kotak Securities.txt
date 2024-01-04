@@ -1,0 +1,16 @@
+Kotak Securities
+	Duration: 17min
+	Interviewer_name: Prakash HS
+	Questions: 
+	1) Tell me about yourself And day to day activities.
+	2) From the same account one person created an ec2 instance but another person can't able to connect it,  what is the reason.
+	3) How will you copy files from the s3 bucket to ec2 instance?
+	4) What are the components of VPC?
+	5) What are security or firewall you used in AWS?
+	6) What are ingress and egress controllers?
+	7) What are all the load balancers you used in configuring in K8S cluster?
+	8) What is the filesystem in Linux?
+	9) What is the command to create a user in Linux?
+	10) What is the command to list a user in Linux?
+	11) What is Terraform?
+	12) What type of pipeline you created?

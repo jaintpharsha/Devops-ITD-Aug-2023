@@ -1,0 +1,42 @@
+ 1 * Git branching strategies
+ 2 * From which branch u release to prod
+ 3 * How u maintain branches for different features
+ 4 * Merge conflict ? How you resolve it ?
+ 5 * PR Approval process ?
+ 6 * Diff between Git pull and git fetch
+ 7 * Branching strategy
+ 8 * Types of branching strategy
+ 9 * Which type branching strategy you are using in your project
+ 10* Some basic git commands
+ 11* how do you change git remot url to local url
+ 12* git architecture
+ 13* explain branching startegy
+ 14* Git fretch vs Git Pull
+ 15* Git merge vs Git rebase
+ 16* Merge conflict ?
+ 17* Git statsh ?
+ 18* About version control tool
+ 19* git statsh drop
+ 20* how to fix broken commit in git
+ 21* git Architecture
+ 22* how to check branch name 
+ 23* have you come across any merge conflict
+ 24* creating branch and merging and push , pulling how you do it.
+ 25* git fetch & git pull
+ 26* git merge & git rebase
+ 27* git diff -tree?
+ 28* how do u handle merge conflict?
+ 29* how u check diff b/w previous & current commit?
+ 30* what is git rebase ? why cant u use rebase instead of rebase?
+ 31* Git fetch & pull ?
+ 32* what is read.me file?
+ 33* Git webhooks
+ 34* Where do you fix bug , vl u create a new branch and later how you manage with next release
+ 35* Share screen and write
+ 36* git commands
+ 37* how many repo you have in github
+ 38* explain all types of branches in your project
+ 39* explain PR process
+ 40* How many reviewers are there
+ 41* About version control tool
+ 42* what is git rev parse ? whats the use

@@ -1,0 +1,18 @@
+First American India 
+Duration: 30 mins
+Questions
+1. What are the Devops tool that you have worked on 
+2. How do you rate yourself on AWS
+3. The Core Services that you have worked on aws 
+4. How did you use the aws Services like through automation or a particular service individually
+5.  How have you used Terraform 
+6.  What you mean by module and how do you use module in terraform 
+7. What do you mean by workspace in terraform 
+8.  How do you give the environment specific variables in terraform 
+9. How do you refer a module inside terraform
+10. What is difference between public and private subnet 
+11. How do you connect to private subnet
+12.  A developer wants to access the server in private subnet and check its configuration apart from jump server/ bation host what are the ways in which he can accomplish this 
+13. Consider you are trying to hit an url and you are getting an 503(Service unavailable) What are your troubleshooting measure to make service available 
+14. Do you have exposure to windows
+15. What are the monitoring tools you have used

@@ -1,0 +1,26 @@
+Dish network
+
+1. w a s to find a number of line in bash scripts
+2. L3 sre roles 
+3. jenkins where 1000 of jobs you have 100 , writing pipeline you  what wuld be approach
+4. write a jenkins pipeline
+5. first we'll be git fetch, second will be maven, last will be deploy pipeline in jenkins
+6. in case perticular agent in pipeline how to do
+7. how to manage user and group in jenkins
+8. if your jenkins job is fail and we have not got image where would be the issue
+9. To establish connectivity to a repository in Jenkins, you can follow these general steps:
+10. write a docker file using workdir, copy, expose.
+11. w a s to pull docker image
+12. what is diffrent between run cmd and entry point 
+13. how To achieve 10 replicas in Kubernetes and determine how many pods are running in a Deployment, you can follow these steps:
+14. what the actual deployment strategy 
+In Kubernetes, the Deployment resource provides a way to manage the rollout and update of applications. It includes a default 
+	deployment strategy that defines how pods are created, updated, and scaled within a Deployment. The default deployment 
+	strategy is called RollingUpdate.
+15. type of deployment strategy 4 type:
+16. in Teraform run same file what would be stretagy?
+17.  gitlab pipe line 
+18. vpc paring which model we'll use 
+19. what is layoer 3 load balance in aws
+20. gateway load way balancer.
+

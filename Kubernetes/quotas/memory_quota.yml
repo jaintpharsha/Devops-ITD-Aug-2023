@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ip-app-resource-quota
+spec:
+  containers:
+  - name: ip-app
+    image: harshajain/ip_app
+    ports:
+    - containerPort: 80
+    resource:
+      requests:
+        memory: 100Mi
+        cpu: 250m
+      limits:
+        memory: 150Mi
+        cpu: 500m
+  priorityClassName: high-priority

@@ -1,0 +1,90 @@
+Synechron
+1.Tell me about yourself. 
+2. About the previous company
+3.Why immediately changing the company
+4.What is the difference between security group and Nacl
+5.what is cloud trial 
+6.What is cloud watch 
+7.What is the difference between S3 and EBS. 
+8.EXPLAIN THE k8s arch. 
+9.What is the services in k8s. 
+10.command in terraform. 
+11.what is PROVISNOER
+12.what is task in ansible. 
+13.What is the handlers in ansible. 
+14.how to connect your ec2 machine. 
+15.IN jenkins what is the null CI/CD WITH CONTINUES Delivery
+
+
+Synechron
+Duration : 30 minutes
+Questions
+1) tell me about yourself and day to day activity
+2) tool you have worked
+3) how ll u set up k8s cluster
+4) how ll u integrate k8s with jenkins
+5) how ll u do deployment in production environment on weekends explain process
+6) how ll u create docker image from tar file
+7) difference between blue green and canary
+8) how ll u use same docker image in two different environment
+9) how ll u set up two domain name for same application
+10) how  ll u integrate monitoring tools with kubernetes cluster grafana and promethesis
+11) do u know service now
+12) how  ll u set up vpc
+13) how ll u push docker image into ECR
+14) where ll u store docker images
+15) how ll u integrate sonarqube with Jenkins
+16) which pipeline you are using in your application
+Centralised or individual for each environment
+17) how ll u troubleshoot OOM error in k8s
+18) how ll u avoid pod eviction in your cluster
+19) what is pod fix
+20) how ll u use same docker image in two different environment
+21) pod got out of memory how ll u trouble shoot
+
+
+synechron
+	Duration: 41min
+	Interviewer_name: Narang
+	Questions: 
+	1) Tell me about yourself And day to day activities.
+	2) What is the shell in Linux?
+	3) What is the symbolic link?
+	4) Explain the vi editor commands?
+	5) What is inode in Linux?
+	6) What is process kill in Linux?
+	7) Linux command to check ram and cpu?
+	7) What command you used for replacing words? 
+	8) What is the port number for Jenkins?
+	9) Explain the Jenkins pipeline stages?
+	10) What are the private and public subnets in AWS?
+	11) What are the different types of load balancers?
+	12) What is the CIDR block in AWS?
+	13) How create a docker image from pre-existing images?
+    14) How to check the list of containers in docker?
+    15) What is the deployment set and deployment controller in Kubernetes?
+    16) How do see the pod logs?
+    17) What is the difference btw CMD and entry point?
+	
+
+Synechron
+what is servis which is responsible for getting the matrix in k8s cluester
+how the matrix promate premethues to grafana?
+logging tools?
+how the logs get k8s to keeana?
+shell script, write a want to find directory in existing task if file exit print something?
+how do you declare array in shell script
+how to create ressource in aws?
+how to create ec2 in terraform?
+i want create vpc in 3 avaibaility zone ? with subnet private, public
+what is diff btw in private and public subnet?
+i have one subnet i want to create 3 subnet in same resource block how i cana do in terraform
+diff for_each and count in terraforms
+ec2 instances and diffrece type of aws provice?
+diff btw ondemand and hostspot instances?
+i want a architecture i need to run pipeline basically web service what would recommnded for client and what question 
+we'll ask f=with client?
+client said i want webservice will be global?
+which EC2 I should choose for my application
+
+

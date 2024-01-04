@@ -1,0 +1,34 @@
+publics sapient
+
+1. latest things in aws sre
+2. issue fixed in aws for devops l3 labels problesm 
+3. difftrnt type monitoring tool aws
+4. premethumes and grephana?
+5. what you have done for devops developer in prometheus, and how we can monitor prometheus ?
+6. what kind of work in docker full explainations and examples
+7. docker issue developer face and how to fix
+8. aws, services?
+9. diffrent type of load balancer
+10. if a container is start and stop then what will be the issue(probs issue)
+11. tell me about paws services which you have used in real time senarios 
+
+Publicis Sapient
+Interviewer : amol
+Questions
+
+1) components of Kubernetes
+2) what is hpa
+3) difference between cluster ip and nodeport
+4) difference between nodeport and loadbalancer
+5) difference between loadbalancer and clusterip
+6)if suppose Two applications are running A and B seperately with respective service request.
+If i want to change change service request of B to application A. How ll u do this
+7) how ll u divide jenkins job in pipeline stages
+8) write a docker file considering java base image
+9) how to change execution path in docker file
+10) what is the difference between CMD and ENTRYPOINT
+11) if we write
+CMD sample.java java. Jar
+ENTRYPOINT sleep 100
+What ll happen in  docker file
+

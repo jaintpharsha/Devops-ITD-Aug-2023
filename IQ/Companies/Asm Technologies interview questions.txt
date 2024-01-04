@@ -1,0 +1,31 @@
+
+Asm technologies
+Duration : 25 minute
+Interviewer : balaji
+Questions
+1) tell about your daily task
+2) explain about CICD in your project.
+3) Explain your Project architecture
+4) what are the common error occurred in kubernetes
+and how ll you solve it
+5) How ll you upgrade your kubernetes cluster and what are the parameters you ll consider for kubernetes cluster upgrade
+6) how ll u integrate kubernetes with jenkins
+7) how ll set docker registry and which open source tool you ll use
+8) how to pass jenkins credentials
+9) what are the conditions for vpc peering
+10) have u done any automation recentely
+11) where ll you deploy kubernetes cluster
+12) how ll u configure kubernetes cluster
+13) one question on EKS
+14) how ll you push docker images into kubernetes cluster
+15) how ll u configure jenkins with docker and kubernetes explain 
+16) have u worked on any monitoring tool
+17) how ll u share jenkins credentials
+18) how ll u solve any deployment issue in production
+
+ASM Technologies
+1) Pipeline syntax for build and test steps
+2)  pipeline syntax for removing the docker image after container stops 
+3) taint and toleration 
+4) PV and PVC
+

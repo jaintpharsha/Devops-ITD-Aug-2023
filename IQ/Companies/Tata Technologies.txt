@@ -1,0 +1,15 @@
+Tata Technologies,
+	Duration: 20min
+	Interviewer_name: Vasudevan
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) What is Dockerfile and do you have experience in writing Dockerfile?
+	3) What is the use of expose command?
+	4) What kind of experience do you have in Kubernetes?
+	5) What is the ingress controller you used?
+	6) What is the use of deamonset in K8S?
+	7) Have you worked on pod autoscaling in K8S?
+	9) What is the service you have created in terraform scripts?
+	10) Where do you store all statefiles?
+    11) How will destroy 2 resources out of 3 resources in terraform?
+    12) What kind of work have you done by using Ansible with examples?

@@ -1,0 +1,28 @@
+Genpact
+what are responsibility, prod invirement as devops engineer?
+keebana?
+how many pord are handle by prod envirement?how to get monitor alert what is happeniing in pods?
+you are having ecommerce site and you are trying to add checkout and item is not there as sre how you are going to handle that?
+cart service is not working in live envirement ?
+deployment stretogy for dev test and prod?
+terraform, how to maintain state file in manully terraform?
+when you are creating setup envirement does all sre engineer need to get admin acce?
+how can manage security in aws?
+security at application ? is some try to use with password how can you handle?
+there is one application, 3 tire application , you have to setup aws envirement what would be your approach, you have to deploy eks cluster, and also you need to setup cicd deployment, how you are going approch this?
+infrastructure should do cicd and deployment , how many account and how many netwrk we requarment?
+what the architechture of infra?
+during limitation infra of application application go down how you are going to handlr that?
+can we ingtigrate scale with horizonal ?
+horizontal auto scalling?
+how you can manage 15 team management as devops leat, can you please answers?
+scrum call ?
+how much you comfortable documentation part?
+how to create documentaion for devOps engineer?
+install jenkins as cluster, can you explain, one master node and slaves are there too?
+raddits and rabit how to you can configure?
+in aws you are creating terraform which services you will use?
+f any team member coming to setup aws and one java application one front end and one sql wat aws services you are going to use microbased application.
+how will you deployment front end ?
+ssl certificate what process will you use manage ssh service in aws?
+how to install ssl Certificate in aws?

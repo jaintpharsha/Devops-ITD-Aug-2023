@@ -1,0 +1,12 @@
+Enquero
+
+how do you monitor your resources?
+you want do automation for security purpose to check check complaint what tool will you use, suppse one patch is not runnign?
+ansible report if fail in one server?
+there one web application , client request to create load ballancer which load balance will use?
+complance issue 
+how to monitor your resorces graphana?
+User
+sre role excactally ?
+automation as devops ?
+

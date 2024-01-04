@@ -1,0 +1,69 @@
+Persistant Right
+Duration : 30 minutes
+
+Questions
+1) introduce yourself briefly and your daily task
+2) what are the elements of terraform
+3) using terraform scripts create an instance and opens 30 random ports in security group as given by manager. 
+	Where ll you define these port number in terraform script
+4) consider a scenario you have created 50 instances manually but when manager asked to create 50 instance using terraform, 
+	you don't create new 50 instance but when manager asked you to show newly created instance using terraform you have to 
+	show manually created instance as created by terraform. How ll u write terraform for this and how will manage
+5) how ll u list ami in ubuntu server
+6) what is mount and file system
+7) how ll u integrate ansible in cicd process
+8) let's consider 50 servers, on some of servers python has already installed, write a ansible inventory to install python on 
+	all server, if server already contains python installed on it means it ll  move to next instance and start to install python.
+Write ansible inventory for this scenario
+9) what is the difference between for and foreach in terraform
+10) kubernetes cluster contains 2 replicas if we scale replicas to 5, then after scaling also it is showing replicas 
+	scale =2 only, what is the reason for it
+11) how ll integrate jenkins with kubernetes
+12) have u worked on monitoring tools
+13) have u done any automation
+14) how ll do docker multi stage
+15) how to set up EKS cluster
+16) you have written terraform script for web application and api application when you run terraform apply command. 
+	It ll reflect one by one random. But i want show api application first then web application how ll u do using terraform script
+
+Persistent System Inc
+1) how to access the private docker image through k8s
+2)  ansible playbook script to write
+3) statefull and deployment difference 
+4) what is statefull-application
+5) Prometheus and grafana basics
+6) what is podaffinity
+
+
+Persistent
+
+aws architecture ? 
+kubernate cluster?
+how to manage kubernatate patch or update kubernatics? 
+command kubernatics command?
+structue of deployment yaml, kubernatic deployment write?
+resource  limit and quota
+what is init container? 
+is it good practice to run multiple container in a pod?
+diff between config map and secrets? 
+sre principle keys?
+what are day to day activity for devOps sre developer?
+what are all application matrix we monitor, microservis what all matrix as devops engineer monitor?
+aws, i have a 8 tear load balancer and 2 availability zone how, we can manage this services and availability zone?
+active load balancing and passive load balancing ?
+what will be 3 diffrent tire?
+hat will be public and private subnet and which subnetwill talk load balancer?
+which one will be public subnet?
+what will be ip will be elastic or private or public?
+ecs and eks which will be better options?
+how to compare ec2 with eks ?
+lambda function 
+write lambda function?
+how many minut lambda can run?
+User
+what are diffrernt type of load balancer?
+automation can be done by python?
+raform, what are diffrent way store state file?
+what is tf module?
+how do you manage diffrent env?
+

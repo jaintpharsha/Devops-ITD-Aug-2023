@@ -1,0 +1,14 @@
+Epsilon
+write completx terraform code?
+aws compute resource?
+netwokring vpc
+api gateway in aws
+autoscale group and load balancer?
+n aws, two diffrances of infrasturre as service and plateform as service
+example iaas exapmle?
+paas example
+in aws can you explain this fucntionsal and benifits of route 53?
+how to create custum domain in route 53?
+explain lounch template auto scalling?
+3 properties of lounch template?
+can you explain aws instance profile, where it use?

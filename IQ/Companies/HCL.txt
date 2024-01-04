@@ -1,0 +1,99 @@
+HCL
+Duration : 30 minuted
+Questions :
+1) introduce yourself
+2) what are the tools you have used in project
+3) what is your role in project
+4) how will use terraform in cicd pipeline 
+5) what is the major issue you have faced in project
+6) explain about cicd pipe line
+7) what are task you have done on kubernetes
+8) Have you written any ansible playbook
+9) how ll you do maintaince work in kubernetes
+10) if suppose you are maintaining infrastructure using terraform but someone has created ec2 instance manually. How will you handle this situation
+11) which scripting language you have been using in project
+12) what are the tasks you have done by using ansible
+13) have you written any ansible playbook
+14) for ticketing which tool you have been using in your organization
+15) what kind of issues you have faced in you projects and how did u solve those issues
+16) what is your current ctc
+17) what is your expected ctc
+18) what is state file
+19) how will know the executable files in pods
+20) suppose you want to stop the pod access to customer for maintance of pods and worker node. How will you do it. 
+
+
+Hcl
+Questions
+1) introduce yourself
+2) write a terraform script to create ec2 instance
+3) write a kubernetes deployment. Manifest file
+4) write a docker compose file for application
+5) which scripting language you were using in your project
+6) write a sample of declarative script
+7) what is ACL
+8) what is the difference between configmap and secrets
+9) how will you upgrade kubernetes cluster explain
+10) what is the difference between ACL and sg
+
+Completed interview with HCL
+Duration : 20 minutes
+Questions
+1) tell me about yourself
+2) roles and responsibilities
+3) have you worked on self managed cluster and aws managed cluster
+4) what is s3
+5) what is ec2
+6) why we go for terraform
+7) what is daemonset
+8) how to list all objects in a namespace
+9) how will you pull docker image from registry
+10) which docker registry you are using
+11) how ll you set up self managed kubernetes cluster
+12) what is your team size
+13) how ll you integrate monitoring tools with kubernetes cluster
+14) what do mean by pod
+15) what is statefull set
+16) what is the difference between pod and statefullset
+17) what is persistent volume
+18) how to check logs in kubernetes
+19) how ll you add worker node to kubernetes cluster
+
+Interview with HCL
+Questions
+1) introduce yourself
+2) what is configmap
+3) what is components we are using in kubernetes inplace of DNS
+4) what do u mean by deployment and replicaset
+5) what is the difference between kubernetes deployments and Helm chart
+6) if suppose i want change the values. Yaml file name  in helm chart where ll we configure
+7) how to login docker container
+8) how to take backup of stopped container
+9) how to know which image is running in container
+10) how to check logs in container
+11) how to login to container
+12) write a nginx deployment. Yaml manifest
+13) write a declarative pipeline script
+14) write a bash script to display even numbers between 1 and 10
+15) how to take backup of plugins in jenkins
+16) what are credentials in jenkins
+17) explain terraform init, terraform plan and terrafornr apply
+18) can we create two infrastructure by using same state file
+19) what is state file
+20) what are the storage services in aws
+21) mention any 3 cloud providers which is supported by terraform
+22) what is the difference between ebs and efs
+23) we have an two ec2 instance, supposse we want to share storage files which will u prefer either ebs or efs for clients
+24) how to store logs from ec2 instance to s3 bucket
+25) what is branching stratergy in git
+26) what are the 3 command used for pushing file to central repository
+27) if suppose you are pushing a code from local to central repo, you are getting a error line there is differ in version, how ll trouble shoot it
+30) which command you ll use to know the mounted file system
+31) how ll u know the leasing ports in ec2 instance
+32) what are target groups
+33) if suppose you have configured target group with elastic load balancer. While accessing target it ll not giving access what would be the reason. How ll u troubleshoot
+34) what do u mean by elastic ip
+35) how will menation services concept is kubernetes manifest file
+36) can we attach a ebs volume to 2 ec2 instance at a time
+37) what is autoscalling in aws
+

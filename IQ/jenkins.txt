@@ -1,0 +1,167 @@
+  1  * Explain CI/CD
+  2  * How u setup cicd for these different features like u maintain separate jobs for separate feature branches 
+  3  * 1 feature has 50 components how u test that in ur pipeline
+  4  * Declarative pipeline? What all the components in it ?
+  5  * Shared Libraries ?
+  6  * When to use free style and pipeline job
+  7  * Is it possible that one stage fails and continue the execution to next stage ?
+  8  * Write a jenkinsfile which pull the code from git repo and push the jar file to AWS S3?
+  9  * (This jenkins file shd work on all environments)
+  10 * In Jenkins, do you know how to write custom functions in groovy?
+  11 * Jenkins is building on dev branch and someone else is pushing the code, but the build is in progress.
+  12 * If someone pushes the code, it triggers another build, so what will u do to stop the parallel build?
+  13 * How do you disable it in groovy script?
+  14 * jenkins CI & CD
+  15 * jenkins build
+  16 * sonarqube integration
+  17 * what are the jenkins plugin have you used
+  18 * process of creating multibranch pipeline in jenkins
+  19 * webhooks
+  20 * maven build command in java/pythonhow to send email notification to jenkins
+  21 * how to take backup of jenkinfile
+  22 * CI CD
+  23 * How you schedule builds
+  24 * How you have integrated each tool in CiCd explain configuration
+  25 * Explain jenkinsfile
+  26 * How frequently u release a new feature
+  27 * CI CD setup
+  28 * CI / CD
+  29 * Scripted ,declarative pipeline
+  30 * Plugins 
+  31 * Jenkins file
+  32 * write a groovy script 
+  33 * how do you use function in groovy script
+  34 * what is sonar qube
+  35 * how will set the quality gates in sonar qube and how will you check quality of source code
+  36 * Pipeline with stage 1 n stage2, calculate a value of a variable in stage 1 and pass that value in stage2. 
+  37 * how can i share the value btn two stages in pipeline?
+  38 * Have you created any pipeline and type of pipeline ?
+  39 * Explain about the diff stages of pipeline
+  40 * Which artifactory are you using ?
+  41 * Explain about agents ?
+  42 * Have you created dynamic agents
+  43 * Jenkins Code as a Service?
+  44 * When to use Scripted and Declarative script?
+  45 * If you want to write something new thing in Declarative script which you don’t know, how you will be doing it?
+  46 * Feature Flag in CICD
+  47 * How you will do insights and analysis of your CICD?
+  48 * Write a Jenkinsfile / pipeline script for production grade deployment
+  49 * jenkins CI & CD
+  50 * jenkins build
+  51 * sonarqube integration
+  52 * what are the jenkins plugin have you used
+  53 * process of creating multibranch pipeline in jenkins
+  54 * webhooks
+  55 * maven build command in java/python
+  56 * how to take backup of jenkinfile
+  57 * Ci/cd
+  58 * U have some issues in applications in Jenkins how will u find out 
+  59 * Some issues with ur pipeline how will u configure it
+  60 * Deployment strategies
+  61 * In Pipeline script ur build is taking more time to build what will be the reason 
+  62 * explain the process of Jenkins
+  63 * what is that you use in Jenkins for ensure 	all the integration part and test part
+  64 * what are the plugins you are using for cicd setup in current company
+  65 * what kind of envirnament you created for Jenkins cicd setup
+  66 * where do you store the credentials of aws in Jenkins 
+  67 * how can you pass the one value to deployment stage in groovy
+  68 * explain cicd
+  69 * Pipeline job ,cicd,Slave jenkins; manage Jenkins
+  70 * Deployment stratergy : blue green 
+  71 * Parallel block inside stage
+  72 * how to send email notification to jenkins
+  73 * what is the deployment strategy that is used in ur company and other stratgies that u know?
+  74 * Real life scenarios on Canary deployment?
+  75 * Benefits of Blue green deployment?
+  76 * How are u managing the code quality of ur application. 
+  77 * I have a jenkins pipeline where sonarqube is integrated with quality gates. But if the code doesnt passes through
+  78 * quality gates how wil you fail the build and stop it from creating artifacts.?
+  79 * jenkins: my customer having a pipeline.basically it should trigger all the environment in one shot . he want to deploy an application by single pod in dev environment,test,uat 7 staging. he want to build single artifact with all 4  env with single pipeline. can it possible? how
+  80 * declarative & scripted 
+  81 * have you creating a job from scratch
+  82 * explain cicd setup
+  83 * explain stages in cicd
+  84 * explain your Jenkins setup like how many slaves you are maintaining
+  85 * Real life scenarios on Canary deployment?
+  86 * Benefits of Blue green deployment?
+  87 * How are u managing the code quality of ur application. 
+  88 * I have a jenkins pipeline where sonarqube is integrated with quality gates. But if the code doesnt passes through
+  89 * quality gates how wil you fail the build and stop it from creating artifacts.?
+  90 * Explain your CICD
+  91 * Deployment strategy
+  92 * What is the default deployment strategy
+  93 * When to use free style and pipeline job
+  94 * Is it possible that one stage fails and continue the execution to next stage ?
+  95 * when there is no internet connection can you install jenkins 
+  96 * no backup & installed lot of plugins & jobs. now installed one more plugin and crashed my whole jenkins. now ui is down..how do you uninstall plugins.
+  97 * difference between freestyle & pipeline job
+  98 * which you can't do in freestyle. which can be done pipeline technical difference
+  99 * jenkins build failures
+  100* pipeline syntax
+  101* which pipeline you are using in your comapany
+  102* custom build of a core plugin
+  103* have you are checked code quality
+  104* process to integrate git with jenkins
+  105* how to deploy an application from jenkins to k8s
+  106* whats the use of pom.xml file
+  107* maven build lifecycle
+  108* CICD jenkins have you build any pipeline
+  109* inprocess approval in jenkins. detect that failure in deployment time
+  110* commands to use to reverse the build.
+  111* release branching stratergy
+  112* why do we need contineous interagration and contineous deployment in jenkins. what are the advantages.
+  113* How to select slaves in jenkins file
+  114* How Jenkins and git hub configuration done explain in detail
+  115* How weebok triggers
+  116* How authentication of Jenkins and git is done
+  117* What kind of credentials used
+  118* What build tool ? how build happen?
+  119* What analysis u have done?, what is the coverage u have defined?
+  120* How to fail job when sonar analysis fail
+  121* Detail about soanr analysis
+  122* How u deployed with CICD?
+  123* jenkins is on premise? 
+  124* CICD set up
+  125* Difference bwteen CI and CD
+  126* Branching strategies means git work flows
+  127* Scenarios on branching and study multibranch pipeline 
+  128* Scenarios on branching strategies for dev test and prod environment 
+  129* Jenkins pipeline scripts and difference
+  130* Shared libraries in jenkins
+  131* Tomcat troubleshooting steps
+  132* Which pipeline scripting u use - declarative
+  133* Where is jenkins set up
+  134* Explain CICD
+  135* Jenkins shared library 
+  136* Jenkins declarative script
+  137* Which type jobs created in jenkins - freestyle , pipeline
+  138* In maven, explain how you download dependencies
+  139* Which tag you use for that
+  140* Explain your deployment strategy
+  141* I want two stages to execute at a time in jenkins, can I do that... How?
+  142* I want to select particular version for build, how can i do that during CI CD
+  143* Ci Cd setup
+  144* how you configure plugins you download from internet to jenkins
+  145* Where have you set up jenkins
+  146* How you configured webhooks, which URL you used there
+  147* explain your deployment strategy
+  148* which tests you perform in ci cd
+  149* if your jenkins agents are setup for 20 build capacity, and suddenly 50 builds comes in how will you handle the situation?
+  150* Branching startegy
+  151* How you automate complete cicd
+  152* explain how you store in jfrog. configuration of jfrog
+  153* which instance type u r using for jenkins master, its details
+  154* Where you have setup your jenkins
+  155* explain cicd setup
+  156* explain stages in cicd
+  157* what is jenkins shared library
+  158* how your implementing QA in your cicd
+  159* explain cicd setup
+  160* sonar cube configeration, jfrog configeration with scratch
+  161* multibranch pipeline ?
+  162* How to setup multiple Java or Maven or Git versions in Jenkins server?
+  163* what are the diffrent type of test u do in cicd?
+  164* explian the braching stratergy
+  165* how you have deployed to production explain the procedure
+  166* write Jenkins pipeline job
+  

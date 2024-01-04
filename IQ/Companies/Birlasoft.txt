@@ -1,0 +1,16 @@
+Birlasoft
+Duration : 20 minutes
+Interviewer : praveen kumar stanley
+
+Questions :
+1) started with my eduction details and first job
+2) what are the challenges you have faced in cicd pipeline
+3) why image pullbackoff error occur how to troubleshoot it
+4) what is taint and toleration
+5) question on load balancer
+6) what are quieng services in aws
+7) what are routing policy
+8) about terraform asked
+9) what is the difference between s3 life cycle and
+10) what is the difference between geolocation policy and geo proxy location
+11) what are modules in terraform

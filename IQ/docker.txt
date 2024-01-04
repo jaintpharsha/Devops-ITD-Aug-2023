@@ -1,0 +1,100 @@
+  1  * Entrypoint in Docker?
+  2  * CMD vs Entrypoint ?
+  3  * ADD and Copy ?
+  4  * At the time of docker build –t cmd execution if you press CTRL+C, what happens ?
+  5  * Docker file size is 2GB and need to reduce the size ? what will you do ?
+  6  * Diff bw layers and image ?
+  7  * If you give multiple entrypoints in Docker file, which will be executed and what happened to previous ones ?
+  8  * By default in which user the container starts to execute cmds ?
+  9  * Docker socket ?
+  10 * what is container Runtime in Docker ?
+  11 * How do you mount a file system in docker container ?
+  12 * Write a Dockerfile and push to dockerhub.
+  13 * docker file structure
+  14 * multistage dockerfile script 
+  15 * dockerfile to install java 
+  16 * From command
+  17 * Publish & Expose
+  18 * command to publish & expose 
+  19 * docker container
+  20 * diff b/w cmd & entrypoint
+  21 * difference between cmd and run
+  22 * If previous night the container had stopped working and terminated, how will you collect logs when you even dont have volume attach to it
+  23 * What are security measures you took to secure the docker image
+  24 * Which scanning mechanism you are using,to scan the images regularly
+  25 * Do you use docker swam
+  26 * Dockerfile
+  27 * Entrypoint , cmd 
+  28 * Dockerfile
+  29 * How u create docker image from Dockerfile?
+  30 * Difference between docker image and container?
+  31 * Namespace cgroup
+  32 * I have created a custom container , how can I deliver it to the other users?
+  33 * Where u store docker images in project?
+  34 * What is DTR, docker trust registry
+  35 * write the docker file with all the commands and explain
+  36 * docker file versioning
+  37 * docker file structure
+  38 * multistage dockerfile script 
+  39 * dockerfile to install java 
+  40 * From command
+  41 * Publish & Expose
+  42 * command to publish & expose
+  43 * docker container
+  44 * Docker multiple stage build
+  45 * docker cmd for trouble container
+  46 * docker swam 
+  47 * docker compose
+  48 * how you maintain docker and k8s in your production
+  49 * difference between docker and k8s
+  50 * Best practices for writing Dockerfile.
+  51 * how will u scan ur docker images for security vulnerabilities?
+  52 * Docker layers ;top layer is read & write
+  53 * Have you used any kind of docker concept.
+  54 * where you fiting this docker concept.. which network you will be used ?
+  55 * difference between CMD & ENTRYPOINT
+  56 * COPY & ADD
+  57 * common kind of issues you have faced when you creating a docker image?
+  58 * created container using cmd docker -p & my container crashed how you are going to troubleshoot
+  59 * container having a java based application when i am restarting everything working fine but when i was working to pass same command in cmd its not restarting what could be the issues
+  60 * am using plane vanila docker machine not using any networking concept still container is not up.
+  61 * one of my client having a requirement they donot want to host their image on a docker registry. they want to containerization custom registry.(client want secured image)
+  62 * To copy files/docker image  from one machine to another machine. one machine is build vm another is plain vm bcoz my container is running out of memeory. is it possible? whats the command
+  63 * VM vs Docker
+  64 * Why cant we use AWS AMI instead of Docker Image
+  65 * Dockerfile directives and some sceneries based on entry point
+  66 * Docker file size is 2GB and need to reduce the size ? what will you do ?
+  67 * Diff bw layers and image ?
+  68 * If you give multiple entrypoints in Docker file, which will be executed and what happened to previous ones ?
+  69 * By default in which user the container starts to execute cmds ?
+  70 * dockerfile structure
+  71 * docker networks
+  72 * command to attach docker volume to container
+  73 * create basic container cmd
+  74 * whats the use of docker ps
+  75 * difference between k8s & dockerswam
+  76 * what are the services in docker swam
+  77 * with dockers what kind of application you used java based/ python based
+  78 * What's docker file
+  79 * CMD vs entrypoint
+  80 * What docker port mapping
+  81 * What's -p
+  82 * Dockerfile
+  83 * Docker many questions on network, docker commands , docker troubleshooting,  multistage build
+  84 * State full and stateless containers
+  85 * Difference between them
+  86 * Tell usecase
+  87 * In dockerfile run the application which command u use - entrypoint, CMd
+  88 * What is containerization
+  89 * How you give root permission inside docker file
+  90 * Dockerfile -  explain each command what you have written
+  91 * Docker commands
+  92 * How will you make your application in docker access externally
+  93 * Write multistage docker file
+  94 * Diff between CMD and entry point
+  95 * How to find background process in docker containers
+  96 * what is docker swarm & Compose
+  97 * Which applications are running in your docker containers
+  98 * what is entry poind and command in in docker
+  99 * write docker file
+ 

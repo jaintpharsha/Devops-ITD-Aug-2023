@@ -1,0 +1,12 @@
+Getronics
+
+ci cd, create a jenkins file ?
+jenkinds librarary?
+multistage docker build jenkinds
+heml chart explain?
+create heml chart
+how to release stage file logs?
+custus provider iin terraform ? write code
+how we monitor ram utilization in eec2 instance
+output of top command 
+what is SHR S  %CPU  %MEM     TIME+  in  output of top command

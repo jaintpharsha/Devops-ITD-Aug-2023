@@ -1,0 +1,49 @@
+Company name : GalaxE
+Duration : 30 min
+Interviewer :prashant
+Questions :
+1) tell me about your daily task.
+2) how ll get daily issue?
+3) what is your approach to solve daily  issue?
+4) apart from CICD pipeline have you done any other work in jenkins?
+5) write docker file and explain?
+6) what is docker layer and how ll you know how many docker layers are there in docker file
+7) difference between NACL and security group
+8) how ll u access private subnet without using Nat gateway and internet gateway what is your approach
+9) if server goes down what ll u do
+10) difference between entrypoint and cmd
+11) difference between stateless and statefull
+12) without assigning out bound role how ll get response from instance
+13) how to install apache tomcat on ubuntu linux.
+14) consider you have created one instance manually with tag A in aws.  And you have created another instance using 
+	terraform with tag A = B. What ll happens to first instance.
+15) if your duty timing is from 9am to  5pm, if server goes down at 7am, how ll u get notification. And what is your approach 
+	to resolve the issue.
+	
+GalaxE
+Duration : 18 minutes
+Interviewer : paschu chawahan
+
+1) Tell me about yourself
+And day to day activity
+2) tell about your project. and where ll u deploy bot in your project. 
+3) How ll define dependancy in terraform
+4) where ll u deploy your code in project
+5) which plugin you have used for codes quality check
+6 ) which plugin you have used for code merging
+7) how ll u set up cicd
+8) how ll you deploy code in deployment
+9) ansible play book
+10) where ll u mention host in ansible playbook
+
+Galaxe solutions
+1. write a script pipeline script get from git and and build and deploy, build docker image and push the image,  using jenkins, 
+2. deploy on tomcat server and kubernets as well
+3. deployment yml file 
+4. what different services use in aws
+5. i have website and applications it's sas based application so the appllication has multile microservices and there could be 
+	realation database and this application there this application actually for bussiness expalmle as jira, they all will in 
+	diffrent country across the global, just take one web and microservices one react and one java base, for this we have clint 
+	from india and europe please design reginal lavel diagram vpn and resign based diagram, please design 
+6. which database youwill use here and why
+

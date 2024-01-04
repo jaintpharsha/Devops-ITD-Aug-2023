@@ -1,0 +1,56 @@
+Mphasis
+
+1) tell me about yourself.
+2) explain your daily routine from morning to evening.
+3) write a groovy script to fetch source code from github and checks the code.
+4) write a codenift to fetch and @download binnary file, any Jar, war file from artifactory.
+5) write a codenift to declare empty map.
+
+	
+Mphasis
+	Duration: 36min
+	Interviewer_name: Ashish Gautham
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) Explain the CI/CD setup
+	3) What are repositories in Maven and how to find the dependency?
+	4) Which type of pipeline do you and why?
+	5) If Jenkins build is going on and fails, How do you troubleshoot this issue?
+    6) How are you handling secrets in Jenkins?
+    7) In the Build stage maven is unable to find the required artefacts, How do you troubleshoot.
+    8) What commands you to copy files from one server to another server?
+    9) How will you delete empty files in the Linux server?
+	10) What is the use of the top command?
+	11) What is lambda in AWS?
+	12) What type of ELB are you using?
+	13) What is diff btw TCP and UDP?
+	14) What type of autoscaling are you using?
+	15) Some services are unable to communicate with S3, What issue?
+	16) Explain the DockerFile with instructions?
+	17) What is the best way to delete the container?
+	18) What is a terraform state?
+	17) At which stage did Terraform install all required plugins?
+	18) Explain the terraform modules you used.
+	19) In Kubernetes what are common errors in pods?
+	
+Mphasis(2nd round) 
+	Duration: 50min
+	Interviewer_name: Ashish Gautham
+	Questions: 
+	1) Tell me about yourself and your day-to-day activities.
+	2) How to do the GitHub administration task like how to protect the branch not any one commit from the developer side?
+	3) If the Developer needs to review, PR to repo, How do you manage the rules as a DevOps engineer?
+	4) How will provide user access for your new person in the team?
+	5) On the GitHub side what were your responsibilities in your previous job?
+    6) What type of application in your previous organisation?
+    7) What are the various types of jobs experienced in Jenkins?
+    8) What is diff btw a freestyle job and a pipeline job?
+    9) In how many ways have you installed plugins in Jenkins?
+	10) AS per organisation requirement, how can you install plugins by .hp5 file for scanning the build pipeline in Jenkins?
+	11) What is shared libere in Jenkins?
+	12) Can you explain the life cycle of Maven?
+	13) Write the pipeline script at the high level it should include from git cloning up to deployment?
+	14) What is role-based matric in Jenkins? (related to user management in Jenkins)
+	15) Write a docker file for installing Ubuntu OS and explain?
+	16) Write a deployment file in Kubernetes for the object of the replicaset?
+	

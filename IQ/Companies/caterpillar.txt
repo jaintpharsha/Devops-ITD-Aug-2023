@@ -1,0 +1,9 @@
+caterpillar
+
+ 1.What exactly is your day to day work on areas you mentioned in your cv 
+2. On Linux what's your project
+3. What troubleshootings you know 
+4. How did you spin up services and gave access 
+5. Have you led any team 
+6. using python what have you written
+7. What's your recent pipeline script written

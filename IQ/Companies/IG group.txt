@@ -1,0 +1,31 @@
+IG group
+
+aws, load balancers?
+how to know when we will use which load balancer?
+clout front? 
+how to configure with load balancer?
+in vpc what is the difffent net gate eway and internet gateway/
+User
+transsit gateway?
+terraform, i want to see the statefile what will be command to toc heck state?
+workspace?
+how to previn locking to statefile?
+pod is keep killing what would be solutions or why it's happening? 
+how to will check namespace ?
+User
+have you counter ?major incident in kubernatics
+folder structure of helm?
+i need to increase pod count how to do that?
+write script to increase pods 5 to 10 pods how todo that?
+integrated container with kubernates?
+docker check logs?
+how to check inactive contaiiner check ?
+monitor tool ?
+monitoring the kube what we need to do?
+how to get the matrix, 
+ec2 disk used of perticular using premathuess how to check?
+linux, nfs?
+what is scp and rsink?
+what are the stages use in jenkins?
+jfrog reposprrty where we 'll store credentials?
+how will you configure git ?

@@ -1,0 +1,7 @@
+BlueAlly
+	Questions: 
+	1) Tell me about yourself And day to day activities.
+	2) What do you do day to day in Kubernetes?
+	3) Name the components of Kubernetes and explain the flow.
+	4) What is AWS service your familiar with and explain briefly to me?
+	5) What is diff btw s3 and a database?

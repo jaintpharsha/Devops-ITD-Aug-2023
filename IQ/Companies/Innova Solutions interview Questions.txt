@@ -1,0 +1,80 @@
+Innova solution interview questions
+1. SQL fetch emp name,  salary where emps salary less than qual to Rita salary
+2. Define service label indicators 
+3. Key features of microservices 
+4. SLO AND SLI
+5. Architecture of splunk
+6.Union  in mysql
+
+Innova Solutions
+Duration : 35 minutes
+Interviewer : Srujjan
+Questions
+1) tell me about yourself
+2) explain day to day activity
+3) difference between process and thread
+4) what is an index
+5) difference between soft link and hard link
+6) how to fetch first row and last row from database
+7) Wha is TCP
+8) what is SLO
+9) what is oracle report
+10) what is your role in project explain
+11) what is budget error.
+
+Innova Solutions
+	Questions: 
+	1) Tell me about yourself.
+	2) How to set up the three-tier application in AWS?
+	3) Explain the steps to create a Jenkins job.
+	4) Explain the architecture of Docker.
+	5) What are the diff type of s3 events?
+	6) What are the diff type of s3 buckets?
+	7) Explain the difference btw EBS & EFS.
+	8) Explain the CI/CD pipeline in Jenkins.
+	9) What is Horizontal & Vertical scaling in AWS?
+	10) How do you connect diff VPCs to each other?
+	11) What is the best practice to secure AWS infrastructure?
+	12) What are SQS and SNS?
+	13) How do you connect a Private subnet to an internet gateway?
+	14) What is the difference btw UDP & TCP?
+	15) What is the Dead letter queue?
+	16) Explain the architecture of Kubernetes.
+	17) Tell the basic command of kubectl.
+	18) Which default file is used to pass the value in the helm chart?
+	19) What is the Zombie process?
+
+
+Innova solutions
+
+structure of devops teams 
+ci cd jenkins explain in breef
+how you generating artifect?
+how your build pipeline converting packages ?
+steps to check build and convert steps?
+declative pipeline flow ci flow?
+here you converting your packages to image?
+pord container you need image where we'll convert image?
+git action workflow
+ansible, self module?
+what is diffrence betwen role and module?
+node infinity and pord infinity diffrences?
+liveness?
+how to access private subnet?
+heml chart purpose? 
+canary deployment?
+blue green deployment?
+if you want to run daily bases script what would you do?
+restrose and backup jenkins?
+jenkins plugins backup?, every 2 hr or daily, how will you do write script
+what if backup file lost what option to restore jenkins?, 
+you have ec2 intanbce which running on jenking and backup and pluging are in jenkins how will you do?
+ebs snapshot?
+envirement variable in jenkins?if you wanted a restrict pertiucular lambda and s3 bucket only i should use that hjow to do that?
+if you have 2 aws account account a and b, you ec2 a should read ec2 b how to read that ?
+you have s3 bucket and somepone has removed or pushed, how i can get notify ?
+s3 changes sns notify
+what is staefile in terraform?
+k8s clusters?
+if you wanted to add one service to monitor in graphana how will you do that?
+

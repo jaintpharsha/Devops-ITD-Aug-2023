@@ -1,0 +1,13 @@
+Tavant Technology
+	Duration: 19min
+	Interviewer_name: Varun
+	Questions: 
+	1) Tell me about yourself And day to day activities.
+	2) What kind of challenges do you see in day-to-day work?
+	3) How do you set up Kubernetes?
+	4) What kind of work are you done in the automation part?
+	5) Explian CI/CD process.
+	6) What is the cloud service you used?
+	7) Explain what you have done on each server.
+	8) What is Docker and explain the use case.
+	9) Share the screen and Write Dockerfile.
