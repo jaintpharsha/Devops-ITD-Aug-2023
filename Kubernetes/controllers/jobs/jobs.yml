@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: jobs-example
+spec:
+  template:
+    spec:
+      containers:
+      - name: busybox
+        image: busybox
+        command:
+        - /bin/sh
+        - -c
+        - "sleep 10"
+      restartPolicy: Never
+  backoffLimit: 10
+  parallelism: 2
+  completions: 2
+  activeDeadlineSeconds: 5
