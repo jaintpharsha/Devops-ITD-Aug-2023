@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: load-app
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: put-laod
+  template:
+    metadata:
+      labels:
+        app: put-laod
+    spec:
+      containers:
+      - name: load-php
+        image: busybox
+        command:
+        - /bin/sh
+        - -c
+        - "while true; do wget -q http://php-app-ci; done"

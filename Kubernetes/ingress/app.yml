@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ip-app-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ip-app
+  template:
+    metadata:
+      labels:
+        app: ip-app
+    spec:
+      containers:
+      - name: ipapp
+        image: harshajain/ip-app:1
+        ports:
+        - containerPort: 80
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: cip-ipapp
+spec:
+  selector:
+    app: ip-app
+  ports:
+  - name: http
+    port: 30002
+    targetPort: 80

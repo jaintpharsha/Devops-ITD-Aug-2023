@@ -1,0 +1,11 @@
+apiVersion: autoscaling/v2
+kind: VerticalPodAutoscaler
+metadata:
+  name: my-vpa
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: main-app
+  updatePolicy:
+    updateMode: "Auto"
