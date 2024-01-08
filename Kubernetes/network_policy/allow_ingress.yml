@@ -1,0 +1,20 @@
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: default-deny-ingress-all
+spec:
+  podSelector:
+    matchLabels:
+      app: ip-app
+  policyTypes:
+  - Ingress
+  ingress:
+  - from:
+    - ipBlock:
+        cidr: 0.0.0.0/0
+      podSelector:
+        matchLabels:
+          app: frontend
+  ports:
+  - protocol: tcp
+    port: 30000

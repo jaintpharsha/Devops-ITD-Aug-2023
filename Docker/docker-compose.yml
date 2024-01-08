@@ -1,0 +1,26 @@
+version: "3.4"
+services:
+   frontend:
+      build: ./app
+      ports:
+        - 8080:8080
+      networks:
+         - jenkins_network
+      volumes:
+        - jenkins_vol:/var/jenkins_home
+   backend:
+      image: redis
+      ports:
+        - 8000:6379
+      networks:
+         - jenkins_network
+      volumes:
+        - db_vol:/var/jenkins_home
+volumes:
+  jenkins_vol:
+    driver: local
+  db_vol:
+    driver: local
+networks:
+  jenkins_network:
+    driver: bridge
